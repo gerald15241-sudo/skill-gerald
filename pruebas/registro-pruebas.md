@@ -74,8 +74,36 @@ vista). Pie editorial con línea fina en DM Serif Display.
 | 2.4 | La identidad de los modelos cambia entre piezas (el hombre de "DE TALLER A LA CALLE." no es el mismo de las otras dos). | Skill (consecuencia de 2.2). Sin `@imagen` de modelo no hay identity lock posible en una serie. | Se resuelve con 2.2: en series con persona, el modelo aprobado va siempre como `@imagen`. |
 | 2.5 | ~~Entregó 3 piezas con conceptos distintos.~~ **Resuelto: no es error.** Entregó una sola pieza y la usuaria generó las otras desde el cierre (variante y otra dirección). | — | — |
 
-## Prueba 3: servicios (fisioterapia)
-_Pendiente._
+## Prueba 3: servicios (terapia de pareja, Karol Márquez)
+
+**Pedido:** "set de piezas para el feed con texto, solo tengo esta imagen mía" + datos (12 años de
+experiencia, terapia de pareja y transpersonal, Edificio Claft, Ciudad de Guatemala, teléfono, consulta
+online y virtual). Foto: retrato de la terapeuta en su consultorio.
+
+**Resultado:** según la usuaria, "muy bueno", después de pedir un prompt para ver las tipografías.
+
+### Lo que funcionó
+- Leyó la foto y escribió la ficha de identidad ("Lo que leí de tu foto, corrígeme si algo no cuadra").
+- Abrió los moldes correctos del playbook (personality board, servicios §10, marca personal §13).
+- Research real con 6 tendencias y fuentes, y advirtió con honestidad que son blogs del sector y no
+  estudios. Incluyó la ética del nicho (sin testimonios de pacientes, sin prometer resultados).
+- 3 direcciones distintas, cada una con su `Base:` (bancos + playbook §10.2 y §13). La recomendada es de
+  alto concepto ("El hilo rojo") y reserva el rojo como único color héroe, con la lógica del amarillo de
+  Nautica.
+- El set de 5 piezas sigue la estructura de §10 (gancho de dolor, transformación, autoridad, confianza,
+  CTA) y cambió la prueba social por "qué pasa en la primera sesión" por ética. Criterio excelente.
+- Revisó datos antes de generar: "presencial y virtual" frente a "online y virtual", la ortografía de
+  "Claft" y su zona, y la tilde de Márquez. Preguntó el handle en vez de inventarlo.
+- Propuso un modo de texto mixto (B para titulares, A para el teléfono) bien argumentado.
+- Con una sola foto, recomendó generar primero el personality board (playbook §1.2) para que la cara no
+  se deforme en otros ángulos.
+- La tipografía (serif cálida + sans) sí encaja con el nicho, a diferencia del caso Dickies (2.1).
+
+### Hallazgos para corregir
+| # | Hallazgo | Causa | Corrección propuesta |
+|---|---|---|---|
+| 3.1 | Propuso las tipografías solo con nombres (Playfair Display, Fraunces + DM Sans, Fraunces Black + Manrope). La usuaria no podía imaginarlas y tuvo que pedir un prompt para verlas; con eso eligió y el resultado mejoró. | Skill. `tipografia.md` solo ofrece la muestra "si quiere verlas"; no es proactiva. | **Pedido expreso de la usuaria:** siempre que se propongan tipografías, la skill entrega por iniciativa propia un **prompt de muestra tipográfica**: una sola imagen con las 2–3 opciones lado a lado, escritas con palabras reales de la pieza (titular y nombre de la marca), cada una rotulada con su número. Le dice a la persona que lo genere para elegir y que después sigue el flujo. Va como prompt, no como artefacto (REGLA #1). Aclarar que el generador aproxima el estilo y que la fuente exacta se aplica en Canva. Aplica también en la ruta express cuando hay texto. |
+| 3.2 | El mensaje de propuesta es largo (lectura de la foto, 6 tendencias, 3 direcciones, set de 5 piezas y 6 grupos de preguntas). | Por confirmar con la usuaria (no se quejó). | Si molesta: mover las preguntas de datos a un mensaje corto aparte, o resumir las tendencias a 3–4 líneas. |
 
 ## Prueba 4: campaña de moda
 _Pendiente._
