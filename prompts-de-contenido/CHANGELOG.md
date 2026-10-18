@@ -1,5 +1,14 @@
 # Cambios de la skill prompts-de-contenido
 
+## v1.7.1
+
+- **Modelos creados primero, con los moldes de la autora.** Si la persona pide una pieza con persona y
+  no tiene modelo, la skill ya no lo inventa dentro del prompt: hace el casting (tipo, edad, rasgos,
+  vibra), da el prompt del modelo adaptado del avatar base del playbook (§1) o de `personas-reales.md`, y
+  hace la pieza con el modelo aprobado como `@imagen`. Varias personas: una ficha y un `@imagen` cada una.
+  Nueva opción en la pregunta 3 de la ruta express: "con modelo, pero no tengo" (`modelo-ugc.md`,
+  `flujo-intake.md`, `SKILL.md`, `curaduria.md`). Viene de la prueba 2 (hallazgos 2.2 a 2.4).
+
 ## v1.7.0
 
 - **Embudo creativo:** antes de proponer, la skill arma en borrador 6–8 combinaciones (concepto +

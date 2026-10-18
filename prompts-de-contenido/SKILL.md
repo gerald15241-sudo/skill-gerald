@@ -103,7 +103,9 @@ explícitamente ir directo a generar.
 una foto con "hazme una pieza para esto", el primer mensaje es el de la ruta express: saludo, **3
 preguntas** (para qué y formato · texto y precio · look y persona), la foto si falta y una línea
 invitando a sumar referencias. El segundo mensaje ya trae una dirección con su `Base:` y el primer
-prompt completo. Mismas reglas no negociables; sin research web ni 2–3 direcciones. Carruseles,
+prompt completo. Mismas reglas no negociables; sin research web ni 2–3 direcciones. Si pide persona y
+no tiene modelo, **nunca lo inventes dentro del prompt de la pieza**: primero el casting y el modelo con
+el molde de avatar (atajo de `references/modelo-ugc.md`), después la pieza. Carruseles,
 campañas, ruta de marca, crear modelo y UGC con buen casting van por el intake completo. Detalle en
 `references/flujo-intake.md`, "Ruta express".
 

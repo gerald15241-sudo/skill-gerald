@@ -87,6 +87,15 @@ están, aplica tú el checklist igual** con tu propio criterio; nunca dependas d
 - ¿El copy es de nivel copywriter (claro, con gancho, en la voz del nicho y en español natural), no
   relleno? ¿El precio va enmarcado, no pelado, y sin inventar descuentos/promesas?
 
+**6b. Personas en la pieza.**
+- ¿Hay una persona sin `@imagen` de modelo aprobado? Solo vale si es solo manos o persona sin rostro, o
+  si la persona aceptó una pieza única sin serie; si no, primero va el casting y el modelo (atajo de
+  `modelo-ugc.md`).
+- ¿Se preguntó el tipo de casting, la edad, los rasgos y la vibra antes de crear a la persona?
+- ¿El prompt lleva el bloque completo de piel y cámara del carril correcto (§1 del playbook o
+  `personas-reales.md`), y no una descripción corta propia?
+- Si hay varias personas: ¿cada una tiene su `@imagen` y se prohíbe intercambiar rasgos?
+
 **7. Consistencia de familia.**
 - ¿Toda la campaña/carrusel comparte paleta, tipografía, modelo (IDENTITY LOCK) y producto (PRODUCT
   LOCK), cambiando solo escena/encuadre/copy? ¿Se lee como UNA familia?

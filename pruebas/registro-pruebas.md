@@ -58,6 +58,9 @@ vista). Pie editorial con línea fina en DM Serif Display.
 - Preguntó si agregar el @ de la usuaria como firma en vez de insertarlo (regla HEADER).
 - Ofreció dejar fijos los modelos para una serie, aunque tarde: debió fijarlos antes de la primera pieza (ver 2.2).
 
+> **Aplicado en v1.7.1:** 2.2, 2.3 y 2.4 (atajo para crear el modelo primero con los moldes del playbook).
+> 2.1 (tipografía) queda para el paquete final.
+
 ### Hallazgos para corregir
 | # | Hallazgo | Causa | Corrección propuesta |
 |---|---|---|---|

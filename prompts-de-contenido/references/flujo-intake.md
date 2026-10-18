@@ -81,8 +81,14 @@ convienen, ver Paso 1) y una línea: "Si tienes referencias de estilo, súmalas;
    texto dentro de la imagen · Sin texto. Si es para vender: precio exacto y promo, o "no aplica". Los
    copys los propongo yo, salvo que traigas los tuyos.
 3. **¿Qué look?** Decide tú (recomendado) · Estudio limpio · Escena real / lifestyle · Algo que frene el
-   scroll (alto concepto). ¿Con persona? Solo producto · Con mi modelo (adjunta sus fotos) · Solo manos
-   o persona sin rostro.
+   scroll (alto concepto). ¿Con persona? Solo producto · Con mi modelo (adjunta sus fotos) · Con modelo,
+   pero no tengo (lo creamos primero) · Solo manos o persona sin rostro.
+
+**Si elige "con modelo, pero no tengo"** (o pide persona sin adjuntar fotos): antes del mensaje 2 va el
+atajo de `modelo-ugc.md` ("Atajo: crear el modelo antes de una pieza"): un mensaje de casting, el prompt
+del modelo con el molde de avatar (playbook §1) o de personas reales, y la pieza cuando el modelo esté
+aprobado y adjunto como `@imagen`. Avísale en una línea que son dos pasos más y por qué: así el modelo
+sale con realismo de verdad y es la misma persona en todas las piezas.
 
 No repitas lo que la persona ya dijo. Si las tres respuestas ya están claras en su primer mensaje, pasa
 directo al mensaje 2. Si responde "decide tú": 4:5, modo A si hay precio o textos pequeños, solo
