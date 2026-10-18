@@ -203,4 +203,14 @@ calidad sobre la rapidez.
   referencias con `ingenieria-inversa.md`, las cruza con el repositorio y dice qué tomó de cada una.
 
 ## Prueba 5: marca desde cero
-_Pendiente._
+
+**No se corrió en esta ronda:** la usuaria ya la probó antes. Pedido expreso sobre la ruta de logo.
+
+**Lo que ya existe en `logos-profesionales.md`:** mínimo 3 referencias de logo; lectura por referencia
+(arquitectura, tipografía, dispositivo, color, proporción, personalidad); ADN frente a firma; regla 3–2–1;
+cada opción dice qué tomó de las referencias.
+
+| # | Hallazgo | Causa | Corrección propuesta |
+|---|---|---|---|
+| 5.1 | **Pedido expreso:** que la lectura de las referencias de logo sea profunda y que las opciones salgan de **mezclar y combinar** esas referencias. | Skill. Hoy cada opción "dice qué tomó", pero no se exige combinar ni mostrar la lectura antes. | (a) Mostrar la tabla de lectura de cada referencia **antes** de las opciones. (b) Sacar el **patrón común** ("lo que se repite en tus referencias es lo que te gusta") y las diferencias. (c) Cada una de las 6 opciones se declara como mezcla: "tipografía de la ref. A + dispositivo de la ref. C + proporción de la ref. B + 1 elemento propio"; al menos 4 opciones son combinaciones de 2 o más referencias y 1 es un contraste deliberado para que la persona compare. (d) Prueba anti-copia por opción. |
+| 5.2 | El repositorio recibido no tiene referencias de logo (son piezas y anuncios). | Contenido pendiente. | Opcional: si la usuaria sube una carpeta de logos, se suma a `assets/referencias/logos/` con su índice. Mientras tanto, la ruta de logo depende de las referencias de la persona y de la búsqueda web. |
