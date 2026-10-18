@@ -157,5 +157,14 @@ pero el diseño (ubicación y letras) necesita referencias.
 **Decisión de la usuaria sobre 4.2:** las referencias obligatorias aplican **también a la ruta express**. Prima la
 calidad sobre la rapidez.
 
+## Requisitos generales de la usuaria (para el paquete final)
+
+- **R1. Repositorio de referencias propio, siempre consultado.** La usuaria sube su paquete de referencias
+  (por nicho y generales). La skill debe **acudir siempre** a ese repositorio antes de proponer, y
+  **combinarlo** con las referencias que adjunte la persona, sacando de ambas la mejor propuesta. Debe
+  comportarse como una directora creativa: leer, comparar, elegir y justificar, no listar opciones
+  genéricas. Las referencias de la persona mandan en estética y medio cuando existen; el repositorio
+  completa, sube el nivel y cubre cuando no las hay.
+
 ## Prueba 5: marca desde cero
 _Pendiente._
