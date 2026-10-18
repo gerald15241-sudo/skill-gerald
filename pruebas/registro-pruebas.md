@@ -80,7 +80,17 @@ vista). Pie editorial con línea fina en DM Serif Display.
 experiencia, terapia de pareja y transpersonal, Edificio Claft, Ciudad de Guatemala, teléfono, consulta
 online y virtual). Foto: retrato de la terapeuta en su consultorio.
 
-**Resultado:** según la usuaria, "muy bueno", después de pedir un prompt para ver las tipografías.
+**Resultado:** set de 5 piezas: "¿Otra vez la misma pelea?" (dos tazas unidas por el hilo rojo, sin
+persona), "Volver a escucharse" (pareja con el hilo y la terapeuta al centro), "Eres más que lo que te
+pasa." (retrato con el hilo), "Reconectar contigo también es terapia." (hilo entre dos sillones, CTA con
+teléfono) y "No vengo a darles la razón." (autoridad). Calificación: 9/10. La usuaria lo considera muy
+bueno, después de pedir un prompt para ver las tipografías.
+
+**Lo mejor del resultado:** la identidad de Karol se mantiene en las 4 piezas donde aparece (su foto como
+ancla funcionó); el hilo rojo es el único rojo y sostiene la serie como concepto; sistema tipográfico
+consistente (serif con una palabra en cursiva + sans + botón); copys de nivel ("No vengo a darles la
+razón. Vengo a ayudarlos a entenderse."); tildes correctas (Márquez, también, Histórico, Escríbeme).
+Es el resultado de referencia de lo que la skill debe producir.
 
 ### Lo que funcionó
 - Leyó la foto y escribió la ficha de identidad ("Lo que leí de tu foto, corrígeme si algo no cuadra").
@@ -104,6 +114,8 @@ online y virtual). Foto: retrato de la terapeuta en su consultorio.
 |---|---|---|---|
 | 3.1 | Propuso las tipografías solo con nombres (Playfair Display, Fraunces + DM Sans, Fraunces Black + Manrope). La usuaria no podía imaginarlas y tuvo que pedir un prompt para verlas; con eso eligió y el resultado mejoró. | Skill. `tipografia.md` solo ofrece la muestra "si quiere verlas"; no es proactiva. | **Pedido expreso de la usuaria:** siempre que se propongan tipografías, la skill entrega por iniciativa propia un **prompt de muestra tipográfica**: una sola imagen con las 2–3 opciones lado a lado, escritas con palabras reales de la pieza (titular y nombre de la marca), cada una rotulada con su número. Le dice a la persona que lo genere para elegir y que después sigue el flujo. Va como prompt, no como artefacto (REGLA #1). Aclarar que el generador aproxima el estilo y que la fuente exacta se aplica en Canva. Aplica también en la ruta express cuando hay texto. |
 | 3.2 | El mensaje de propuesta es largo (lectura de la foto, 6 tendencias, 3 direcciones, set de 5 piezas y 6 grupos de preguntas). | Por confirmar con la usuaria (no se quejó). | Si molesta: mover las preguntas de datos a un mensaje corto aparte, o resumir las tendencias a 3–4 líneas. |
+| 3.3 | La pieza 4 dice "Centro Histórico" como zona. | Por confirmar: si la usuaria no dio la zona, es un dato inventado (la curaduría prohíbe inventar datos). | Si fue inventado: en la curaduría, comparar cada dato visible (dirección, zona, teléfono, horario) con lo que dio la persona; lo que no dio, se pregunta o se omite. |
+| 3.4 | Las piezas 2 a 5 resaltan una palabra en cursiva ("escucharse", "más", "contigo", "la razón"); la pieza 1 no. | Menor: variación del generador o del prompt (por confirmar). | Si se repite: el recurso tipográfico de la serie se escribe en cada prompt como regla fija del sistema. |
 
 ## Prueba 4: campaña de moda
 _Pendiente._
