@@ -117,8 +117,40 @@ Es el resultado de referencia de lo que la skill debe producir.
 | 3.3 | ~~"Centro Histórico" en la pieza 4.~~ **Resuelto: no es error.** La usuaria dio ese dato. | — | — |
 | 3.4 | Las piezas 2 a 5 resaltan una palabra en cursiva ("escucharse", "más", "contigo", "la razón"); la pieza 1 no. | Menor: variación del generador o del prompt (por confirmar). | Si se repite: el recurso tipográfico de la serie se escribe en cada prompt como regla fija del sistema. |
 
-## Prueba 4: campaña de moda
-_Pendiente._
+## Prueba 4: campaña de moda (chaqueta New Balance)
+
+**Pedido:** campaña de lanzamiento de una chaqueta (frente y espalda). Respuestas: cliente oficial de New
+Balance, orgánico, pósters editoriales, modelo de agencia.
+
+**Resultado:** ruta de 2 semanas con parrilla de 8 pósters y 3 direcciones. La usuaria pidió un prompt para
+ver las direcciones (moodboard por dirección). Piezas: "DATE LA VUELTA." y "LA ESPALDA HABLA." (dirección 2,
+"La espalda habla": estudio gris, flash duro, titular condensado gigante). Según la usuaria: buen realismo,
+pero el diseño (ubicación y letras) necesita referencias.
+
+### Lo que funcionó
+- Abrió las bibliotecas y los pósters Nautica del playbook, y armó una ruta de estratega: objetivo,
+  público, hueco ("Athletics, Inc.": el uniforme de un club), pilares y parrilla TOFU/MOFU/BOFU donde
+  cada póster sale de un molde (Póster 01, 02, 03, 05, 06, 07, 09, 10).
+- 3 direcciones distintas, cada una con `Base:`; una de alto concepto ("La pista es la chaqueta", giant
+  garment). Rojo-naranja de la chaqueta reservado como color héroe.
+- **En la ruta normal sí hizo el casting:** ficha de identidad del modelo de agencia (edad, fenotipo,
+  cabello, rasgos, vibra) y personality board primero. Confirma que el hueco 2.2 es solo de la ruta express.
+- Fidelidad del producto: detectó que los puños se ven rojos en la foto de frente y crema en la de
+  espalda, y preguntó cuál es el real.
+- Recomendó solo el branding de New Balance, sin rótulo extra, por ser cliente oficial.
+- Los moodboards por dirección no muestran ningún rostro porque el casting aún no existía: buen criterio.
+- Realismo del modelo bueno (pecas, poros, cabello) e identidad consistente entre las dos piezas.
+  Anton condensada sí encaja con New Balance.
+
+### Hallazgos para corregir
+| # | Hallazgo | Causa | Corrección propuesta |
+|---|---|---|---|
+| 4.1 | No dio opciones de tipografía para elegir: cada dirección traía una sola combinación fija. | Skill. Refuerza 3.1. | **Pedido expreso de la usuaria:** las opciones de tipografía (2–3 combinaciones) se presentan **al inicio**, como decisión aparte, junto con el prompt de muestra tipográfica de 3.1. |
+| 4.2 | No pidió referencias visuales; el diseño (ubicación del texto, jerarquía, letras) quedó sin guía. | **Cambio de regla pedido por la usuaria.** Hoy las referencias de estilo son "un plus, no requisito" (bloque 💡 de SKILL.md). | **Pedido expreso:** pedir referencias visuales **sí o sí** para el diseño (layout y tipografía) en piezas y campañas. Si la persona no tiene: la skill busca referencias reales (búsqueda web o de imágenes) y le muestra 4–6 con enlace, o le da términos de búsqueda para Pinterest. **Decisión pendiente:** (a) ¿aplica también en la ruta express? (b) Un "repositorio de imágenes" dentro de la skill solo es viable con imágenes propias de la autora (sus piezas, con derechos); guardar campañas de terceros en una skill que se comparte con alumnas tiene riesgo de derechos. |
+| 4.3 | Tuvo que pedir el prompt para ver las direcciones (segunda prueba seguida, ver 3.1). | Skill. Hoy el moodboard se da "si la persona quiere ver". | Proactivo: con las direcciones va siempre el prompt de moodboard de cada una (molde 01), o la oferta explícita en una línea, para elegir mirando. |
+| 4.4 | La modelo tapa letras del titular: "LA ESPALDA HABLA." pierde la P y la B; en "DATE LA VUELTA." la cabeza tapa parte de la V y la U. | Skill (prompt de diseño) + generador. | Tipografía detrás del sujeto solo si cada palabra se sigue leyendo: el prompt fija qué zona puede tapar el sujeto (nunca letras clave ni más de una por palabra). La curaduría ya lo exige (punto 3, caso "DIFERENTE"). |
+| 4.5 | En "DATE LA VUELTA." el texto secundario "LA ESPALDA HABLA" flota pequeño a la izquierda, sin relación con el titular, y repite el nombre interno de la dirección. | Skill (diseño). Se relaciona con 4.2. | Con referencias de diseño, la jerarquía y la ubicación salen de ellas; el nombre interno de una dirección no se usa como texto visible salvo que sea el copy elegido. |
+| 4.6 | El pie "NEW BALANCE / ARCHIVO 01" copia literal el "ARCHIVO 01" del molde Nautica. | Skill (menor). La REGLA #2 manda adaptar los textos del molde. | Los textos del molde (metadata, etiquetas) se reescriben para la marca y la campaña. |
 
 ## Prueba 5: marca desde cero
 _Pendiente._
