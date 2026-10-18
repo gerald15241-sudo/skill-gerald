@@ -63,6 +63,15 @@ están, aplica tú el checklist igual** con tu propio criterio; nunca dependas d
 - ¿Hay una **gran idea** con gancho, no solo estética? ¿Al menos una dirección fue de alto concepto?
 - ¿Las 2–3 direcciones eran **distintas entre sí** (no el mismo mood con otro color)?
 - ¿Se siente como publicidad oficial de esa marca/nicho, apoyada en campañas reales investigadas?
+- ¿Se **abrieron de verdad** en esta sesión las bibliotecas (`conceptos-creativos.md`,
+  `biblioteca-referentes.md`, las secciones completas de los formatos elegidos en
+  `sesiones-foto-producto.md`, la receta de `biblioteca-dp.md`) antes de proponer? Si no, ábrelas y rehaz.
+- ¿Cada dirección lleva su línea `Base:` (concepto · sesión #N · receta DP · research), con nombres y
+  números que existen en los archivos? ¿Las 2–3 direcciones salen de combinaciones distintas?
+- **Prueba anti-genérico:** ¿alguna dirección se pudo escribir sin los bancos (“editorial limpio”, “flat
+  lay minimalista”, “producto sobre mármol”)? Si sí, reemplázala.
+- En los prompts, ¿la escena sigue la composición clave del formato de sesión elegido y la luz/lente de
+  la receta DP, o se diluyó en una escena genérica?
 
 **6. Copy (siempre lo propone la skill — ver `copywriting.md`).**
 - ¿Hay titular, bajada y CTA propuestos por TI, aunque la persona solo diera el precio (o nada)?

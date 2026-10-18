@@ -53,6 +53,11 @@ flat lay sobrio). Es seguro pero genérico y muchas veces **no es la marca ni la
   (`conceptos-creativos.md`): juego de escala, colocación surrealista, entrega épica, tipografía como
   set, etc. Si la persona quiere "wow/viral/atrevido", **lidera con conceptos**, no con el editorial
   seguro. Nómbralas por su idea ("Entrega épica: la zapatilla sobre la ciudad"), no por su paleta.
+- **Research + bibliotecas, siempre juntos.** El research dice qué está funcionando hoy; las bibliotecas
+  (`conceptos-creativos.md`, `biblioteca-referentes.md`, `sesiones-foto-producto.md`, `biblioteca-dp.md`)
+  dicen cómo ejecutarlo. Cruza cada tendencia con un formato de sesión y una receta DP concretos, y deja
+  la línea `Base:` en cada dirección (protocolo en SKILL.md, “Antes de proponer: consulta real de las
+  bibliotecas”).
 - Si la marca o la tendencia piden **color, humor, surrealismo o tipografía gráfica**, ve por ahí —
   no lo "suavices" a premium oscuro.
 - Muestra (describe o enlaza) las **referencias reales** en las que te apoyas, para que la persona

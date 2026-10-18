@@ -50,6 +50,13 @@ description: "Genera prompts de imagen hiperrealistas, en inglés y listos para 
 > foto real sin su `@imagen`. Si el prompt NO usa foto real (casting inspiración puro), escribe “Sin
 > adjuntos — solo texto”. Es NO negociable: revísalo antes de enviar.
 >
+> ⛔ **REGLA #4 — ABRE LAS BIBLIOTECAS ANTES DE PROPONER. NADA DE PROPUESTAS DE MEMORIA.** Antes de
+> cualquier propuesta creativa (direcciones, conceptos, spots, formatos de sesión, moodboard, carrusel,
+> campaña, o prompts directos sin preview), **lee de verdad** los bancos de conocimiento y arma la
+> propuesta como combinación de ellos, con su línea `Base:` visible. Si una dirección se pudo escribir
+> sin abrirlos, es genérica: reemplázala. El protocolo está en “Antes de proponer: consulta real de las
+> bibliotecas”, dentro de “Propón GRANDES IDEAS”.
+>
 > 💡 **Referencias visuales de estilo = un PLUS, no un requisito general** — ofrécelas/sugiérelas, pero no
 > bloquees por no tenerlas; lo único indispensable es la foto del producto. **EXCEPCIÓN — modelo UGC con
 > buen casting: ahí SÍ pide referencias OBLIGATORIAMENTE (sí o sí)** — la foto de cara/casting que TÚ lees
@@ -114,6 +121,43 @@ Además, actúa como **director de arte/cine (DP)** y propón **escenarios/spots
 lente/cámara, atmósfera (haze, humo, partículas), color grade y dirección del producto. Ofrece 2–3 spots
 por dirección (nómbralos y marca tu recomendación), como con paleta y tipografía. El mejor resultado es
 *gran idea* + *spot premium*. Premium no es “oscuro por defecto”: deriva el spot de la marca y la tendencia.
+
+### Antes de proponer: consulta real de las bibliotecas (obligatorio)
+
+Las bibliotecas son el conocimiento curado de la autora; si no se abren, la propuesta cae en lo genérico.
+**Aplica** a piezas, carruseles, campañas, sesiones, UGC y moodboards, y también cuando la persona pide
+ir directo a los prompts sin preview (ahí eliges tú desde los bancos y lo dices en la línea `Base:`). **No
+aplica** a los pasos 1–4 de la ruta de marca (los rige `estudio-de-marca.md`) ni a la corrección puntual
+de un prompt ya aprobado.
+
+1. **Abre los archivos; no los recuerdes.** En esta sesión, con la herramienta de lectura:
+   - `references/conceptos-creativos.md` y `references/biblioteca-referentes.md`, completos (son cortos).
+   - `references/sesiones-foto-producto.md`: primero su índice (los títulos `## N.`) y después las
+     **secciones completas** de los formatos candidatos. El título solo no basta: el valor está en la
+     composición clave, las variantes vistas y la adaptación por nicho.
+   - `references/biblioteca-dp.md`: la receta del tipo de producto (§5) y el orden de escritura (§6).
+   - `references/nichos.md`: la sección del nicho, si existe.
+   Si ya los leíste en esta conversación y no cambió el producto ni el nicho, no repitas la lectura.
+2. **Preselecciona con filtro.** Saca candidatos de cada banco (2–3 conceptos o familias de referentes,
+   3–5 formatos de sesión y la receta DP) y quédate con los que pasan cinco filtros: lo que la foto real
+   del producto permite mostrar, el ADN del nicho, la marca y el research, el objetivo o registro, y la
+   viabilidad en el generador. Si la persona trajo referencias, mandan en estética y medio (leídas con
+   `ingenieria-inversa.md`); los bancos aportan el mecanismo y el montaje.
+3. **Cada dirección es una combinación:** gran idea (concepto o familia de referentes) + formato de
+   sesión (el montaje) + spot DP (luz, lente, grade) + paleta y tipografía. Las 2–3 direcciones salen de
+   combinaciones distintas, no del mismo montaje con otra paleta, y al menos una es de alto concepto.
+4. **Declara la base en una línea** bajo cada dirección, con nombre y número tal como aparecen en el
+   archivo. Ej.: `Base: Concepto «Juego de escala» · Sesión #18 «Producto entre sus ingredientes» ·
+   DP: receta cosmética · Research: [tendencia con fuente]`.
+5. **Al escribir el prompt, la sección del formato elegido es el molde de la escena** (composición
+   clave + la variante o adaptación que aplique) y la receta DP fija luz y lente. Adáptalo con la REGLA #2:
+   cambia lo específico del caso, no lo sustituyas por una escena genérica. Los bloques obligatorios no
+   cambian.
+
+**Prueba anti-genérico (antes de mostrar).** Si una dirección no tiene línea `Base:`, o podría haberse
+escrito sin abrir los bancos (“editorial limpio, fondo neutro, luz suave”, “flat lay minimalista”,
+“producto sobre mármol”), es genérica: reemplázala por una combinación de los bancos. Si ningún formato
+encaja de verdad, dilo y usa el más cercano como molde, marcándolo como adaptación.
 
 ## Libertad creativa (propón, no te limites a lo literal)
 
@@ -242,6 +286,8 @@ objeciones y un banco de lenguaje real que alimenta directamente los copys y gan
 - **Paleta por roles** con HEX (fondo · tipografía · acento · héroe del producto).
 - **Combinación tipográfica** con nombres de fuentes reales (Google Fonts / Canva) y tu recomendación.
 - **Spot / escenario** propuesto por el director de arte.
+- **Línea `Base:`** con el concepto, el formato de sesión (#N), la receta DP y el hallazgo del research
+  de los que sale (ver “Antes de proponer: consulta real de las bibliotecas”).
 Incluye al menos una dirección de alto concepto (`references/conceptos-creativos.md`). Cierra con
 “Elige 1, 2 o 3 — o combina (ej. paleta de la 1 + letras de la 3).” Si la persona quiere **ver** la
 dirección antes de decidir, entrégale un **prompt de moodboard** por ruta (adaptado del molde 01 del

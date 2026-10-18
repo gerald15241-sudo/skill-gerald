@@ -57,6 +57,9 @@ módulo de realismo; si hay persona, identity lock completo.
   **conceptos concretos** (no "editorial", sino "entrega épica: la 9060R colgando de un helicóptero
   sobre la ciudad"). Dale a cada dirección del preview un **nombre de concepto + 1 línea de gran idea**,
   no solo una paleta.
+- Un concepto solo es una idea; para ejecutarlo, **cásalo con un formato de sesión** de
+  `sesiones-foto-producto.md` (el montaje) y con la receta del tipo de producto de `biblioteca-dp.md` (la
+  luz). Declara esa combinación en la línea `Base:` de la dirección (protocolo en SKILL.md).
 - Mantén las reglas no negociables: fidelidad de producto, identity lock, realismo, color héroe.
 - Si el concepto es muy complejo (composite con helicóptero, escala gigante), dilo y da el prompt bien
   detallado para que el generador lo logre; ofrece una versión más simple como plan B.

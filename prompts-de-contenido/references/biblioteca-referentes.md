@@ -81,7 +81,7 @@ Composición de objetos/ropa que narra una idea sin modelo ("Stuck in the void":
 - Adaptación: útil para storytelling de marca abstracto en cualquier categoría.
 
 ## 11. Sesiones de foto para producto (banco de formatos de sesión)
-Banco completo de **26 formatos de sesión fotográfica** con composición, técnica y adaptación por nicho.
+Banco completo de **43 formatos de sesión fotográfica** con composición, técnica y adaptación por nicho.
 - Formatos 1–12: circle display cenital, inmersión cultural en locación real, producto colgado en escenario
   inesperado, room styling con props heritage, invisible model (prenda vestida sin persona), producto +
   packaging unboxing, ángulos/lentes disruptivos (fish-eye, contrapicado, composite), giant garment
@@ -93,8 +93,13 @@ Banco completo de **26 formatos de sesión fotográfica** con composición, téc
   el interior (inside-the-bag / inside-the-box), peek-a-boo / reveal detrás de barrera, product cradling /
   abrazo multi-producto (haul editorial), producto como metáfora conceptual, multi-hand fan / brindis
   colectivo (lineup de producto), vehicle window portrait / producto enmarcado por vehículo.
-- Formatos 25–26: producto como accesorio corporal / wearable product styling, diorama miniatura / mundo
-  en escala (miniature world).
+- Formatos 25–36: extreme macro facial / accesorio héroe en primer plano, producto personificado, hero
+  hold con explosión de ingredientes, producto integrado al cuerpo / body-as-display, triptych / panel
+  vertical, paper tear reveal, producto en objeto urbano, monochromatic hero hold, miniatura / diorama,
+  grab shot UGC premium, producto contra textil, finger frame.
+- Formatos 37–43: brand ecosystem close-up, producto cayendo de bolsa / spill editorial, sky hold-up con
+  prop stack, modelo consumiendo producto in situ, packaging como máscara, prenda sobre prop narrativo
+  cenital, producto en red / bolsa de malla.
 - Adaptación: cada formato tiene sus propias adaptaciones por nicho detalladas en `sesiones-foto-producto.md`.
 - Ver el banco completo en `sesiones-foto-producto.md`.
 
