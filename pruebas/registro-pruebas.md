@@ -241,4 +241,4 @@ cada opción dice qué tomó de las referencias.
 | 4.8 / R1 repositorio | Aplicado (`assets/referencias/` + `indice.md`, REGLA #4, protocolo) |
 | 5.1 mezcla en logos | Aplicado (`logos-profesionales.md`, curaduría) |
 | 5.2 carpeta de logos | Pendiente de material de la usuaria |
-| Adelgazar `SKILL.md` | En pausa por decisión de la usuaria |
+| Adelgazar `SKILL.md` | Aplicado en la v1.9.0 (681 → 464 líneas, texto completo en `detalle-skill.md`) |

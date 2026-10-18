@@ -1,5 +1,18 @@
 # Cambios de la skill prompts-de-contenido
 
+## v1.9.0 — SKILL.md más liviano, sin perder contenido
+
+- `SKILL.md` pasa de 681 a 464 líneas. Las secciones largas quedan en versión operativa y su **texto
+  completo** se mueve, palabra por palabra, a `references/detalle-skill.md` (intake, salida, reglas no
+  negociables, curaduría, formatos, integraciones, marcas reales, trazabilidad, estudio de marca, cierre
+  y la descripción completa de cada archivo).
+- Verificado con un script: de las 624 líneas con texto del `SKILL.md` anterior, todas siguen existiendo
+  en `SKILL.md` o en los archivos de referencia, salvo 2 cambiadas a propósito (REGLA #1: el moodboard va
+  siempre con las direcciones, como pidió la usuaria en la prueba 4).
+- Mapa de archivos en una línea por archivo, agrupado por uso. Marcas de máxima prioridad: de 78 a 58.
+- Sin cambios en: las 4 reglas ⛔, el bloque de referencias, el protocolo de bibliotecas y repositorio, la
+  ruta express, la ruta de marca, el playbook, las plantillas y el repositorio de imágenes.
+
 ## v1.8.0 — paquete de correcciones de las pruebas
 
 Sale de las 5 pruebas de octubre de 2026 (registro completo en `pruebas/registro-pruebas.md` del repo).
