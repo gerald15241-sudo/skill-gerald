@@ -37,8 +37,32 @@ TOLIMA A TU TAZA" (caficultor real junto a la bolsa).
 - El mensaje de entrega (direcciones, líneas `Base:`, prompts, línea "Revisé").
 - La altitud real impresa en la bolsa.
 
-## Prueba 2: extrapolar referencias
-_Pendiente._
+## Prueba 2: extrapolar referencias (camiseta Dickies)
+
+**Pedido:** foto de la camiseta (frente) + 3 referencias (pareja "True." en estudio, chico sentado
+subiéndose el cuello, chico con ojo de pez) → texto en la imagen, con modelo (no tiene), hombre y mujer.
+
+**Resultado:** 3 piezas: "UNA PIEZA. DOS ESTILOS." (pareja en estudio caqui), "DE TALLER A LA CALLE."
+(modelos acostados sobre la camiseta gigante, cenital), "LA TUYA. LA SUYA." (ojo de pez con el set a la
+vista). Pie editorial con línea fina en DM Serif Display.
+
+### Lo que funcionó
+- Detectó que las referencias no se cargaron y las pidió de nuevo, en vez de inventarlas.
+- Pidió ángulos útiles (logo de cerca, espalda, etiqueta del ruedo) y ofreció blindar si no llegaban.
+- Preguntó para quién es (tienda, cliente, portafolio): responsabilidad con marca real.
+- "Qué tomé de cada referencia" claro y concreto, más "lo propio" (fondo caqui por el origen workwear).
+- Línea `Base:` completa y con extrapolación creativa (Sesión #41 "packaging como máscara" adaptada al
+  cuello de la prenda). Paleta con los colores del logo reservados como héroe.
+- "DE TALLER A LA CALLE." (giant garment, sesión #8) es una pieza de nivel campaña.
+
+### Hallazgos para corregir
+| # | Hallazgo | Causa | Corrección propuesta |
+|---|---|---|---|
+| 2.1 | Tipografía serif editorial (DM Serif Display) en una marca workwear/streetwear: no se siente Dickies. | Skill. `tipografia.md` pone "moda" bajo "Lujo editorial" (DM Serif Display es el primer combo) y no tiene vibra streetwear/workwear; en la express no se miró la identidad real de la marca; "Qué tomé" no incluyó la capa de tipografía. | (a) Orden obligatorio para elegir tipografía: identidad real de la marca → capa 3 de las referencias → vibra del nicho; el combo listo es el último recurso. (b) Agregar vibra "Streetwear / workwear / heritage" y aclarar que moda ≠ lujo por defecto. (c) "Qué tomé de cada referencia" incluye tipografía cuando la referencia tiene texto. (d) Curaduría: prueba de marca tapada (sin el logo, ¿la tipografía y el tono se sienten de esta marca?). |
+| 2.2 | No preguntó cómo debían ser los modelos (tipo de casting, edad, rasgos, vibra). | **Diseño de la ruta express (error mío).** La express no definía qué hacer si la persona quiere modelo y no lo tiene; creó los modelos inline, saltándose el flujo de `modelo-ugc.md`. | Si en la express la persona quiere persona y no tiene modelo: sale de la express para esa parte. Pregunta en un solo mensaje tipo de casting (agencia / UGC con buen casting / persona real), edad, rasgos y vibra; genera primero el modelo con el molde de avatar (playbook §1) o `personas-reales.md`; con el modelo aprobado como `@imagen`, sigue la pieza. Alternativa para quedarse en express: solo manos o persona sin rostro. |
+| 2.3 | Realismo de los modelos flojo: piel pareja y pulida, look catálogo IA. | Skill (consecuencia de 2.2). Sin modelo creado con el molde de avatar, no entra el bloque de realismo del carril de modelos (poros, vello, asimetría, RAW). | Se resuelve con 2.2. Además, curaduría: si hay persona, el prompt debe llevar el bloque de piel del carril correcto (dewy del playbook o natural de `personas-reales.md`), nunca una descripción corta propia. |
+| 2.4 | La identidad de los modelos cambia entre piezas (el hombre de "DE TALLER A LA CALLE." no es el mismo de las otras dos). | Skill (consecuencia de 2.2). Sin `@imagen` de modelo no hay identity lock posible en una serie. | Se resuelve con 2.2: en series con persona, el modelo aprobado va siempre como `@imagen`. |
+| 2.5 | Entregó 3 piezas con conceptos distintos cuando la express promete una dirección. | Por confirmar (falta ver el mensaje de entrega). | Revisar si fue pedido de la usuaria o desvío de la regla. |
 
 ## Prueba 3: servicios (fisioterapia)
 _Pendiente._
