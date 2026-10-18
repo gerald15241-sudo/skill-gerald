@@ -152,11 +152,18 @@ de un prompt ya aprobado.
 2. **Preselecciona con filtro.** Saca candidatos de cada banco (2–3 conceptos o familias de referentes,
    3–5 formatos de sesión y la receta DP) y quédate con los que pasan cinco filtros: lo que la foto real
    del producto permite mostrar, el ADN del nicho, la marca y el research, el objetivo o registro, y la
-   viabilidad en el generador. Si la persona trajo referencias, mandan en estética y medio (leídas con
-   `ingenieria-inversa.md`); los bancos aportan el mecanismo y el montaje.
-3. **Cada dirección es una combinación:** gran idea (concepto o familia de referentes) + formato de
-   sesión (el montaje) + spot DP (luz, lente, grade) + paleta y tipografía. Las 2–3 direcciones salen de
-   combinaciones distintas, no del mismo montaje con otra paleta, y al menos una es de alto concepto.
+   viabilidad en el generador. **Si la persona trajo referencias** (imágenes, piezas, feeds), léelas con
+   `ingenieria-inversa.md` y **extrapólalas cruzándolas con los bancos**: de la referencia salen el medio
+   y las 3 estructuras que se conservan; de su marca y su producto, los 2 ejes que cambian; y el elemento
+   propio, de un concepto o formato de sesión del banco, o del producto. Dile en 2–3 líneas qué tomaste
+   de cada referencia.
+3. **Embudo creativo: muchas ideas, muestras las mejores.** Cada idea es una combinación de gran idea
+   (concepto o familia de referentes) + formato de sesión (el montaje) + spot DP (luz, lente, grade) +
+   paleta y tipografía. En borrador, sin mostrarlas, arma 6–8 combinaciones distintas. Descarta las que
+   no se entienden en un segundo, esconden el producto, no encajan con la marca o el nicho, o el
+   generador no puede lograr. De las que quedan, elige las que más frenan el scroll frente a lo que ya
+   hace la categoría: 2–3 en el flujo normal (combinaciones distintas, al menos una de alto concepto) y
+   1 en la ruta express.
 4. **Declara la base en una línea** bajo cada dirección, con nombre y número tal como aparecen en el
    archivo. Ej.: `Base: Concepto «Juego de escala» · Sesión #18 «Producto entre sus ingredientes» ·
    DP: receta cosmética · Research: [tendencia con fuente]`.

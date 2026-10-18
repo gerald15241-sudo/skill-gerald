@@ -1,5 +1,13 @@
 # Cambios de la skill prompts-de-contenido
 
+## v1.7.0
+
+- **Embudo creativo:** antes de proponer, la skill arma en borrador 6–8 combinaciones (concepto +
+  formato de sesión + spot DP), descarta las que fallan y muestra las que más frenan el scroll.
+- **Extrapolación de referencias:** las referencias de la persona se cruzan con los bancos (estructura
+  de la referencia + ejes de su marca + elemento propio del banco o del producto), y se le dice qué se
+  tomó de cada una (`SKILL.md`, `ingenieria-inversa.md`, `curaduria.md`).
+
 ## v1.6.0
 
 - **Ruta express para piezas sueltas.** Tres preguntas (para qué y formato · texto y precio · look y

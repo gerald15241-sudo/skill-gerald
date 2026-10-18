@@ -56,7 +56,9 @@ El efecto es lo que vas a conservar; los elementos concretos son lo que vas a ca
 - **2 ejes de identidad se cambian obligatoriamente** (al menos dos de: paleta, familia tipográfica, forma
   del logo, dispositivo gráfico, tipo de fotografía).
 - **1 elemento propio se agrega**, que salga de la plataforma de la marca (`estudio-de-marca.md`): su
-  forma madre, su producto como protagonista, su microcopy, su territorio.
+  forma madre, su producto como protagonista, su microcopy, su territorio. En piezas y campañas también
+  puede salir de los bancos: un concepto de `conceptos-creativos.md` o un formato de
+  `sesiones-foto-producto.md` aplicado a su producto. Así la referencia se extrapola, no se copia.
 
 Prueba anti-copia: si tapas el nombre, ¿alguien que conoce la referencia diría que es la misma marca? Si
 sí, cambia otro eje.

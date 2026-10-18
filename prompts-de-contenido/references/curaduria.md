@@ -68,6 +68,11 @@ están, aplica tú el checklist igual** con tu propio criterio; nunca dependas d
   `sesiones-foto-producto.md`, la receta de `biblioteca-dp.md`) antes de proponer? Si no, ábrelas y rehaz.
 - ¿Cada dirección lleva su línea `Base:` (concepto · sesión #N · receta DP · research), con nombres y
   números que existen en los archivos? ¿Las 2–3 direcciones salen de combinaciones distintas?
+- **Embudo:** ¿lo mostrado salió de 6–8 combinaciones en borrador, o es la primera idea que apareció?
+  ¿Frena el scroll frente a lo que ya hace la categoría?
+- **Referencias de la persona:** ¿se dijo qué se tomó de cada una? ¿Se cruzaron con un concepto o
+  formato del banco? ¿La pieza pasa la prueba anti-copia (tapando el nombre, no se confunde con la
+  referencia)?
 - **Prueba anti-genérico:** ¿alguna dirección se pudo escribir sin los bancos (“editorial limpio”, “flat
   lay minimalista”, “producto sobre mármol”)? Si sí, reemplázala.
 - En los prompts, ¿la escena sigue la composición clave del formato de sesión elegido y la luz/lente de
