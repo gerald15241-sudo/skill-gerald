@@ -1,5 +1,13 @@
 # Cambios de la skill prompts-de-contenido
 
+## v1.11.0 — lista para ChatGPT
+
+- Nueva sección "Si estás en ChatGPT (equivalencias)" en `SKILL.md`: artefacto = canvas, herramientas que
+  solo existen en Claude, modo C, generar la imagen en ChatGPT si la persona lo pide, repositorio de
+  imágenes, skill de marca y sistema visual. El mismo zip sirve para Claude y para ChatGPT.
+- Verificado contra el formato de Skills de OpenAI: un `SKILL.md` con name y description, una carpeta
+  principal, 105 archivos (máx. 500) y zip de 18,5 MB (máx. 50 MB).
+
 ## v1.10.0 — social media board de opciones
 
 - Nuevo `references/board-de-diseno.md`: en piezas, carruseles y campañas con texto (también en la
