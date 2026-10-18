@@ -54,6 +54,9 @@ vista). Pie editorial con línea fina en DM Serif Display.
 - Línea `Base:` completa y con extrapolación creativa (Sesión #41 "packaging como máscara" adaptada al
   cuello de la prenda). Paleta con los colores del logo reservados como héroe.
 - "DE TALLER A LA CALLE." (giant garment, sesión #8) es una pieza de nivel campaña.
+- Cierre correcto de la express: una pieza y tres caminos (variante, otra dirección, carrusel o sesión).
+- Preguntó si agregar el @ de la usuaria como firma en vez de insertarlo (regla HEADER).
+- Ofreció dejar fijos los modelos para una serie, aunque tarde: debió fijarlos antes de la primera pieza (ver 2.2).
 
 ### Hallazgos para corregir
 | # | Hallazgo | Causa | Corrección propuesta |
@@ -62,7 +65,7 @@ vista). Pie editorial con línea fina en DM Serif Display.
 | 2.2 | No preguntó cómo debían ser los modelos (tipo de casting, edad, rasgos, vibra). | **Diseño de la ruta express (error mío).** La express no definía qué hacer si la persona quiere modelo y no lo tiene; creó los modelos inline, saltándose el flujo de `modelo-ugc.md`. | Si en la express la persona quiere persona y no tiene modelo: sale de la express para esa parte. Pregunta en un solo mensaje tipo de casting (agencia / UGC con buen casting / persona real), edad, rasgos y vibra; genera primero el modelo con el molde de avatar (playbook §1) o `personas-reales.md`; con el modelo aprobado como `@imagen`, sigue la pieza. Alternativa para quedarse en express: solo manos o persona sin rostro. |
 | 2.3 | Realismo de los modelos flojo: piel pareja y pulida, look catálogo IA. | Skill (consecuencia de 2.2). Sin modelo creado con el molde de avatar, no entra el bloque de realismo del carril de modelos (poros, vello, asimetría, RAW). | Se resuelve con 2.2. Además, curaduría: si hay persona, el prompt debe llevar el bloque de piel del carril correcto (dewy del playbook o natural de `personas-reales.md`), nunca una descripción corta propia. |
 | 2.4 | La identidad de los modelos cambia entre piezas (el hombre de "DE TALLER A LA CALLE." no es el mismo de las otras dos). | Skill (consecuencia de 2.2). Sin `@imagen` de modelo no hay identity lock posible en una serie. | Se resuelve con 2.2: en series con persona, el modelo aprobado va siempre como `@imagen`. |
-| 2.5 | Entregó 3 piezas con conceptos distintos cuando la express promete una dirección. | Por confirmar (falta ver el mensaje de entrega). | Revisar si fue pedido de la usuaria o desvío de la regla. |
+| 2.5 | ~~Entregó 3 piezas con conceptos distintos.~~ **Resuelto: no es error.** Entregó una sola pieza y la usuaria generó las otras desde el cierre (variante y otra dirección). | — | — |
 
 ## Prueba 3: servicios (fisioterapia)
 _Pendiente._
