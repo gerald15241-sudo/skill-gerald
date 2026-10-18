@@ -176,6 +176,8 @@ calidad sobre la rapidez.
   tipografía, luz, paleta), el formato de sesión o concepto del banco que ilustra (#N), y su nivel:
   ★ referente de campaña (para aspirar) o ◦ convención del nicho (muestra lo que hace la categoría, no el
   nivel a copiar). Marcar las que son de marcas reales (Nivea, Rhode, Coca-Cola, Dunkin', Starbucks…).
+  **Decisión de la usuaria:** se incluyen todas; son referencias de uso educativo. La skill las usa solo
+  para leer el mecanismo (nunca reproduce logos, nombres ni diseños de esas marcas) y aplica la regla 3–2–1.
 
 ## Prueba 5: marca desde cero
 _Pendiente._
