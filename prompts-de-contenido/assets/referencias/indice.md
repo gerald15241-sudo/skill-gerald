@@ -4,11 +4,17 @@
 nunca para reproducir sus logos, nombres ni diseños. Cada línea guarda la lectura ya hecha (ingeniería
 inversa resumida), así la skill conoce todo el repositorio sin abrir las 227 imágenes.
 
+**Cómo están guardadas:** para respetar el límite de archivos de la skill, las imágenes van en **hojas de
+4** (grilla 2×2), cada una con su código impreso en la esquina superior izquierda. El nombre de la hoja
+dice qué códigos contiene: `general/gen-057-060.jpg` tiene gen-057, gen-058, gen-059 y gen-060. Para mirar
+una imagen, abre su hoja y ubícala por el código (tabla al final de este archivo).
+
 ## Cómo se usa (obligatorio antes de proponer; ver SKILL.md, REGLA #4)
 
 1. **Filtra** con el buscador rápido (abajo) y con la carpeta del nicho. Mira también `general/` y
    `texto/`: los mejores mecanismos suelen venir de otra categoría.
-2. **Preselecciona 4–6** y **abre esas imágenes** para mirarlas de cerca (composición, luz, letra).
+2. **Preselecciona 4–6** y **abre las hojas que las contienen** para mirarlas de cerca (composición, luz,
+   letra). Mira la imagen por su código; las otras de la hoja no cuentan salvo que también te sirvan.
 3. **Cruza** con las referencias que adjuntó la persona: las suyas mandan en estética y medio; el
    repositorio sube el nivel y completa.
 4. **Mezcla** con la regla 3–2–1 (`references/ingenieria-inversa.md`) dentro del embudo creativo.
@@ -302,3 +308,69 @@ categoría, sirve para entenderla y diferenciarse, **no** es el nivel a copiar. 
 - **res-014** ★ · Mujer mordiendo sándwich con ilustraciones lima superpuestas, "MIDDAY" repetido. *Toma:* mixed media foto + ilustración. *Banco:* sesión #40.
 - **res-015** ★ · Wraps sobre pedestal naranja, "made to wrap. made to wow." en bold blanco. *Toma:* copy con juego de palabras + monocromo. *Banco:* sesión #32.
 - **res-016** ★ · Mano con hamburguesa sobre rojo profundo, "TRIPLE BURGER" crema. *Toma:* hero hold minimal monocromo.
+
+---
+
+## Dónde está cada imagen (hojas de 4)
+
+| Hoja | Códigos |
+|---|---|
+| `belleza/bel-001-004.jpg` | bel-001, bel-002, bel-003, bel-004 |
+| `belleza/bel-005-008.jpg` | bel-005, bel-006, bel-007, bel-008 |
+| `belleza/bel-009-012.jpg` | bel-009, bel-010, bel-011, bel-012 |
+| `belleza/bel-013-016.jpg` | bel-013, bel-014, bel-015, bel-016 |
+| `bienestar/bie-001-004.jpg` | bie-001, bie-002, bie-003, bie-004 |
+| `bienestar/bie-005-008.jpg` | bie-005, bie-006, bie-007, bie-008 |
+| `bienestar/bie-009-012.jpg` | bie-009, bie-010, bie-011, bie-012 |
+| `bienestar/bie-013-016.jpg` | bie-013, bie-014, bie-015, bie-016 |
+| `creacion-de-contenido/cre-001-004.jpg` | cre-001, cre-002, cre-003, cre-004 |
+| `creacion-de-contenido/cre-005-008.jpg` | cre-005, cre-006, cre-007, cre-008 |
+| `creacion-de-contenido/cre-009-012.jpg` | cre-009, cre-010, cre-011, cre-012 |
+| `fisioterapia/fis-001-004.jpg` | fis-001, fis-002, fis-003, fis-004 |
+| `fisioterapia/fis-005-008.jpg` | fis-005, fis-006, fis-007, fis-008 |
+| `fisioterapia/fis-009-012.jpg` | fis-009, fis-010, fis-011, fis-012 |
+| `fisioterapia/fis-013-014.jpg` | fis-013, fis-014 |
+| `general/gen-001-004.jpg` | gen-001, gen-002, gen-003, gen-004 |
+| `general/gen-005-008.jpg` | gen-005, gen-006, gen-007, gen-008 |
+| `general/gen-009-012.jpg` | gen-009, gen-010, gen-011, gen-012 |
+| `general/gen-013-016.jpg` | gen-013, gen-014, gen-015, gen-016 |
+| `general/gen-017-020.jpg` | gen-017, gen-018, gen-019, gen-020 |
+| `general/gen-021-024.jpg` | gen-021, gen-022, gen-023, gen-024 |
+| `general/gen-025-028.jpg` | gen-025, gen-026, gen-027, gen-028 |
+| `general/gen-029-032.jpg` | gen-029, gen-030, gen-031, gen-032 |
+| `general/gen-033-036.jpg` | gen-033, gen-034, gen-035, gen-036 |
+| `general/gen-037-040.jpg` | gen-037, gen-038, gen-039, gen-040 |
+| `general/gen-041-044.jpg` | gen-041, gen-042, gen-043, gen-044 |
+| `general/gen-045-048.jpg` | gen-045, gen-046, gen-047, gen-048 |
+| `general/gen-049-052.jpg` | gen-049, gen-050, gen-051, gen-052 |
+| `general/gen-053-056.jpg` | gen-053, gen-054, gen-055, gen-056 |
+| `general/gen-057-060.jpg` | gen-057, gen-058, gen-059, gen-060 |
+| `general/gen-061-064.jpg` | gen-061, gen-062, gen-063, gen-064 |
+| `general/gen-065-068.jpg` | gen-065, gen-066, gen-067, gen-068 |
+| `general/gen-069-072.jpg` | gen-069, gen-070, gen-071, gen-072 |
+| `general/gen-073-076.jpg` | gen-073, gen-074, gen-075, gen-076 |
+| `general/gen-077-080.jpg` | gen-077, gen-078, gen-079, gen-080 |
+| `general/gen-081-084.jpg` | gen-081, gen-082, gen-083, gen-084 |
+| `general/gen-085-088.jpg` | gen-085, gen-086, gen-087, gen-088 |
+| `general/gen-089-092.jpg` | gen-089, gen-090, gen-091, gen-092 |
+| `general/gen-093-096.jpg` | gen-093, gen-094, gen-095, gen-096 |
+| `general/gen-097-099.jpg` | gen-097, gen-098, gen-099 |
+| `inmobiliaria/inm-001-004.jpg` | inm-001, inm-002, inm-003, inm-004 |
+| `inmobiliaria/inm-005-008.jpg` | inm-005, inm-006, inm-007, inm-008 |
+| `inmobiliaria/inm-009-010.jpg` | inm-009, inm-010 |
+| `mascotas/mas-001-004.jpg` | mas-001, mas-002, mas-003, mas-004 |
+| `mascotas/mas-005-008.jpg` | mas-005, mas-006, mas-007, mas-008 |
+| `mascotas/mas-009-011.jpg` | mas-009, mas-010, mas-011 |
+| `peluqueria/pel-001-004.jpg` | pel-001, pel-002, pel-003, pel-004 |
+| `peluqueria/pel-005-008.jpg` | pel-005, pel-006, pel-007, pel-008 |
+| `peluqueria/pel-009-012.jpg` | pel-009, pel-010, pel-011, pel-012 |
+| `restaurantes/res-001-004.jpg` | res-001, res-002, res-003, res-004 |
+| `restaurantes/res-005-008.jpg` | res-005, res-006, res-007, res-008 |
+| `restaurantes/res-009-012.jpg` | res-009, res-010, res-011, res-012 |
+| `restaurantes/res-013-016.jpg` | res-013, res-014, res-015, res-016 |
+| `texto/txt-001-004.jpg` | txt-001, txt-002, txt-003, txt-004 |
+| `texto/txt-005-008.jpg` | txt-005, txt-006, txt-007, txt-008 |
+| `texto/txt-009-012.jpg` | txt-009, txt-010, txt-011, txt-012 |
+| `texto/txt-013-016.jpg` | txt-013, txt-014, txt-015, txt-016 |
+| `texto/txt-017-020.jpg` | txt-017, txt-018, txt-019, txt-020 |
+| `texto/txt-021.jpg` | txt-021 |

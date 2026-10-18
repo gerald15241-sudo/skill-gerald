@@ -1,5 +1,13 @@
 # Cambios de la skill prompts-de-contenido
 
+## v1.9.1 — dentro del límite de 200 archivos
+
+- La plataforma acepta máximo 200 archivos por skill y la v1.9.0 tenía 285. Las 227 imágenes del
+  repositorio se agrupan en **59 hojas de 4** (grilla 2×2, cada imagen a su resolución, con su código
+  impreso en la esquina). La skill queda en **103 archivos**.
+- `assets/referencias/indice.md` explica cómo abrir una imagen por su hoja y trae la tabla "Dónde está
+  cada imagen". Las 227 lecturas no cambian.
+
 ## v1.9.0 — SKILL.md más liviano, sin perder contenido
 
 - `SKILL.md` pasa de 681 a 464 líneas. Las secciones largas quedan en versión operativa y su **texto

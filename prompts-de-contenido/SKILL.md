@@ -164,7 +164,8 @@ de un prompt ya aprobado.
    - `references/playbook-original.md`: desde su índice, la sección más cercana al caso. Es el molde
      del prompt (REGLA #2).
    - `assets/referencias/indice.md`, **siempre**: con su buscador rápido y la carpeta del nicho (más
-     `general/` y `texto/`) elige 4–6 imágenes y **ábrelas** para mirarlas de cerca.
+     `general/` y `texto/`) elige 4–6 imágenes y **abre sus hojas** (van de a 4, con el código impreso) para
+     mirarlas de cerca.
    Si ya los leíste en esta conversación y no cambió el producto ni el nicho, no repitas la lectura.
 2. **Preselecciona con filtro.** Saca candidatos de cada banco (2–3 conceptos o familias de referentes,
    3–5 formatos de sesión y la receta DP) y quédate con los que pasan cinco filtros: lo que la foto real
