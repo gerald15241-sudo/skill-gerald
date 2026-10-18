@@ -201,11 +201,14 @@ encaja de verdad, dilo y usa el más cercano como molde, marcándolo como adapta
 
 Aunque pidan "solo producto", puedes **proponer como opción adicional** escenarios más ambiciosos en
 cualquier nicho (editorial con modelo, lifestyle, multi-ángulo con persona, colocación surrealista, set
-con props); la persona decide y nunca reemplazas lo que pidió sin avisar. Si la pieza incluye una
-persona, aplica todo el módulo de realismo (identity lock, piel hiperrealista, manos correctas, luz y
-cámara reales; `references/bloques-obligatorios.md` y `references/modelo-ugc.md`); si no hay modelo, se
-crea primero. La libertad creativa nunca rebaja las reglas no negociables. Texto completo:
+con props); la persona decide y nunca reemplazas lo que pidió sin avisar. Texto completo:
 `references/detalle-skill.md`.
+
+Cuando una pieza **incluya una persona**, aplica **todo el módulo de realismo** para construir cada
+detalle: identity lock + piel hiperrealista (poros, vello, pecas, manos correctas), luz y cámara
+reales, texturas (ver `references/bloques-obligatorios.md` y `references/modelo-ugc.md`). Si no hay
+modelo propio, propone crearlo o generarlo. La libertad creativa nunca rebaja las reglas no
+negociables (fidelidad de producto, identidad, realismo).
 
 ## Salida por defecto (complementa las REGLAS #1 y #3)
 
@@ -241,10 +244,20 @@ confirma de pasada. Árbol completo en `references/flujo-intake.md`; texto compl
    referencias (si son gráficas o editoriales, la pieza también).
 4. **Destino:** ads u orgánico. 5. **Formato:** pieza o carrusel; en carrusel, intención (venta,
    lanzamiento, educativo, prueba social, storytelling) → número de slides y estructura.
-6. **Enfoque:** producto / UGC / híbrido. Si hay persona: tipo de casting (agencia · UGC con buen casting ·
-   persona real), propia o la creamos (ficha con campo abierto y ángulos que propones tú) y nivel de
-   producción (estudio · locación · casera, con lugar y encuadre). En los tres niveles: 8K, foto real y
-   microdetalles (`references/modelo-ugc.md`). Sin modelo, se crea primero; nunca dentro de la pieza.
+6. **Enfoque**: solo producto / UGC / híbrido / que yo proponga → **si UGC o híbrido**, entra el
+   flujo de modelo (`references/modelo-ugc.md`). Pregunta el **tipo de casting** (con botones, explicando
+   cada uno): (a) **modelo UGC de agencia de modelos** (estándar de grandes marcas/agencia: pulida y aspiracional, pero
+   que SIGUE siendo real —piel y textura humana, no plástica ni CGI—), (b) **modelo UGC más
+   casual pero con buen casting** (cercana, real, no de pasarela — la que más convierte), (c) **persona real
+   de la vida real, no modelo** (gente común para otro tipo de contenido: testimonios, personajes, casting,
+   equipo; usa `references/personas-reales.md`). Luego: ¿propia o la creamos? → si la creamos, ficha de
+   identidad con campo abierto + **tú propones qué ángulos generar según el objetivo**. Y pregunta el
+   **nivel de producción**: (1) estudio fotográfico, (2) profesional en locación, (3) casera/casual —si es
+   la 3, pide **lugar y ángulo/encuadre**, y sirve también para **sesiones lifestyle** completas. En las
+   tres se mantiene **8K + foto real + microdetalles** (lo casero es look de luz/cámara de celular, nunca
+   baja calidad).
+   Sin modelo, se crea **primero** con el molde de su tipo de casting (atajo de `references/modelo-ugc.md`);
+   nunca dentro del prompt de la pieza.
 7. **Fuente de estilo:** referentes de la persona, propuesta desde el producto o tendencias
    (`references/nichos.md`), siempre cruzada con el repositorio.
 8. **Paleta por roles:** la estructura se modela de las referencias; la paleta es variable (anti-clon).
@@ -296,15 +309,19 @@ Plantillas exactas en `references/bloques-obligatorios.md`; texto completo en `r
   textos) anclado a `@imagen N`, con el texto de la etiqueta línea por línea. Prohibido rediseñar, cambiar
   el color, inventar logos o deformar la etiqueta. "Usa la foto solo para el producto, no copies su fondo,
   luz ni recorte".
-- **IDENTITY LOCK** si hay persona, con prohibición de alterar rasgos; en UGC, identity lock + product lock
-  en paralelo.
-- **Realismo de piel según el carril (REGLA #2)**; no agregues una receta propia ni quites la del documento:
-  - Modelos / avatares beauty: piel **dewy y luminosa** del documento de avatares (brillo especular roto
-    por poros, tono desigual, glossy lips, warm tones, RAW, soft diffusion, grain, asimetría). Nunca mate ni
-    pulida; en casero o UGC cambia la escena, nunca el acabado de la piel.
-  - Personas reales: look **natural de open-shade** (`references/personas-reales.md`), piel real sin
-    glamour, rasgos promedio; nunca el dewy de campaña. `references/realismo-anti-ia.md` es solo del
-    carril de modelos.
+- **IDENTITY LOCK** (si hay persona). Ficha de identidad precisa del modelo anclada a sus fotos, con
+  prohibición de alterar rasgos. Doble ancla en UGC: *identity lock* + *product lock* en paralelo.
+- **REALISMO DE ROSTRO/PIEL — SEGÚN EL CARRIL (ver REGLA #2).** No agregues una receta de piel propia ni
+  quites la del documento; cada carril trae la suya:
+  - **Modelos / avatares beauty:** piel **dewy y luminosa** (del documento de avatares) — brillo especular
+    roto por poros, tono desigual, glossy lips, warm tones, RAW, soft diffusion, grain, asimetría. Nunca la
+    vuelvas mate ni la pulas. En casero/UGC de modelo cambia solo la escena (candid, casa, luz de ventana,
+    selfie), nunca el acabado de la piel.
+  - **Personas reales (no modelos):** look **natural de open-shade** (del módulo FACES, `personas-reales.md`)
+    — piel real sin glamour, luz de calle, rasgos promedio. **NO le metas el dewy de campaña** ni la
+    conviertas en modelo.
+  `references/realismo-anti-ia.md` (dewy) es apoyo **solo del carril de modelos**; no se aplica a personas reales.
+
 - **Hiperrealismo condicional al medio.** Si el medio es gráfico, editorial, collage, zine o mixto: textura,
   grano, capas, imperfección diseñada y composición agresiva (§3b de `bloques-obligatorios.md`); nada de la
   "safe zone" de la foto bonita cuando las referencias son gráficas.

@@ -1,5 +1,13 @@
 # Cambios de la skill prompts-de-contenido
 
+## v1.9.3 — realismo de modelos idéntico a la v1.4.0
+
+- En `SKILL.md` se restauran **palabra por palabra** desde la v1.4.0 el bloque "REALISMO DE ROSTRO/PIEL —
+  SEGÚN EL CARRIL" (piel dewy y luminosa), el IDENTITY LOCK, el paso 6 del intake (tipos de casting y
+  nivel de producción) y el párrafo de personas de "Libertad creativa". La v1.9.0 los había resumido.
+- Verificado contra la v1.4.0: `realismo-anti-ia.md`, `personas-reales.md`, `realismo-fotografico.md`,
+  `estetica-y-medio.md` y los 126 renglones de avatares del playbook son idénticos; la REGLA #2 también.
+
 ## v1.9.2 — corrige la modelo UGC con buen casting
 
 - **Error introducido en la v1.8.0:** el paso "crear el modelo primero" mandaba la UGC con buen casting al
