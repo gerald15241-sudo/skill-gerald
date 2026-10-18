@@ -186,5 +186,21 @@ calidad sobre la rapidez.
   **Decisión de la usuaria:** se incluyen todas; son referencias de uso educativo. La skill las usa solo
   para leer el mecanismo (nunca reproduce logos, nombres ni diseños de esas marcas) y aplica la regla 3–2–1.
 
+- **R2. Pedir siempre referencias visuales, del tipo que corresponde a lo que se construye.** En toda
+  ruta (express, piezas, carrusel, campaña, marca personal, marca, moodboard, empaques, mockups) la skill
+  pide referencias, con una lista corta y específica para ese entregable:
+  | Entregable | Qué referencias pide |
+  |---|---|
+  | Pieza suelta / post | 2–4 posts o anuncios que le gusten (composición, texto, luz) |
+  | Carrusel | 2–3 carruseles completos (ritmo entre slides, portada, cierre) |
+  | Campaña | 3–6 campañas o pósters de marcas que admire + una anti-referencia |
+  | Marca personal | perfiles o creadores que admire + fotos propias |
+  | Logo | mínimo 3 logos (ya obligatorio en la ruta de marca) |
+  | Marca / identidad | marcas que le gustan, competencia, empaques, lo que NO quiere (ya obligatorio) |
+  | Moodboard / sistema visual | 3–6 imágenes de atmósfera, luz y paleta |
+  | Modelo / casting | referencia de cara y vibra (obligatoria en UGC con buen casting) |
+  Si la persona no tiene, la skill no se frena: usa el repositorio (R1) y lo dice. Siempre lee las
+  referencias con `ingenieria-inversa.md`, las cruza con el repositorio y dice qué tomó de cada una.
+
 ## Prueba 5: marca desde cero
 _Pendiente._
