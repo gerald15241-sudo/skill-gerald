@@ -176,6 +176,13 @@ calidad sobre la rapidez.
   tipografía, luz, paleta), el formato de sesión o concepto del banco que ilustra (#N), y su nivel:
   ★ referente de campaña (para aspirar) o ◦ convención del nicho (muestra lo que hace la categoría, no el
   nivel a copiar). Marcar las que son de marcas reales (Nivea, Rhode, Coca-Cola, Dunkin', Starbucks…).
+  **Comportamiento pedido (aclaración de la usuaria):** revisar las imágenes, hacerles ingeniería inversa,
+  mezclarlas y dar la mejor propuesta. Diseño: el índice guarda la **lectura ya hecha** de cada imagen
+  (mecanismo, por qué funciona, layout, tipografía, luz, paleta, sesión #N), así la skill "conoce" las
+  227 siempre sin abrirlas todas. En cada pedido: (1) filtra el índice por nicho, objetivo y medio;
+  (2) preselecciona 4–6 y abre esas imágenes para mirarlas de cerca; (3) suma las referencias de la
+  persona; (4) mezcla con la regla 3–2–1 dentro del embudo creativo (6–8 combinaciones, muestra las
+  mejores); (5) dice qué tomó de cada imagen (con su nombre de archivo) y por qué esa mezcla gana.
   **Decisión de la usuaria:** se incluyen todas; son referencias de uso educativo. La skill las usa solo
   para leer el mecanismo (nunca reproduce logos, nombres ni diseños de esas marcas) y aplica la regla 3–2–1.
 
