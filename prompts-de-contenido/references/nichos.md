@@ -45,6 +45,9 @@ comida):
   ideal para ads de precio.
 - **C — Naranja calle:** `#F2571F` · blanco · azul/negro. Vibra callejera/joven.
 
+**Molde de prompts reales:** `playbook-original.md` §6 (EAT AND JOY: lanzamiento, precios, combos, 2×1,
+happy hour, UGC mordiendo, domicilio).
+
 Cuando llegue otra carpeta nueva, repite este proceso y agrega su ADN aquí. Para moda/calzado ya hay
 molde en el playbook (Nautica editorial + Bimba y Lola product/poster) aunque no haya carpeta.
 
@@ -105,6 +108,7 @@ carpetas de referentes de la persona (sep 2026).
 - **Héroe:** el mensaje/tipografía y la persona-creador.
 - Paletas: **A — Mono+acento** blanco/negro + un neón (rosa `#FF3D7F` o lima `#C8FF3D`).
   **B — Azul klein** `#1E2FD8` · crema · negro. **C — Naranja pop** `#F2571F` · negro · crema.
+- **Molde de prompts reales:** `playbook-original.md` §13 (marca personal / creador, editorial).
 
 ## FISIOTERAPIA (salud / dolor / rehabilitación / médico)
 
@@ -117,6 +121,8 @@ carpetas de referentes de la persona (sep 2026).
 - Paletas: **A — Azul clínico** azul `#1C5BA8` · blanco `#F7FAFC` · cian `#3BC0D8`.
   **B — Teal salud** teal `#178F8F` · crema · coral `#F2795B`.
   **C — Navy confianza** navy `#16314F` · blanco · lima médica `#7AC943`.
+- **Molde de prompts reales:** `playbook-original.md` §10 (ReActiva: vocera, sin texto y con texto) y
+  §11 (conceptuales de dolores sin modelo). Sirve también para otros servicios de salud y estética.
 
 ## INMOBILIARIA (inmuebles / propiedades / hoteles)
 
@@ -129,6 +135,8 @@ carpetas de referentes de la persona (sep 2026).
 - Paletas: **A — Lujo cálido** crema `#F2ECE0` · verde bosque `#2E4A3A` · oro `#C2A15A`.
   **B — Navy premium** navy `#1B2A4A` · blanco · dorado. **C — Terracota natural** `#B5693F` · crema ·
   oliva.
+- **Molde de prompts reales:** `playbook-original.md` §12 (Marfil: fotos reales de propiedades sin
+  redibujar, 5 layouts + pieza maestra).
 
 ## MASCOTAS (pet shop / veterinaria / comida para mascotas)
 
@@ -142,6 +150,8 @@ carpetas de referentes de la persona (sep 2026).
 - Paletas: **A — Morado juguetón** morado `#7B4FD0` · amarillo `#FFCF3F` · crema.
   **B — Naranja cálido** naranja `#F07A2E` · crema · café. **C — Premium suave** crema `#F3EDE2` ·
   morado profundo `#4B2E83` · naranja.
+- **Molde de prompts reales:** `playbook-original.md` §7 (GUAUKIES: perros con identidad fija, galletas,
+  empaques, stickers, redes).
 
 ## PELUQUERIA (salón / cabello)
 

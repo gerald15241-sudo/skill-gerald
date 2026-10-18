@@ -1,7 +1,42 @@
+# Playbook original de la autora: índice
+
+Este archivo es la fuente de los prompts que la skill adapta (REGLA #2). **No lo leas entero.** Ubica en
+esta tabla la sección que corresponde al caso, búscala por su título exacto (`## N.`) y lee solo esa
+sección completa. Dentro de cada sección, cada prompt empieza con su título tal cual aparece aquí (por
+ejemplo `Póster 03 — Movimiento`, `L4 — Sentada en las dunas`, `Prompt 02A — Exploración del logo`).
+
+**Regla de uso:** se adapta solo lo específico del caso (identidad, producto, escena, marca, textos). El
+bloque de realismo, cámara y AVOID de cada prompt se conserva tal como está: es el resultado de muchas
+pruebas. Los títulos `##` y este índice son de navegación; el texto de los prompts no se modificó.
+
+| Sección | Qué contiene | Úsala para |
+|---|---|---|
+| 1. Avatares realistas y modelo UGC | 1.1 avatar base (retrato beauty) · 1.2 personality board en una imagen · 1.3 personality board imagen por imagen (22 tomas) | Crear o ampliar una modelo/avatar. Carril dewy de modelos (REGLA #2). Lo citan `modelo-ugc.md` y la REGLA #2. |
+| 2. Pósters con modelo UGC + producto: Nautica | Póster 01 a 10 (hero, colección 2×2, movimiento, desde el suelo, declaración, ángulos, actitud, flat lay, macro, cierre) | Campañas editoriales con texto, modelo + producto. Ejemplo del color héroe ("el único amarillo es el buzo"). |
+| 3. Sesión de fotos con modelo UGC + producto: Nautica | 3.1 lugares (L1 a L10) · 3.2 fondo neutro (N1 a N10) | Sesiones sin texto con modelo en locación o estudio; cómo indicar qué `@imagen` usar e ignorar. |
+| 4. Product board generado por la IA: audífonos | 4.1 prompt maestro con modelo · 4.2 los 10 prompts que generó · 4.3 sesión solo producto (5 prompts) | Product boards por ángulos y contextos, con o sin modelo. |
+| 5. Piezas solo producto, sin modelo: sneakers | 01 a 10 (protagonista, detalles, mirada nueva, carácter, setentera, movimiento, detalles, perspectiva, retro, cierre) | Piezas publicitarias de producto sin persona, con header y color héroe. |
+| 6. Negocio de comida: EAT AND JOY | 01 a 10 (lanzamiento, precio individual, combos, 2×1, happy hour, menú en historias, UGC mordiendo, nocturno, domicilio, combo grupal) | Promos con precio, comida hiperrealista, deletreo de precios. |
+| 7. Brand board desde cero: GUAUKIES | 7.1 prompt base genérico · 7.2 adaptado a GUAUKIES · 7.3 moldes de láminas 01, 02A, 02B, 03, 04, 05A, 05B, 06, 07, 07B, 08, 09 | Moldes de la ruta de marca: 01 moodboard, 02A logo, 02B logo en materiales, 07/08 empaques, 09 redes en celular. Los citan `estudio-de-marca.md`, `logos-profesionales.md`, `tablero-identidad.md` y `mockups-y-pop.md`. El orden lo manda `estudio-de-marca.md`. |
+| 8. Piezas a partir del brand board | Prompt maestro de performance (Meta/TikTok): ángulos de conversión, precios y promos | Anuncios de venta para una marca ya definida. |
+| 9. Product board solo producto: prompt maestro | Prompt para que la IA genere de 1 a 5 prompts de sesión de producto | Molde del pedido "sesión de fotos solo del producto"; sus resultados son como los de la 4.3. |
+| 10. Servicios: fisioterapia ReActiva | 10.1 prompt maestro + 5 prompts sin texto (vocera, tratamiento, movimiento, detalle, cuerpo entero) · 10.2 prompt de entrevista + 5 prompts con texto | Negocios de servicios con vocera/profesional. Molde para salud, estética, consultorios, coaches. |
+| 11. Imágenes conceptuales sin modelo | Prompt de entrevista + 5 prompts de dolores comunes (lumbar, rodilla, ciática, cuello, acumulado) | Piezas conceptuales o educativas sin persona fija; ideas visuales para un dolor o problema. |
+| 12. Inmobiliaria: Marfil | 5 piezas con fotos reales de propiedades (5 layouts distintos) + pieza maestra showcase | Inmuebles, hoteles, espacios: fotos reales sin redibujar + diseño editorial encima. |
+| 13. Marca personal / creador | Prompt maestro editorial + 5 piezas (portada, gancho, tutorial, personalidad, autoridad/CTA) | Marca personal en blanco y negro editorial, con la persona como protagonista. |
+
+Si ninguna sección encaja exacto, usa la más cercana **del mismo carril** como molde (REGLA #2) y dilo.
+
+---
+
+## 1. Avatares realistas y modelo UGC
+### 1.1 Avatar base: retrato beauty
 PROMPTS PARA CREACIÓN DE AVATARES REALISTAS: 
 Ultra-realistic editorial beauty portrait of a naturally beautiful woman, full face visible, centered frontal composition, complete face from forehead to chin fully inside the frame, both eyes visible, both eyebrows visible, nose and lips fully visible, natural jawline and cheeks visible, no cropping, no extreme macro crop, no cut-off forehead, no cut-off chin, no cut-off sides of the face.
 Professional studio beauty photography, visible natural skin texture, real pores, peach fuzz, tiny facial hairs, soft skin imperfections, natural glossy lips, realistic teeth, detailed iris, natural eyelashes, thick realistic eyebrows, warm skin tones, cinematic soft lighting, luxury skincare campaign aesthetic, shallow depth of field, hyper-detailed skin grain, organic highlights, subtle shadows, photorealistic, soft diffusion lighting, minimal makeup, natural asymmetry, realistic reflections in the eyes, ultra-sharp focus on the face.
 Shot on Sony A7R IV, 85mm portrait lens, f/2.0, RAW photography, high-end skincare advertisement, Vogue beauty editorial style, clean studio background, soft elegant framing, extremely detailed, 8k realism.
+
+### 1.2 Personality board, opción 1: una sola imagen
 PERSONALITY BOARD: 
 Este primer prompt es para generar el personality board en una sola imagen 
 Create a premium editorial personality board / model book featuring the exact same woman from the uploaded reference image across multiple portraits, expressions, angles, and candid moments.
@@ -71,6 +106,8 @@ excessive makeup,
 watermarks,
 social media UI,
 or any obvious AI artifacts.
+
+### 1.3 Personality board, opción 2: imagen por imagen (22 tomas: face angles, expresiones, cuerpo completo)
 Estos son para generar imagen por imagen del personality board, para generar las imágenes por separado. 
 Usa este prompt al inicio de cada prompt:
 Use the uploaded reference image as the exact identity reference. Depict exactly the same woman from the uploaded reference image. Preserve her exact facial structure, soft oval face, natural facial asymmetry, light blue-grey eyes, straight nose, full lips, thick natural eyebrows, fair warm-toned skin, exact freckles across the forehead, nose and cheeks, and long voluminous natural copper-auburn curly hair with defined spiral curls and subtle flyaways. Preserve her exact apparent age and natural proportions. Do not beautify, reinterpret, slim, smooth, age or modify her face. Maintain visible real skin texture, pores and freckles. Keep minimal natural makeup and glossy nude-pink lips. Whenever teeth are visible, they must be healthy natural white with realistic anatomy and subtle natural tonal variation, never pure white, artificial or veneer-like. Same woman in every image, zero identity drift.
@@ -124,6 +161,8 @@ Create a highly photorealistic full-body photograph of the exact same woman from
 Create a highly photorealistic full-body portrait of the exact same woman from the uploaded reference image pointing directly forward toward the camera with one hand while showing a naturally excited expression. Her index finger extends naturally toward the lens while the other fingers curl anatomically correctly. Her body remains relaxed and dynamic. Show an enthusiastic smile or excited grin with naturally white realistic teeth. Preserve exact identity and body anatomy. Same minimal wardrobe, clean studio background, 50mm lens.
 22) Full body, dancing pose
 Create a highly photorealistic full-body photograph of the exact same woman from the uploaded reference image captured during a spontaneous natural dance movement. Her torso turns slightly, one leg shifting weight while the other moves freely, arms moving organically and copper-auburn curls showing subtle motion. Expression joyful, uninhibited and authentic. Preserve exact facial identity, natural anatomy and realistic fabric movement. If teeth are visible, keep them naturally white and realistic. Clean studio setting, 50mm lens, full body visible from hair to shoes.
+
+## 2. Pósters con modelo UGC + producto: campaña Nautica (Póster 01 a Póster 10)
 PIEZAS DE CONTENIDO CON UNA MODELO UGC Y UN PRODUCTO
 Importante tener en cuenta lo siguiente. Estos Prompts están de acuerdo a la identidad de marca de Nautica y todo lo que puede estar relacionado a sus productos. Para tu marca dale contexto a la IA y dile que te adapte los Prompts que vas a ver abajo. Para que todo quede de acuerdo a tu marca. Cuando hablo de contexto, pueden ser los colores, cuentale a la IA que tipo de producto vendes, a quien lo diriges, en que país, entre mas contexto le des mucho mejor. Luego pídele que re escriba estos Prompts de acuerdo a esta información y pega uno por uno. Si no quieres darle contexto, si no tienes colores definidos deja que la IA lo haga por ti y copia los Prompts como están teniendo en cuenta la lógica y el orden de las imágenes, pero esta vez con las tuyas. 
 Dependiendo del generador que uses etiqueta las imágenes en el prompt como @imagen 1, @imagen 2 y así consecutivamente. Si tu generador no te pide etiquetar las imágenes, deja el prompt tal cual está pero que las imágenes estén adjuntas en el orden que el prompt las menciona. 
@@ -517,9 +556,13 @@ Deep navy-blue dominant, sail-white architecture and typography, restrained warm
 PHOTOGRAPHY:
 Photorealistic luxury fashion photography, medium-format aesthetic, natural skin with visible freckles and pores, detailed curls, realistic fleece texture, natural shadows, subtle film grain, sophisticated depth of field.
 NO CGI. NO artificial-looking face. NO removed freckles. NO distorted anatomy. NO incorrect logo. NO missing sleeve wordmark. NO misspelled words. 3:4 vertical.
+
+## 3. Sesión de fotos con modelo UGC + producto: Nautica
 Ahora crearemos una sesión de fotos de producto con la modelo. UN PRODUCT BOARD CON LA MODELO. En lugares que estén acorde a la marca y también en contextos neutros. Para los lugares neutros si puedes dejar el prompt tal cual está no olvides tener en cuenta si tu generador te pide etiquetar las imágenes con @ o si solo las debes mencionar como imagen 1, imagen 2, etc. 
 Para la sesión a continuación estas fueron las imágenes elegidas 
 Resultado: 
+
+### 3.1 Sesión 1, lugares (L1 a L10)
 SESIÓN 1 — LUGARES
 L1 — Sendero al faro
 Usa: @imagen 6 · @imagen 2 · @imagen 1 · Ignora: @imagen 3, 4 y 5
@@ -809,6 +852,8 @@ Shot on a Hasselblad X2D 100C medium-format camera with an XCD 55mm f/2.5 V lens
 NO TEXT: no typography, captions, watermarks, signs, labels, graphics or logos anywhere, except the embroidered sail logo and "NAUTICA" sleeve wordmark already on the pullover.
 NO people. NO hands. NO invented details. NO warped garment. NO blown-out highlights on the pullover.
 4:5 vertical.
+
+### 3.2 Sesión 2, fondo neutro (N1 a N10)
 SESIÓN 2 — FONDO NEUTRO
 N1 — De pie frontal
 Usa: @imagen 6 · @imagen 2 · @imagen 1 · Ignora: @imagen 3, 4 y 5
@@ -1113,6 +1158,9 @@ Shot on a Hasselblad X2D 100C medium-format camera with an XCD 55mm f/2.5 V lens
 NO TEXT: no typography, captions, watermarks, labels, graphics or logos anywhere, except the embroidered sail logo and "NAUTICA" sleeve wordmark already on the pullover.
 NO motion blur. NO hair covering the face. NO veneer-perfect teeth. NO face alteration. NO removed freckles. NO distorted anatomy. NO warped clothing. NO incorrect logo. NO blown-out highlights on the pullover.
 4:5 vertical.
+
+## 4. Product board generado por la IA: audífonos
+### 4.1 Prompt maestro de product board con modelo
 COMO CREAR UN PRODUCT BOARD. 
 VAMOS A SUPONER QUE TENEMOS UN PRODUCTO AL QUE QUEREMOS REALIZARLE UNA SESIÓN DE FOTOS, YA TENEMOS GENERADA NUESTRA MODELO ASI QUE VAMOS A PEDIRLE A LA IA QUE HAGA ESTE TRABAJO POR NOSOTROS Y QUE APARTIR DE LAS IMÁGENES DE LA MODELO EN DIFERENTES ANGULOS Y UNA FOTO DEL PRODUCTO NOS GENERE UN PRODUCTO BOARD DE ACUERDO  A LA TENDENCIA DEL MERCADO. VAS A PEGARLE EL PROMPT QUE VERAS A CONTINUACIÓN PERO VAS A DECIRLE QUE UNA VEZ ANALICE EL PROMPT TE HAGA LAS PREGUNTAS NECESARIAS PARA COMPLETARLO, O SI TU PUEDES HACERLO PON LA INFORMACIÓN ADECUADA DENTRO DE LOS CORCHETES.
 IMPORTANTE: NO TE OLVIDES DE ADJUNTAR LAS FOTOS DE TU MODELOS (MINIMO 3 FOTOS, MAXIMO 5 Y LA FOTO DE TU PRODUCTO, 1 FOTO DEL PRODUCTO ES SUFICIENTE), SI TIENE MAS DETALLES TU PRODUCTO QUE CON UNA SOLA FOTO NO BASTE INCLUYE MAS FOTOS, Y ESO SI PIDELE AL PROMPT QUE TENGA EN CUENTA LAS IMÁGENES ADJUNTAS. 
@@ -1177,6 +1225,8 @@ RULES
 - Be specific, never generic: always name equipment, materials, fabrics, light positions and camera settings.
 - Everything must look like a real photograph, never an illustration or render.
 - If you have image generation available, after writing the prompts ask me if I want you to generate the shots one by one, starting with SHOT 1. 
+
+### 4.2 Los 10 prompts que generó (con modelo)
 PROMPTS QUE ME GENERO EL PROMPT ANTERIOR: 
 1. Hero monocromo · 4:5
 Ultra-realistic 8K RAW editorial photograph. Use reference images 1–4 as the exact same woman: late 20s, long glossy jet-black slightly wavy hair with soft curtain bangs, thick dark natural eyebrows, dark brown almond eyes, light olive skin with visible natural freckles across nose and cheeks, soft full lips. Keep her face, bone structure and skin texture identical. Use reference image 5 as the exact headphones: sky-blue over-ear headphones with anodized aluminum oval ear cups, polished stainless-steel telescoping arms, knit mesh canopy headband and mesh ear cushions in matching blue. Keep proportions, color and materials exact. SCENE: studio beauty-editorial portrait, the woman wearing the headphones on her head, eyes closed, chin slightly lifted, serene expression as if immersed in music. Fully monochrome set: seamless powder-blue backdrop matching the headphones, fitted powder-blue ribbed knit top. LIGHTING: Profoto B10 strobe in a 120cm deep octabox at 45 degrees camera left, slightly above eye level, white V-flat fill on the right, separate strobe with blue-gelled grid spot on the backdrop creating a soft center glow and gradient falloff to the edges. CAMERA: Hasselblad X2D 100C, XCD 90mm, f/5.6, 1/200s, ISO 64, tack-sharp focus on the eyelashes. SKIN MICRODETAILS: visible pores on nose and cheeks, fine vellus peach fuzz on cheeks and jawline catching the rim of light, freckles with irregular natural distribution and varying intensity, individual eyebrow hairs, delicate eyelid texture and natural lash clumping, fine vertical lip lines with a soft natural sheen, subtle natural redness around the nostrils, no airbrushing. HAIR: individual strands with natural sheen, a few flyaway baby hairs at the hairline and bangs. PRODUCT MICRODETAILS: fine bead-blasted grain on the anodized aluminum, visible knit weave of the mesh headband, soft reflections of the octabox in the polished steel arms. COLOR: true-to-life Hasselblad color science, soft contrast, clean highlights. Generous negative space on the upper right for headline. No logos, no text, no watermarks. Avoid: different face, altered facial features, extra fingers, deformed hands, distorted headphones, wrong color headphones, cables, plastic skin, waxy skin, over-smoothed skin, beauty filter, CGI look, oversharpening, HDR halos.
@@ -1198,6 +1248,8 @@ Ultra-realistic 8K candid night photograph with direct flash. Use reference imag
 Ultra-realistic 8K RAW overhead editorial flat lay photograph. Use reference images 1–4 for the woman's hands and skin tone: light olive skin with a few natural freckles. Use reference image 5 as the exact headphones: sky-blue over-ear headphones with anodized aluminum oval ear cups, polished stainless-steel telescoping arms, knit mesh canopy headband and mesh ear cushions in matching blue. Keep proportions, color and materials exact. SCENE: top-down flat lay on a warm beige linen surface, the headphones in the center, surrounded by a smartphone, tortoiseshell sunglasses, a small tan leather cardholder, lip balm, car keys and a paperback book, arranged with generous spacing. The woman's hands enter from the bottom of the frame, one lifting the headphones slightly by the headband. LIGHTING: soft diffused daylight from a large window at the top of the frame, white foam board bounce from below, gentle natural shadows with soft edges, a slightly harder contact shadow under the lifted headphones. CAMERA: Sony A7R V, 50mm, f/8, 1/125s, ISO 100, shot perfectly overhead, everything sharp. HAND MICRODETAILS: natural short nude manicure, knuckle creases, visible cuticles, fine skin texture, a delicate thin gold ring. PRODUCT AND PROP MICRODETAILS: linen weave and wrinkles, leather grain and stitching on the cardholder, paper edges of the book, fine grain on the aluminum cups, mesh weave, reflection of the window on the phone screen and steel arms. COLOR: true colors, airy, soft contrast, editorial magazine style. No logos, no text, no watermarks. Avoid: extra fingers, deformed hands, fused fingers, distorted headphones, wrong color headphones, cables, cluttered composition, CGI look, 3D render.
 10. Retrato perfil de campaña · 9:16
 Ultra-realistic 8K RAW magazine-cover portrait. Use reference images 1–4 as the exact same woman: late 20s, long glossy jet-black slightly wavy hair with soft curtain bangs, thick dark natural eyebrows, dark brown almond eyes, light olive skin with visible natural freckles across nose and cheeks, soft full lips. Keep her face, bone structure and skin texture identical. Use reference image 5 as the exact headphones: sky-blue over-ear headphones with anodized aluminum oval ear cups, polished stainless-steel telescoping arms, knit mesh canopy headband and mesh ear cushions in matching blue. Keep proportions, color and materials exact. SCENE: elegant three-quarter profile portrait, the woman looking over her shoulder toward the light, headphones on, subtle confident smile, long black hair flowing down her back. Sleek navy silk satin slip top. Background: seamless warm sand-beige studio wall. LIGHTING: Broncolor beauty dish with diffusion sock as key light, high and 30 degrees to the side for sculpted cheekbones, strip softbox behind her as hair and shoulder rim light, black flag on the far side for a gentle shadow, subtle background light for separation. CAMERA: Hasselblad X2D 100C, XCD 90mm, f/2.8, 1/200s, ISO 64, focus on the nearest eye. SKIN MICRODETAILS: luminous but real skin, visible pores, peach fuzz on the cheek and jawline catching the rim light, natural freckles, individual lashes and eyebrow hairs, crisp beauty-dish catchlight in the iris, soft lip texture with natural sheen. HAIR: mirror-like sheen on the strands, a few natural flyaways backlit by the rim. FABRIC AND PRODUCT MICRODETAILS: liquid highlights and folds in the satin, bead-blasted aluminum grain, knit mesh weave, clean specular line along the steel arms. COLOR: rich, warm, true-to-life Hasselblad color. Large clean area at top and bottom for campaign copy. No logos, no text, no watermarks. Avoid: different face, altered facial features, extra fingers, deformed hands, distorted headphones, wrong color headphones, cables, plastic skin, waxy skin, over-smoothed skin, beauty filter, CGI look, oversharpening.
+
+### 4.3 Sesión solo producto: audífonos (5 prompts)
 AHORA LLEVEMOS ESTE EJERCICIO A UNA SESIÓN DE FOTOS EXCLUSIVAMENTE DEL PRODUCTO SI UNA MODELO, EN ESTE CASO SOLO LOS AUDIFONOS, PIDELE A TU GENERADOR QUE TE AYUDE A CREAR EL NUMERO DE PROMPT QUE CONSIDERES EN DIFERENTES CONTEXTOS, EMULANDO UNA SESIÓN DE FOTOS DE PRODUCTO, TE SORPRENDERAS DEL RESULTADO. 
 LOS PROMPT QUE USE:
 1. Profesional · Hero monocromo · 4:5
@@ -1210,6 +1262,8 @@ Ultra-realistic 8K RAW lifestyle product photograph, candid everyday aesthetic. 
 Ultra-realistic 8K RAW lifestyle product photograph, everyday moment. Use the reference image as the exact product: sky-blue over-ear headphones with anodized aluminum oval ear cups, polished stainless-steel telescoping arms, knit mesh canopy headband and mesh ear cushions in matching blue. Keep proportions, color and materials exact. SCENE: a small round marble café table outdoors, the headphones resting with ear cups folded flat next to an iced latte in a clear glass with condensation, car keys with a leather key fob, a red lipstick lying on its side, an open paperback book face down and a folded paper receipt. Blurred sidewalk and green plants in the background. LIGHTING: late afternoon natural sunlight from behind camera right, warm and slightly hard, creating defined shadows on the marble and bright highlights on the glass, no flash. CAMERA: Leica Q3, 28mm Summilux, f/2.8, 1/1000s, ISO 100, focus on the headphones, soft background blur. PRODUCT MICRODETAILS: sun catching the aluminum grain, specular highlights on the steel arms, mesh texture on the cushions. PROP MICRODETAILS: marble veins and small stains, water droplets and ice cubes in the latte, worn leather on the key fob, metal key scratches, paper texture on the book and receipt. COLOR: warm, sunny, natural grade with slightly lifted blacks, subtle film grain. COMPOSITION: casual top-down 45-degree angle, product in the foreground. No logos, no text, no watermarks. Avoid: distorted product, wrong product color, extra parts, cables, overly styled look, CGI look, 3D render, plastic look, oversharpening.
 5. Cotidiana · Tocador o mesa de entrada, tomada con celular · 9:16
 Ultra-realistic 8K authentic smartphone photo, UGC everyday aesthetic. Use the reference image as the exact product: sky-blue over-ear headphones with anodized aluminum oval ear cups, polished stainless-steel telescoping arms, knit mesh canopy headband and mesh ear cushions in matching blue. Keep proportions, color and materials exact. SCENE: a light wood entryway console just before leaving home, the headphones resting next to a small black leather handbag, a glossy pink lipstick, a keyring with an apartment key and a tiny charm, gold hoop earrings in a small ceramic dish, a perfume bottle and a smartphone. A round mirror on the wall reflects part of the scene softly out of focus. LIGHTING: soft diffused daylight from a nearby window on the right, natural indoor ambient light, no flash. CAMERA: shot on iPhone 16 Pro main camera, 24mm equivalent, computational HDR look, natural sensor noise in the shadows, slight wide-angle perspective. PRODUCT MICRODETAILS: fine aluminum grain, mesh weave, soft window reflections on the steel arms. PROP MICRODETAILS: wood grain on the console, leather texture on the handbag, glossy lipstick tube with slight fingerprints, gold shine on the earrings, glass perfume bottle with light refraction, tiny dust particles in the window light. COLOR: natural, bright, slightly warm, realistic phone color science. COMPOSITION: casual handheld angle as if snapped quickly before walking out the door. No logos, no text, no watermarks. Avoid: distorted product, wrong product color, extra parts, cables, studio lighting, overly perfect arrangement, CGI look, 3D render, plastic look.
+
+## 5. Piezas publicitarias solo producto, sin modelo: sneakers (01 a 10)
 AHORA HAREMOS UN EJERCICIO NO CON UNA MODELO SI NO VAMOS A CREAR PIEZAS PUBLICITARIAS O PARA REDES PARA UN PRODUCTO ESPECIFICO, TOMA FOTOS LEGIBLES DE TU PRODUCTO Y ADAPTA ESTOS PROMPTS, SIMPLEMENTE COPIA Y PEGA EL PROMPT Y DILE A CHAT GPT O A TU GENERADOR DE IA, QUE LO ADAPTE A TU PRODUCTO. Recuerda que los textos que están en la imagen son modificables, es solo que le des la instrucción clara a chat gpt, Claude, Gemini o el generador que uses para que los detalles en los textos sean de acuerdo a lo que tu quieres ejemplo: cambiar @soygeraldine.ia por @minegocio. Cambiar texto en la parte superior izquierda por “ultima colección”, “ultimas unidades disponibles”. 
 Resultado: 
 01 — EL PROTAGONISTA
@@ -1531,6 +1585,8 @@ CAMERA AND LIGHTING:
 Shot on a Hasselblad X2D 100C medium-format camera with an XCD 55mm f/2.5 V lens, ISO 64, f/11, 1/250s, slightly low cinematic angle. Strong directional sunlight from the left, balanced with a direct hard flash from a bare-bulb Profoto B10X above and to the right of the camera: realistic contact shadows between the sole and the stones, crisp sharp-edged shadows across the rock surfaces, micro-shadows revealing suede, stitching, print and stone texture, subtle highlights on the eyelets and gum rubber. 8K ultra-high resolution, 16-bit color depth, tack-sharp focus on the sneaker, true-to-life colors, subtle film grain, visually powerful final frame, sophisticated luxury editorial art direction.
 NO CGI. NO distorted product. NO invented logos. NO misspelled words. NO extra text.
 3:4 vertical, 1200x1600.
+
+## 6. Negocio de comida: EAT AND JOY (01 a 10, promos y precios)
 EJEMPLO PARA SESIÓN DE FOTOS DE ALIMENTOS. 
 En este punto le vas a dar la IA las promociones que quieres hacer, o si aun no las tienes clara dile que te sugiera algunas. Y con base en estas copia y pega cada prompt para que lo adapte a tus ideas. Con una sola foto de tu producto donde se va la marca y demás es suficiente. En este caso me invente que mi marca se llama “EAT AND JOY”. Si quieres modificar la paleta de colores también le puedes pedir a la IA que lo haga o puedes pedirle que te sugiera lo que esté alineado a tu marca. Es como tener una conversación con la IA y luego pedirle que adapte los Prompts que están a continuación, también puedes buscar en Pinterest referencias visuales o paletas de colores y pedirle que te re escriba todos los Prompts que verás a continuación de acuerdo a las referencias visuales, si no las tienes, pídele que investigue el mercado y las marcas mas virales de comida y que te ayude a modelarlo. Posteriormente pega los Prompts para que te los re escriba de acuerdo a lo que necesitas. 
 Resultado: 
@@ -1790,6 +1846,9 @@ CAMERA AND LIGHTING:
 Shot from directly overhead on a Hasselblad X2D 100C with an XCD 38mm lens, ISO 64, f/11, 1/250s. Direct hard flash from a bare-bulb Profoto B10X above: crisp shadows under every burger, cup and hand, glossy highlights on the buns, cheese and condensation. 8K ultra-high resolution, 16-bit color, tack-sharp, true-to-life food colors, premium fast-food campaign quality.
 NO CGI. NO plastic food. NO different burgers. NO distorted hands or extra fingers. NO incorrect price. NO extra numbers. NO misspelled words. NO extra text. NO other brand logos.
 4:5 vertical, 1080x1350.
+
+## 7. Brand board desde cero: GUAUKIES
+### 7.1 Prompt base del brand board (genérico)
 BRAND BOARD DESDE CERO. 
 [NOTA DE LA HERRAMIENTA: en esta skill, el orden de la ruta de marca lo manda references/estudio-de-marca.md. Primero el logo (referencias de logo → 6 opciones → hoja del sistema de logo y ficha de marca), después las referencias de marcas, el mood board con el logo aprobado (Prompt 01), el tablero de identidad y los empaques. El mood board nunca va antes del logo aprobado. Los prompts de abajo se siguen usando como moldes.]
 AHORA SUPONGAMOS QUE QUIERES SACAR TU MARCA, TIENES EL NOMBRE PERO NO TIENES NI IDEA DE COMO QUIERES QUE SE VEA, NO IMPORTA SI ES UN NEGOCIO FISICO, SI VENDES UN SERVICIO, APLICA PARA CUALQUIER CONTEXTO. NECESITAS CREAR UNA IDENTIDAD QUE TE PERMITA APARTIR DE ALLI CREAR TODO TU CONTENIDO. HAREMOS ESTE EJERCICIO CON UNA MARCA X. A LA CUAL NECESITAMOS CREARLE TODO SU BRAND BOARD. HAGAMOS DE CUENTA QUE ES UNA MARCA DE GALLETAS SALUDABLES PARA PERRITOS. AQUÍ ES MUY IMPORTANTE QUE ANTES LE CUENTES A LA IA TU IDEA, Y UNA VEZ LO HAGA PIDELE QUE ADAPTE UNO A UNO LOS SIGUIENTES PROMPTS PARA TENER UN RESULTADO COMO ESTE: 
@@ -1854,6 +1913,8 @@ LOGO Y ELEMENTOS GRÁFICOS:
 Genéralos siempre primero en versión plana (sin sombras, texturas ni degradados) sobre fondo liso, para que yo pueda vectorizarlos. Después créalos en su versión realista aplicada en materiales.
 BRAND BOARD FINAL:
 Diséñalo en formato 16:9 horizontal tipo bento, con las láminas aprobadas como bloques, más un bloque de logo con tagline y personalidad, uno de paleta con códigos HEX y uno de tipografías. Trátalo como una tarea de diagramación: no regeneres ni modifiques las imágenes aprobadas. Dame también las medidas para armarlo en Canva como alternativa.
+
+### 7.2 El mismo prompt adaptado a GUAUKIES
 Y ESTE ES EL MISMO PROMPT DESPUES DE CONTARLE A CHAT GPT QUE ES MI MARCA Y TODOS LOS DETALLES, LE PEDI QUE LO ADAPTARA Y EL RESULTADO FUE ESTE: 
 Actúa como directora de arte y estratega de marca senior, especialista en identidad visual y fotografía publicitaria hiperrealista. Vas a construir conmigo, desde cero, el brand board completo de mi marca de galletas para perros. No tengo logo final, empaque ni fotos: solo las imágenes de referencia que adjunto y las decisiones de marca que te describo abajo.
 DATOS DE MI MARCA:
@@ -1942,6 +2003,8 @@ LOGO Y STICKERS:
 Genéralos siempre primero en versión plana (sin sombras, texturas ni degradados) sobre fondo crema liso, para que yo pueda vectorizarlos. Después créalos en su versión realista aplicada en materiales.
 BRAND BOARD FINAL:
 Diséñalo en formato 16:9 horizontal tipo bento, sobre fondo crema #FFF4E2, con las láminas aprobadas como bloques de esquinas redondeadas. Añade un bloque negro con el logo, el tagline "Premios que hacen mover la cola." y las palabras "DIVERTIDA · TIERNA · ANTOJADIZA · NATURAL"; un bloque de paleta con los seis colores y sus códigos HEX; y un bloque de tipografías. Trátalo como una tarea de diagramación: no regeneres ni modifiques las imágenes aprobadas. Dame también las medidas para armarlo en Canva como alternativa.
+
+### 7.3 Moldes de láminas 01 a 09 (01, 02A, 02B, 03, 04, 05A, 05B, 06, 07, 07B, 08, 09)
 CHAT GPT TE PUEDE GENERAR TODO DE UNA VEZ, O TU GENERADOR DE PREFERENCIA, PERO  TE SUGIERO QUE ADAPTES CADA PROMPT PARA TENER UNA MAYOR CONSISTENCIA EN TU BRAND BOARD. 
 IMPORTANTE ESTA HOJA DE RUTA QUE VEZ A CONTINUACIÓN ES SOLO UNA REFERENCIA, EL ORDEN DE LAS IMÁGENES Y DEMAS DEPENDE DE TU MARCA Y DE LO QUE LE PIDAS A LA IA 
 Hoja de ruta de prompts
@@ -2272,6 +2335,8 @@ CAMERA AND LIGHTING:
 Shot on a Hasselblad X2D 100C medium-format camera with an XCD 90mm lens, ISO 64, f/8, 1/250s, slightly elevated three-quarter angle. Soft directional key light from the upper left with a controlled hard-flash accent from a bare-head Profoto D2, positioned to avoid glare on the screens, creating crisp shadows of the phones and hand on the cream surface, plus a subtle fill from the right. 8K ultra-high resolution, 16-bit color depth, tack-sharp on both screens, true-to-life colors, premium brand presentation quality.
 NO app logos. NO Instagram, TikTok or Facebook icons. NO misspelled words. NO extra readable text. NO other brand logos. NO watermarks. NO screen glare hiding the content. NO distorted hands or extra fingers.
 4:5 vertical, 1080x1350.
+
+## 8. Piezas publicitarias a partir del brand board: prompt maestro de performance (Meta/TikTok)
 AHORA CON EL BRAND BOARD CREADO, PROCEDAMOS A CREAR 5 PIEZAS PUBLICITARIAS CON EL PROMPT MAESTRO QUE VERAS A CONTINUACIÓN, SI YA TIENES PROMOS O PAQUETES DE TU PRODUCTO QUE QUIERES PLASMAR EN UNA PIEZA PARA PAUTAR, DALE CONTEXTO A LA IA, HAZLO EN ORDEN, EN ESTE CASO ME INVENTE 5 PROMOS PARA EL PRODUCTO DE LAS GALLETAS DE PERRITO. COPIA Y PEGA ESTE PROMPT HABIENDO DADO CONTEXTO ANTES Y POR FAVOR DILE A LA IA CUANTAS PIEZAS PUBLICITARIAS QUIERES CREAR. 
 PROMPT MAESTRO: 
 ROLE
@@ -2329,3 +2394,461 @@ RULES
 - Every prompt must work on its own, with all references included.
 - Keep ad texts short so the image generator renders them correctly.
 - Everything must look like a real photograph, never an illustration or render.
+
+---
+
+# Secciones añadidas del documento del curso
+[NOTA DE LA HERRAMIENTA: las secciones 9 a 13 vienen del documento del curso «PROMPTS PARA CREACIÓN DE AVATARES» (.docx) y se copiaron tal cual, sin las imágenes de resultado. Los nombres de marca (ReActiva, Marfil, Jaguara), handles, teléfonos, direcciones y precios son de los ejemplos: nunca son valores por defecto (regla HEADER de SKILL.md). Al adaptarlos, los textos visibles van con tildes y Ñ según references/corrector-espanol.md, y el realismo de cada prompt se respeta tal como viene (REGLA #2).]
+
+## 9. Product board solo producto: prompt maestro (genera sesiones como la 4.3)
+Product Board sin modelo UGC — Solo el producto
+Hasta ahora hemos trabajado con nuestra modelo UGC, pero ¿qué pasa cuando quieres una sesión de fotos exclusivamente de tu producto? Sin personas, sin modelos — solo el producto como protagonista absoluto.
+En este ejercicio vamos a pedirle a la IA que nos genere una sesión de fotos completa del producto en diferentes contextos, emulando lo que haría un fotógrafo profesional de producto. Los resultados te van a sorprender.
+¿Cómo hacerlo?
+Adjunta la foto de tu producto, completa el prompt con tu información y dile cuántas imágenes necesitas. La IA analizará tu producto y te generará cada prompt listo para usar, con escenarios que van desde fondos neutros de estudio hasta ambientes lifestyle con props, texturas y composiciones editoriales — todo alineado con las tendencias actuales.
+💡 Entre más fotos de tu producto adjuntes desde diferentes ángulos, mejores y más precisos serán los resultados.
+Copia y pega este prompt — adjunta la foto de tu producto antes de enviarlo
+Eres un director de fotografía comercial especializado en sesiones de producto para redes sociales y e-commerce. Voy a compartirte la foto de mi producto y quiero que me generes [NÚMERO DE IMÁGENES] prompts listos para copiar y pegar, cada uno diseñado para crear una imagen hiperrealista de mi producto en un escenario diferente.
+Contexto de mi marca:
+-   Mi producto es: __________ (descríbelo brevemente)
+-   Mi marca se llama: __________
+-   El estilo visual de mi marca es: __________ (minimalista, colorido, elegante, urbano… o escribe "decídelo tú")
+-   Los colores de mi marca son: __________ (si no los tienes, escribe "decídelo tú")
+-   Las plataformas donde voy a usar estas imágenes son: __________ (Instagram / TikTok / e-commerce / pauta…)
+Con base en esta información y en las tendencias actuales de fotografía de producto para redes sociales, genera [NÚMERO DE IMÁGENES] prompts donde:
+-   Cada imagen tenga un escenario, iluminación y composición completamente diferente
+-   El producto sea siempre el protagonista absoluto, sin modelos ni personas
+-   Los escenarios vayan desde fondos neutros de estudio hasta ambientes lifestyle con props y texturas
+-   Cada prompt esté listo para copiar y pegar directamente en un generador de imágenes de IA
+-   Cada prompt incluya: tipo de fotografía, escenario, iluminación, cámara, ángulo, composición y todos los detalles técnicos necesarios para lograr un resultado hiperrealista
+Analiza bien la foto del producto antes de escribir los prompts para que el color, los materiales, las texturas y los detalles sean precisos en cada imagen.
+💡 Reemplaza [NÚMERO DE IMÁGENES] por la cantidad de piezas que necesitas: 1, 2, 3, 4 o 5. Entre más fotos de tu producto adjuntes desde diferentes ángulos, más precisos serán los resultados.
+
+## 10. Contenido para servicios: fisioterapia ReActiva
+### 10.1 Prompt maestro y 5 prompts sin texto (look sesión de fotos)
+8.  CREACION DE CONTENIDO PARA SERVICIOS
+Hasta ahora hemos trabajado con productos físicos, pero ¿qué pasa si lo que ofreces es un servicio? Esta sección es para ti.
+Vamos a crear piezas de contenido con y sin texto usando como ejemplo una clínica de fisioterapia — pero estos prompts son completamente adaptables a cualquier tipo de servicio: odontología, nutrición, coaching, peluquería, spa, consultoría y mucho más. Solo es cuestión de dar contexto.
+Paso 1 — Crea tu Personality Board
+Antes de generar cualquier pieza, necesitas establecer la consistencia visual de tu personaje. Esto garantiza que en todas las imágenes aparezca siempre la misma persona, con los mismos rasgos, el mismo estilo y la misma energía.
+💡 ¿Quieres aparecer tú en las imágenes? Tómate varias fotos en diferentes poses, expresiones y ángulos, y arma tu propio Personality Board en Canva juntando todas en una sola imagen. Esa será tu referencia visual para todo lo que generes.
+Paso 2 — Cuéntale a la IA sobre tu marca
+Antes de pegar cualquier prompt, copia esta plantilla, complétala y envíala primero. Con esta información la IA tendrá todo el contexto que necesita para adaptar cada pieza a tu negocio:
+Voy a pedirte que generes piezas de contenido visual para mi negocio. Antes de empezar, te doy el contexto:
+-   Mi marca se llama: __________
+-   El servicio que ofrezco es: __________
+-   Mi ciudad es: __________
+-   Mi cliente ideal es: __________ (género, edad, condición o necesidad que lo lleva a buscar el servicio)
+-   Mi usuario en redes es: __________
+-   El tipo de piezas que quiero crear son: __________ (con texto / sin texto / ambas)
+-   El mensaje principal que quiero comunicar es: __________
+-   Vestuario o uniforme del personaje: __________
+-   Paleta de marca: __________ (color 1 #hex + color 2 #hex — si no la tienes, escribe "propón tú una paleta alineada al nicho")
+-   Formato de salida: __________ (4:5 vertical / 9:16 story / 1:1 feed)
+-   Objetivo de las piezas: __________ (vender el servicio / generar confianza / mostrar una promo / testimonio…)
+-   Las plataformas donde voy a publicar son: __________
+Paso 3 — Pega este prompt maestro en el mismo chat
+Una vez hayas enviado tu contexto, pega este prompt a continuación. La IA tomará toda la información que le diste, investigará las tendencias actuales de tu nicho y adaptará cada prompt antes de generarlo:
+Vas a actuar como DIRECTOR DE ARTE Y ESTRATEGA DE CONTENIDO PUBLICITARIO CON IA.
+Tu tarea tiene 3 fases. Usa el contexto que te acabo de dar y NO empieces a generar nada hasta que yo te pegue los prompts al final.
+FASE 1 — INVESTIGACIÓN DE TENDENCIAS
+Con base en el nicho que te indiqué, investiga qué está en tendencia AHORA. Busca y resume:
+-   Formatos y estilos visuales que se están usando para pautar en ese nicho
+-   Ángulos emocionales y ganchos de copy que están funcionando
+-   Colores, composiciones y recursos gráficos recurrentes
+-   Qué está saturado (para evitarlo) y qué oportunidad hay para diferenciarse
+Si tienes acceso a búsqueda web, úsala y cita lo que encuentres. Si no, usa tu conocimiento más reciente del nicho y acláramelo. Entrégame este análisis en máximo 6 viñetas antes de continuar.
+FASE 2 — ADAPTACIÓN DE LOS PROMPTS
+Con esas tendencias y el contexto que te di, adapta los prompts que te voy a pasar. Reglas que NO puedes romper:
+-   La persona de @imagen 1 es siempre la protagonista: mantén su rostro idéntico, no lo cambies
+-   Respeta el vestuario, la paleta y el estilo de marca que te indiqué
+-   Mantén el estilo: hiperrealista 8K, flash directo duro, sombras marcadas, alto contraste
+-   En las piezas CON TEXTO, la escena debe ilustrar el copy — imagen y mensaje deben contar la misma historia
+-   Personas secundarias siempre con rostro nítido y en foco, nunca borrosas
+-   Solo mejora y aterriza a las tendencias; no inventes datos ni cambies la identidad de la marca
+FASE 3 — ENTREGA
+Devuélveme cada prompt final:
+-   En inglés, en párrafo estructurado, listo para copiar y pegar en un generador de imágenes
+-   Numerado y con un título corto en español que diga qué pieza es
+-   Al final de cada uno, una línea en español explicando qué tendencia aplicaste y por qué
+Cuando entiendas todo esto, responde solo con: "Listo, pégame los prompts." Y espera a que yo te los envíe.
+Paso 4 — Pega los prompts uno por uno
+Con todo listo, ya puedes empezar a pegar los prompts que vienen a continuación. La IA los adaptará uno a uno con las tendencias investigadas y el contexto de tu marca.
+5 PROMPTS SIN TEXTO (look sesión de fotos) l
+Los Prompts que veras a continuación son los que debes pegar luego para que la IA los adapte a tu nicho.
+SIN TEXTO 1 — Vocera hero (retrato de campaña, fondo infinito)
+Hyperrealistic 8k commercial studio photoshoot portrait of the woman shown in @imagen 1 — keep her exact facial identity, warm brown skin, and shoulder-length curly auburn-brown hair; do not alter her face. She wears her ReActiva physiotherapist uniform: a fitted teal (#0E5A63) medical scrub set, short-sleeve V-neck scrub top with a small coral (#FF7A59) embroidered chest logo. Half-body, standing on a clean seamless cream studio backdrop, art-directed confident pose, warm approachable smile straight into camera. Professional studio photoshoot with a hard direct flash: harsh frontal light, crisp hard-edged shadow on the seamless backdrop, bright specular highlights and natural shine on her skin, deep contrast, punchy blacks. Ultra-detailed 8k hyperrealism, razor-sharp focus, visible pores and skin texture, polished editorial campaign quality — produced, intentional, not candid. Clean negative space on the right. 4:5 vertical, cream + teal + coral palette.
+SIN TEXTO 2 — Tratamiento hands-on (set clínico dirigido, paciente nítido)
+Hyperrealistic 8k art-directed clinic photoshoot of the woman in @imagen 1 as a physiotherapist — preserve her exact face, warm brown skin and curly auburn-brown hair — wearing her ReActiva uniform (fitted teal #0E5A63 scrub set, coral logo). She treats a patient's shoulder and neck on a treatment table, focused caring expression, hands applying manual therapy. The patient is a real, clearly visible woman in her mid-40s with a natural, in-focus, relaxed face (fully rendered, sharp, NOT blurred). Styled modern clinic set, intentional composition. Professional studio hard flash: harsh frontal light, sharp defined shadows behind them, glossy skin highlights, high contrast, deep blacks. Ultra-detailed 8k hyperrealism, everything tack-sharp, real skin and fabric texture, produced editorial campaign look — not candid. 4:5 vertical, teal + coral + cream palette.
+SIN TEXTO 3 — Guía de movimiento (set producido, paciente nítido)
+Hyperrealistic 8k art-directed rehab-studio photoshoot of the woman in @imagen 1 as a physiotherapist — keep her exact facial identity, warm brown skin, curly auburn-brown hair — in her ReActiva uniform (fitted teal #0E5A63 scrub set, coral logo), guiding a patient through a mobility exercise with a coral resistance band. The patient is a real, clearly visible person in their mid-30s with a natural, in-focus, sharp face (fully rendered, NOT blurred), engaged expression. Styled bright rehab set, intentional art direction, dynamic posed composition. Professional studio hard flash: strong frontal light, hard-edged shadows on the wall behind, bright specular highlights on skin, punchy contrast. Ultra-detailed 8k hyperrealism, tack-sharp, real skin texture, polished commercial campaign quality — not casual. 4:5 vertical, cream + teal + coral palette.
+SIN TEXTO 4 — Detalle editorial / product board (still-life producido)
+Hyperrealistic 8k editorial product photoshoot of a modern physiotherapy corner: clean treatment table with a folded cream towel, a coral foam roller, teal resistance bands and a small plant, styled with generous negative space on a seamless cream (#F4EFE6) background, art-directed still-life composition. At the edge of frame, the hands and forearm of the woman in @imagen 1 (same warm brown skin, wearing her teal ReActiva scrub sleeve) arranging the equipment. Professional studio hard flash: harsh top-front light, crisp hard shadows dropping beneath each object, glossy highlights, high contrast, deep blacks. Ultra-detailed 8k hyperrealism, matte and specular textures crisp, premium produced product-campaign aesthetic. 4:5 vertical, teal + coral accents.
+SIN TEXTO 5 — Vocera de cuerpo entero (campaña, fondo de color)
+Hyperrealistic 8k full-body commercial campaign photoshoot of the woman in @imagen 1 — preserve her exact face, warm brown skin and curly auburn-brown hair — wearing her ReActiva physiotherapist uniform (fitted teal #0E5A63 scrub set, short-sleeve V-neck top, coral #FF7A59 chest logo, white sneakers). She stands on a seamless teal-to-cream studio backdrop in a confident, art-directed dynamic pose, arms relaxed, warm genuine expression. Professional studio photoshoot with a hard direct flash: punchy frontal light, a crisp hard shadow behind her, glossy skin highlights, strong contrast, deep saturated backdrop. Ultra-detailed 8k hyperrealism, razor-sharp, real skin texture, polished branded campaign look — intentional and produced, not casual. 4:5 vertical, teal + coral + cream palette.
+
+### 10.2 Piezas con texto: prompt maestro de entrevista y 5 prompts con texto
+Prompts para imágenes con texto
+Para las piezas con texto el proceso es diferente. Aquí no vas a copiar y pegar prompts genéricos — la IA te va a entrevistar primero para entender tu negocio, tu oferta y tu objetivo, y con esa información construirá 5 piezas personalizadas donde la imagen y el mensaje cuentan la misma historia.
+💡 Este prompt funciona para cualquier nicho. Lo mismo que ves aplicado aquí para fisioterapia lo puedes usar para tu restaurante, tu marca de ropa, tu consulta médica o cualquier servicio que ofrezcas. Solo responde las preguntas y la IA hace el resto.
+Copia y pega este prompt para empezar
+Una vez lo envíes, la IA te hará una serie de preguntas sobre tu marca, tu oferta y tu objetivo. Respóndelas con la información de tu negocio y al final recibirás 5 prompts listos para generar tus piezas publicitarias con texto.
+Prompt:
+Vas a actuar como ESTRATEGA DE CONTENIDO PUBLICITARIO Y COPYWRITER CON IA.
+Tu objetivo es ayudarme a crear 5 piezas publicitarias CON TEXTO para un negocio. Trabaja en 3 fases y NO generes prompts hasta terminar la Fase 1.
+IMPORTANTE: al final me entregarás SIEMPRE 5 PROMPTS CON TEXTO. Estos 5 prompts parten de una estructura base fija (abajo, en la Fase 3), pero tú los vas a ADAPTAR según la información que yo te suministre en la entrevista (nicho, objetivo, oferta, fecha especial, lanzamiento, tono, paleta, etc.). Así los mismos 5 prompts sirven para CUALQUIER nicho: solo cambia la escena, el copy y el enfoque según mi caso.
+FASE 1 — ENTREVISTA (hazme las preguntas en una lista clara y espera mis respuestas)
+Pregúntame:
+¿De qué negocio o marca es y en qué nicho está? ¿En qué ciudad?
+¿Cuál es el objetivo de estas 5 piezas? (vender un servicio, promo, lanzamiento, testimonio, agendar citas, posicionar marca…)
+¿Hay una oferta o promoción puntual? ¿Cuál y con qué condiciones? (descuento, 2x1, valoración gratis, precio especial…)
+¿Es por una fecha o temporada especial? (Día de la Madre, Black Friday, aniversario, Navidad, lanzamiento nuevo…)
+Si es un lanzamiento: ¿qué es lo nuevo y por qué le importa a la gente?
+¿Hay fecha límite o urgencia? (ejemplo: "solo hasta el 30", "cupos limitados")
+¿Qué acción quiero que haga la gente? (CTA: escribir a WhatsApp, agendar, comprar, registrarse…)
+¿Datos de contacto y handle a mostrar? (WhatsApp, @usuario, dirección)
+¿Qué tono quiero? (cercano, premium, divertido, directo, emocional)
+¿Tengo una modelo o vocera de referencia? (si sí, será @imagen 1 y protagoniza las piezas)
+¿Cuáles son los colores o paleta de la marca?
+¿Formato? (4:5 feed / 9:16 story / 1:1)
+Si no respondo algo, propón tú una opción lógica y síguela sin frenarte.
+FASE 2 — ESTRATEGIA DE LAS 5 PIEZAS
+Con mis respuestas, propón un mini-plan: qué comunica cada una de las 5 piezas para que no se repitan y cuenten una historia. Usa como esqueleto base estas 5 intenciones y adáptalas a mi caso:
+Gancho de dolor o problema (lo que le duele o le falta al cliente)
+Beneficio o transformación (el resultado que logra con el negocio)
+Oferta / urgencia / fecha especial (si la hay; si no, prueba de autoridad)
+Prueba social / testimonio / confianza
+CTA final directo (cierre + contacto)
+Muéstrame el plan en una línea por pieza antes de escribir los prompts, ya ajustado a mi nicho, oferta y fecha.
+FASE 3 — 5 PROMPTS FINALES (adaptados a mi información)
+Entrégame los 5 prompts, uno por cada intención de la Fase 2, ADAPTANDO la escena y el copy a lo que te di. Cada prompt debe cumplir SIEMPRE estas reglas:
+La escena debe ILUSTRAR el copy — imagen y mensaje cuentan la misma historia. La escena cambia según mi nicho, no la dejes genérica
+La persona de @imagen 1 es la protagonista; mantén su rostro idéntico, no lo cambies
+Personas secundarias con rostro nítido y en foco, nunca borrosas
+Estilo obligatorio: authentic editorial photograph, full-frame DSLR, 50mm, real skin with visible pores and natural texture, no plastic/waxy skin, no CGI, true-to-life photorealism, 8K, hard direct flash, sombras marcadas, alto contraste
+El cuerpo del prompt (escena y estilo) en INGLÉS; el texto a renderizar en ESPAÑOL, tal cual, en un bloque "Render this exact Spanish text:" con headline, subhead, botón/CTA y línea de contacto
+Respeta la paleta y el formato que te di
+No inventes datos, precios ni estadísticas que yo no haya dado
+Numera cada pieza y ponle un título corto en español que diga qué comunica
+Recuérdame al entregar: son 5 prompts base adaptados a mi negocio, y puedo pedirte que ajustemos cualquiera.
+Empieza ahora por la FASE 1 y hazme las preguntas.
+PROMPTS CON TEXTO
+CON TEXTO 1 — Dolor de escritorio
+Authentic editorial photograph shot on a full-frame DSLR, 50mm lens, real human skin with visible pores, fine natural texture and subtle imperfections, no plastic or waxy skin, no airbrushing, no CGI or 3D-render look, true-to-life photorealism, 8k ultra-detailed. Advertising scene that illustrates desk-related back pain and its treatment, 4:5 vertical. The woman in @imagen 1 as a physiotherapist — keep her exact face, warm brown skin, curly auburn-brown hair — in her ReActiva uniform (fitted teal #0E5A63 scrub set, coral #FF7A59 chest logo), standing behind a seated office-worker patient and assessing her lower lumbar spine with both hands, reassuring focused expression. The patient is a real, clearly visible woman in her mid-30s in a work blouse, seated on a treatment stool, one hand on her sore lower back, natural in-focus sharp face (NOT blurred), real skin texture. Modern clinic. Hard direct on-camera flash: harsh frontal light, crisp hard shadow on the wall behind, glossy realistic skin highlights, deep contrast, punchy blacks — raw flash-photography look, not glossy CGI. Leave a clean teal text zone on the right third.
+Render this exact Spanish text:
+Headline (large, cream): "¿El escritorio te está partiendo la espalda?"
+Subhead (coral): "Terapia especializada en dolor lumbar y de cuello."
+Button (coral pill, cream text): "Agenda tu valoración"
+Small line (cream): "@reactiva.cali · Granada, Cali"
+CON TEXTO 2 — Rehabilitación deportiva
+Authentic editorial photograph shot on a full-frame DSLR, 50mm lens, real human skin with visible pores, fine natural texture and subtle imperfections, no plastic or waxy skin, no airbrushing, no CGI or 3D-render look, true-to-life photorealism, 8k ultra-detailed. Dynamic sports-rehab advertising scene showing injury recovery in action, 4:5 vertical. The woman in @imagen 1 as a physiotherapist — preserve her exact facial identity, warm brown skin, curly auburn-brown hair — in her ReActiva uniform (fitted teal #0E5A63 scrub set, coral logo), guiding an amateur athlete through a knee rehabilitation step, one hand supporting his knee. The athlete is a real, clearly visible man in his late 20s in athletic wear with a visible knee brace, natural in-focus sharp face (NOT blurred), determined expression, real sweaty skin texture, mid-exercise. Dark charcoal clinic-gym. Hard direct flash: harsh punchy frontal light, sharp hard shadows, realistic glossy skin highlights, extreme contrast, deep blacks with a subtle teal-to-coral glow — raw flash look, not plastic. Clean bold sans-serif text zone at the top.
+Render this exact Spanish text:
+Headline (bold, cream): "Vuelve a jugar sin miedo a la lesión."
+Subhead (coral): "Rehabilitación deportiva que te devuelve al 100%."
+Button (coral): "Reserva por WhatsApp"
+Corner tag (cream): "ReActiva · Cali"
+CON TEXTO 3 — Adulto mayor activo
+Authentic editorial photograph shot on a full-frame DSLR, 50mm lens, real human skin with visible pores, fine natural texture and subtle imperfections and natural age lines, no plastic or waxy skin, no airbrushing, no CGI or 3D-render look, true-to-life photorealism, 8k ultra-detailed. Aspirational scene showing an older adult moving freely and strong, 4:5 vertical. The woman in @imagen 1 as a physiotherapist — keep her exact face, warm brown skin, curly auburn-brown hair — in her ReActiva uniform (fitted teal #0E5A63 scrub set, coral logo), actively encouraging an energetic senior through a standing strength/balance exercise with a light coral dumbbell, both mid-movement. The senior is a real, clearly visible woman in her early 70s in activewear, natural in-focus sharp face with realistic aged skin (NOT blurred), big genuine smile, vigorous and independent. Bright airy clinic. Hard direct flash: strong frontal light, crisp hard shadows behind them, bright realistic highlights on skin, high contrast, punchy clean look against a cream backdrop — raw flash look, not plastic. Clean modern sans-serif text zone top-left.
+Render this exact Spanish text:
+Headline (bold, teal): "Moverte sin dolor no es cosa de edad."
+Subhead (dark grey): "Fisioterapia geriátrica para recuperar tu independencia."
+Button (teal pill, cream text): "Agenda tu cita"
+Bottom line: "@reactiva.cali · Granada, Cali"
+CON TEXTO 4 — Post-quirúrgico
+Authentic editorial photograph shot on a full-frame DSLR, 50mm lens, real human skin with visible pores, fine natural texture and subtle imperfections, no plastic or waxy skin, no airbrushing, no CGI or 3D-render look, true-to-life photorealism, 8k ultra-detailed. Trust-focused scene showing post-surgery knee rehabilitation, 4:5 vertical. The woman in @imagen 1 as a physiotherapist — preserve her exact facial identity, warm brown skin, curly auburn-brown hair — in her ReActiva uniform (fitted teal #0E5A63 scrub set, coral logo), gently performing guided range-of-motion on a post-op patient's knee on a treatment table, calm precise caring expression. The patient is a real, clearly visible person in their 50s lying on the table, one knee showing a subtle realistic post-surgical scar and a light brace, natural in-focus sharp face (NOT blurred), trusting relieved expression, real skin texture. Minimalist bright clinic. Hard direct flash: harsh frontal light, crisp defined shadows on the cream wall behind, glossy realistic skin highlights, high contrast, deep blacks — raw flash look, not glossy CGI. Refined sans-serif text zone with white space at the bottom.
+Render this exact Spanish text:
+Headline (teal, elegant): "Después de la cirugía, la recuperación lo es todo."
+Subhead (grey): "Rehabilitación post-operatoria con acompañamiento real."
+Button (coral): "Habla con nosotros"
+Small line (grey): "ReActiva · Fisioterapia · Cali"
+CON TEXTO 5 — Promo / valoración (revisando radiografía en consulta)
+Authentic editorial photograph shot on a full-frame DSLR, 50mm lens, real human skin with visible pores, fine natural texture and subtle imperfections, no plastic or waxy skin, no airbrushing, no CGI or 3D-render look, true-to-life photorealism, 8k ultra-detailed. Conversion scene showing a first physiotherapy assessment (valoración) in a consultation, 4:5 vertical. The woman in @imagen 1 as a physiotherapist — keep her exact face, warm brown skin, curly auburn-brown hair — in her ReActiva uniform (fitted teal #0E5A63 scrub set, coral chest logo), holding up a real spine/knee X-ray film in her hands and reviewing it, pointing at a detail on the radiograph while explaining to the patient, warm confident professional expression. The patient is a real, clearly visible person in their late 30s seated beside her, leaning in to look at the X-ray, natural in-focus sharp face (NOT blurred), attentive hopeful expression, real skin texture. Modern clinic consultation desk, a lightbox or monitor with an X-ray softly visible behind. Hard direct flash: harsh frontal light, crisp hard shadow on the wall behind, bright realistic glossy skin highlights, punchy high contrast, deep blacks — raw flash look, not plastic. A clean coral circular badge top corner.
+Render this exact Spanish text:
+Badge (cream on coral): "1ª VALORACIÓN SIN COSTO"
+Headline (bold, teal): "Conoce tu diagnóstico antes de decidir."
+Subhead (grey): "Tu primera valoración es gratis. Ven y define tu plan."
+Button (coral pill, cream text): "Agenda por WhatsApp"
+Bottom line (teal): "@reactiva.cali · +57 320 000 0000 · Granada, Cali"
+
+## 11. Imágenes conceptuales sin modelo: dolores comunes (ReActiva)
+Piezas de contenido sin modelo UGC — Imágenes conceptuales desde cero
+En esta sección no vamos a usar una modelo ni una vocera. Vamos a crear imágenes conceptuales que usan metáforas visuales, recursos creativos y elementos gráficos para hablar de un problema, educar a tu audiencia y llevarla a la acción.
+Este tipo de piezas funciona muy bien para negocios de servicios, contenido educativo, carruseles informativos y campañas que buscan generar conciencia antes de vender.
+💡 Puedes crear una imagen suelta sobre un tema puntual, o un carrusel completo de varias láminas. La IA te preguntará qué necesitas y construirá la estructura contigo antes de generar nada.
+Cómo funciona
+La IA te hará una entrevista primero. Con tus respuestas construirá la estrategia y la estructura de las piezas, y solo entonces empezará a adaptar los prompts — uno por uno, esperando tu aprobación antes de pasar al siguiente. Así tienes control total sobre cada pieza.
+Copia y pega este prompt para empezar
+Vas a actuar como DIRECTOR CREATIVO Y COPYWRITER PUBLICITARIO CON IA.
+Tu especialidad son piezas CONCEPTUALES SIN persona vocera: usan metáforas visuales, anatomía, mapas de dolor y recursos creativos para hablar de un problema y llevar a la acción. Trabaja por fases y NO generes ni adaptes prompts hasta terminar la Fase 1.
+IMPORTANTE: después de la entrevista, YO te voy a pegar unos PROMPTS BASE ya escritos. Tu trabajo NO es inventarlos de cero, sino ADAPTARLOS con base en la información que te di al inicio (nicho, tema, objetivo, oferta, tono, paleta, formato, etc.). Y quiero que los adaptes UNO POR UNO: adaptas el primer prompt, me lo entregas, esperas mi OK o mis ajustes, y solo entonces sigues con el siguiente.
+FASE 1 — ENTREVISTA (hazme las preguntas en lista y espera mis respuestas)
+1.  ¿De qué negocio o marca es y en qué nicho está? ¿En qué ciudad?
+2.  ¿Qué quieres crear?
+    -   a) Una imagen suelta sobre un tema puntual, o
+    -   b) Un carrusel (dime de cuántas láminas: 3, 5, 7…)
+3.  ¿De qué tema, dolor o problema quieres hablar? (ejemplo: dolor lumbar, ciática, cuello de oficina… o el problema que resuelve tu negocio)
+    -   Si es carrusel: ¿un solo tema desarrollado por láminas, o varios temas, uno por lámina?
+4.  ¿Cuál es el objetivo? (educar, generar urgencia, vender, agendar, posicionar)
+5.  ¿Hay oferta, fecha especial o urgencia? (opcional)
+6.  ¿Qué acción final quieres? (CTA: WhatsApp, agendar, comprar…)
+7.  ¿Datos de contacto y handle a mostrar?
+8.  ¿Tono? (dramático, cercano, educativo, premium, directo)
+9.  ¿Paleta de colores de la marca? (dame los hex si los tienes)
+10. ¿Formato? (4:5 feed / 9:16 story / 1:1)
+Si no respondo algo, propón una opción lógica y sigue sin frenarte.
+FASE 2 — ESTRATEGIA Y ESTRUCTURA
+Con mis respuestas:
+-   Si elegí IMAGEN SUELTA: propón el concepto visual creativo (la metáfora o recurso) + el copy en una línea, y confírmame antes de continuar
+-   Si elegí CARRUSEL: propón el guion lámina por lámina siguiendo un arco que enganche y cierre, por ejemplo:
+    -   L1 gancho/dolor → L2 por qué pasa → L3 consecuencia de no tratarlo → L4 la solución → L5 CTA + contacto
+    -   Adapta la cantidad de láminas a lo que pedí. Dame el guion en una línea por lámina antes de continuar
+Muéstrame la estructura y espera mi OK antes de continuar.
+FASE 3 — ADAPTACIÓN DE LOS PROMPTS BASE (UNO POR UNO)
+Cuando yo te pegue los prompts base, procédelos así:
+-   Toma SOLO el primer prompt. Adáptalo a mi información (mi nicho, mi tema, mi paleta, mi formato, mi tono, mi CTA y contacto). Cambia la escena, el recurso visual y el copy para que hablen de MI caso, no del ejemplo original
+-   Entrégame ese primer prompt adaptado y DETENTE. Pregúntame si lo apruebo o quiero ajustes
+-   Cuando yo confirme, pasa al segundo, y así sucesivamente, uno a la vez
+-   No adaptes ni muestres los siguientes hasta que yo apruebe el anterior
+Cada prompt adaptado debe cumplir SIEMPRE:
+-   Concepto visual creativo que ILUSTRE el tema (metáfora, anatomía que brilla, mapa térmico, objeto simbólico… varía el recurso entre piezas para que no se repitan)
+-   SIN persona vocera de referencia — si aparece alguien, es una persona genérica realista con rostro nítido, nunca borroso
+-   Ficha técnica obligatoria: Shot on a Canon EOS R5, 45MP full-frame sensor, RF 50mm f/1.2 lens (ajusta el lente al plano: 35mm ambientes, 100mm macro), direct on-camera flash (bare Godox V1 speedlight) firing straight, hard undiffused light, f/8, ISO 100, 1/200s. 8K, true-to-life photorealism, real skin with visible pores and natural texture, no plastic/waxy skin, no CGI, subtle film grain, hard shadows, high contrast
+-   Cuerpo del prompt en INGLÉS; el texto a renderizar en ESPAÑOL en un bloque "Render this exact Spanish text:" con headline, subhead y CTA/contacto donde aplique
+-   Respeta mi paleta y formato. Deja una zona limpia para el texto
+-   No inventes datos, precios ni estadísticas que yo no haya dado
+-   Ponle un título corto en español a cada pieza y, si es carrusel, mantén coherencia visual entre láminas (misma paleta, mismo flash, misma tipografía)
+Empieza ahora por la FASE 1 y hazme las preguntas. No me pidas los prompts base todavía — me los pedirás al llegar a la Fase 3.
+5 PROMPTS SIN MODELO UGC — Dolores comunes · ReActiva
+1 — Dolor lumbar → cara de dolor + espalda al rojo vivo
+Shot on a Canon EOS R5, 45MP full-frame sensor, RF 50mm f/1.2 lens, direct on-camera flash (bare Godox V1 speedlight) firing straight at the subject with hard undiffused light, f/8, ISO 100, 1/200s. 8k ultra-detailed, true-to-life photorealism, real human skin with visible pores, no plastic or waxy skin, no CGI, subtle film grain. Dramatic three-quarter shot of a real person, FULLY CLOTHED in a fitted grey athletic t-shirt and dark leggings, on a dark charcoal background. Torso twisted so the lower back faces the camera while the face turns back over the shoulder toward the lens, showing a clear expression of pain — furrowed brow, eyes tight, jaw tense — one hand pressed against the sore lower back over the shirt. Hard frontal flash, crisp hard shadow behind, high contrast, deep punchy blacks. A glowing hot red-and-orange thermal light radiates from the lower lumbar area, glowing THROUGH the fabric of the shirt as if the pain were burning inside, heat haze around the sore zone. Cinematic, intense, relatable, modest and fully dressed. Leave a clean dark text zone at the top. 4:5 vertical.
+Render this exact Spanish text:
+Headline (bold, cream): "Ese dolor de espalda no se va solo."
+Subhead (coral): "En ReActiva tratamos el origen, no solo el síntoma."
+Button (coral pill, cream text): "Agenda tu valoración"
+Small line (cream): "@reactiva.cali · Granada, Cali"
+Palette: charcoal + coral + cream.
+2 — Dolor de rodilla → mini-equipo reparador
+Shot on a Canon EOS R5, 45MP full-frame sensor, RF 100mm f/2.8 macro lens, tilt-shift miniature effect, direct on-camera flash (bare Godox V1 speedlight) firing straight with hard undiffused light, f/11, ISO 100, 1/200s. 8k ultra-detailed, true-to-life photorealism, real textures, no plastic or CGI look, subtle film grain. A giant hyperrealistic human knee joint (bone, cartilage, ligaments) resting on a seamless cream (#F4EFE6) studio background. Around it, a team of tiny realistic miniature workers in teal (#0E5A63) physiotherapy scrubs with coral accents, using small tools, ropes and a little scaffold to repair, massage and rehabilitate the knee, some carrying tiny resistance bands. Hard direct flash, crisp hard shadows under the joint and figures, glossy realistic highlights, high contrast, premium surreal advertising concept. Leave a clean cream text zone on the left. 4:5 vertical.
+Render this exact Spanish text:
+Headline (bold, teal): "Tu rodilla no está para aguantar más."
+Subhead (dark grey): "La recuperamos con terapia especializada, paso a paso."
+Button (coral pill, cream text): "Habla con nosotros"
+Small line (grey): "ReActiva · Fisioterapia · Cali"
+Palette: cream + teal + coral.
+3 — Ciática → nervio eléctrico que baja por la pierna
+Shot on a Canon EOS R5, 45MP full-frame sensor, RF 50mm f/1.2 lens, direct on-camera flash (bare Godox V1 speedlight) firing straight with hard undiffused light, f/8, ISO 100, 1/200s. 8k ultra-detailed, true-to-life photorealism, real skin texture, no plastic/waxy skin, no CGI, subtle film grain. Desaturated near-grayscale shot of a real person, FULLY CLOTHED in dark fitted joggers/leggings and a t-shirt, seen from the side on a dark background, hard frontal flash, crisp hard shadow, high contrast, deep blacks. A single vivid glowing red-and-electric-blue nerve pathway (the sciatic nerve) runs from the lower back down through the glute and back of the thigh to the calf, glowing THROUGH the clothing with tiny electric sparks and a hot glow, as if the pain were live electricity under the fabric. The person's hand touches the hip with a subtle strained posture. Intense, cinematic, modest and fully dressed. Leave a clean dark text zone on the right. 4:5 vertical.
+Render this exact Spanish text:
+Headline (bold, cream): "Ese corrientazo que baja por la pierna tiene nombre: ciática."
+Subhead (coral): "Y sí, tiene tratamiento. En ReActiva lo calmamos de raíz."
+Button (coral pill, cream text): "Agenda tu cita"
+Small line (cream): "@reactiva.cali · Granada, Cali"
+Palette: charcoal + electric red + coral.
+4 — Cuello de oficina → el gesto real de la tensión
+Shot on a Canon EOS R5, 45MP full-frame sensor, RF 35mm f/1.4 lens, direct on-camera flash (bare Godox V1 speedlight) firing straight with hard undiffused light, f/8, ISO 200, 1/200s. 8k ultra-detailed, true-to-life photorealism, real human skin with visible pores and fabric texture, no plastic or CGI look, subtle film grain. A real office worker, FULLY CLOTHED in a shirt or casual blouse, sitting at a desk in front of a laptop in a dim modern office, seen from a three-quarter front angle. Head tilted, eyes closed with a tense pained expression, one hand gripping and squeezing the side of the neck/trapezius in the classic gesture of stiff-neck tension after long hours. Hard frontal flash, crisp hard shadow on the wall behind, high contrast, deep blacks, glossy realistic skin highlights. A subtle, restrained warm red glow concentrated only under the hand on the neck to hint at the pain point, kept realistic and minimal. Relatable, everyday, cinematic. Leave a clean dark text zone at the top. 4:5 vertical.
+Render this exact Spanish text:
+Headline (bold, cream): "8 horas frente al computador, y el cuello lo paga."
+Subhead (coral): "Libera la tensión con terapia manual en ReActiva."
+Button (coral pill, cream text): "Reserva por WhatsApp"
+Small line (cream): "@reactiva.cali · Granada, Cali"
+Palette: charcoal + coral + cream.
+5 — Dolor acumulado → el momento cotidiano en que aparece
+Shot on a Canon EOS R5, 45MP full-frame sensor, RF 50mm f/1.2 lens, direct on-camera flash (bare Godox V1 speedlight) firing straight at the subject with hard undiffused light, f/8, ISO 100, 1/200s. 8k ultra-detailed, true-to-life photorealism, real human skin with visible pores and natural texture, no plastic or CGI look, subtle film grain. A real, relatable everyday scene: a person in their 40s, FULLY CLOTHED in casual home clothes, caught mid-movement getting up from a sofa (or bending to pick something off the floor), frozen by a stab of lower-back pain — one hand pressed to the small of the back, face showing a genuine wince, body slightly hunched. Warm domestic living room softly visible behind. Hard frontal flash, crisp hard shadow, high contrast, deep blacks, glossy realistic skin highlights. A subtle restrained warm-red glow only at the lower back hints at the pain point, kept minimal and realistic. Honest, documentary, deeply relatable. Leave a clean text zone on the right. 4:5 vertical.
+Render this exact Spanish text:
+Headline (bold, teal): "Agacharte no debería doler."
+Subhead (dark grey): "Ese dolor que aparece de la nada, en ReActiva lo tratamos."
+Button (coral pill, cream text): "Agenda tu valoración"
+Small line (grey): "@reactiva.cali · +57 320 000 0000 · Granada, Cali"
+Palette: cream + teal + coral.
+
+## 12. Inmobiliaria: Marfil (5 piezas + pieza maestra)
+Ejercicio aplicado — Firma inmobiliaria
+Vamos a llevar todo lo que aprendiste a un nuevo contexto: una firma inmobiliaria. Este es un nicho donde el contenido visual lo es todo — las imágenes son las que venden, generan confianza y diferencian una marca de las demás.
+Pero recuerda — este es solo un ejemplo. El proceso y los prompts que verás a continuación son completamente adaptables a cualquier nicho: moda, salud, educación, gastronomía, tecnología o cualquier otro tipo de negocio. Solo cambia el contexto y la IA hace el resto.
+Antes de empezar — Ten listo tu material
+Este es el paso más importante. La calidad de las piezas que generes depende directamente del material que le entregues a la IA.
+¿Qué necesitas tener listo?
+-   Fotos del inmueble o proyecto — interiores, exteriores, espacios comunes, detalles arquitectónicos. Entre más claras y bien iluminadas estén, mejor será el resultado
+-   Fotos de tu modelo o vocera — si quieres que aparezca una persona representando la marca, ten listo su Personality Board como lo vimos en secciones anteriores
+-   Material de marca — logo, colores, tipografías, cualquier elemento visual que identifique tu firma
+-   Información del proyecto — nombre, ubicación, precio, características principales, a quién va dirigido
+💡 Si ya tienes fotos previas de proyectos, propiedades o eventos de tu firma, úsalas. Ese material real le da a la IA referencias concretas para generar piezas auténticas y alineadas con tu portafolio.
+Antes de usar los prompts, comparte este contexto con la IA
+Copia este mensaje, complétalo y pégalo primero en el chat:
+Voy a pedirte que generes piezas de contenido visual para mi firma inmobiliaria. Antes de empezar, te doy el contexto:
+-   Mi firma se llama: __________
+-   Mi usuario en redes es: __________
+-   El proyecto o inmueble que quiero promocionar es: __________ (nombre del proyecto, tipo de inmueble: apartamento, casa, local, oficina, lote…)
+-   La ubicación es: __________ (ciudad, barrio o sector)
+-   El precio es: __________ (si no lo quieres mostrar, escribe "sin precio")
+-   Las características principales que quiero destacar son: __________ (número de habitaciones, baños, áreas, vistas, amenidades, estrato…)
+-   ¿Hay una oferta o condición especial? __________ (separación con X valor, descuento por preventa, entrega inmediata, financiación… o escribe "no por ahora")
+-   Mi cliente ideal es: __________ (familias, inversionistas, jóvenes profesionales, empresas…)
+-   El tipo de piezas que quiero crear son: __________ (con texto / sin texto / ambas)
+-   El tono de mi marca es: __________ (premium / cercano / moderno / exclusivo / confiable…)
+-   Los colores de mi marca son: __________ (si no los tienes definidos, escribe "decídelo tú")
+-   El formato que necesito es: __________ (4:5 feed / 9:16 story / 1:1)
+-   Las plataformas donde voy a publicar son: __________ (Instagram / Facebook / pauta / portal inmobiliario…)
+-   El CTA que quiero usar es: __________ (escríbenos al WhatsApp / agenda tu visita / solicita más información…)
+-   Datos de contacto a mostrar en las piezas: __________ (teléfono, WhatsApp, @usuario, dirección…)
+Con esta información, adapta los prompts que te voy a compartir a continuación uno por uno a mi firma, mi proyecto y mis objetivos.
+💡 No te preocupes si no tienes todos los datos. Lo que no completes la IA lo inferirá de forma coherente con tu nicho. Y recuerda adjuntar las fotos del inmueble o proyecto antes de empezar — ese material es la base de todo.
+RESULTADO:
+5 PROMPTS COMPLETOS — Marfil Inmobiliaria (sube tu foto + pega el prompt)
+1 — Finca / casa de campo · texto flotante sobre el cielo
+Use the attached photo as the base. This is a REAL photograph — do not redraw, regenerate or restyle the country house (white walls, terracotta tile roof, wooden porch, furniture, lawn, trees, hills), its materials or perspective; only apply a subtle warm golden late-afternoon editorial color grade. Result must look like an authentic photograph, indistinguishable from a real DSLR photo, real material texture (rough tile, natural wood grain, real grass), natural imperfections, no CGI, no 3D-render, no plastic look, subtle film grain, 8k, architecture-magazine realism.
+LAYOUT (no band): place the text directly over the open sky area at the top, with a very soft barely-visible light scrim only behind the letters for legibility, and a thin brass hairline rule under the headline. Small handle centered at the very bottom over the lawn. Airy, editorial, minimal. Cream (#F4ECE0), taupe (#B8A489) and deep-olive (#55603F) palette. 4:5 vertical.
+TYPOGRAPHY: headline in a high-contrast Didone display serif (Didot / Bodoni / Canela style), pronounced thick-thin strokes, luxury-magazine elegance and authority; subhead, CTA and handle in a refined neo-grotesque sans (Neue Haas Grotesk / Söhne style) in UPPERCASE with wide letter-spacing; generous spacing, editorial hierarchy, nothing generic or plain.
+Render this exact Spanish text:
+Headline (Didone serif, charcoal, large): "Tu refugio de fin de semana, a minutos de Cali."
+Subhead (uppercase grotesque, wide tracking, taupe): "CASAS DE CAMPO CON ALMA, PARA DESCONECTARTE DE VERDAD"
+Button (deep-olive pill, uppercase cream text, tracked): "CONOCE EL PROYECTO"
+Handle (uppercase grotesque, charcoal, bottom center): "@MARFIL.INMOBILIARIA"
+2 — Edificio urbano de ladrillo · panel vertical crema lateral (tipo portada)
+Use the attached photo as the base. This is a REAL photograph — do not redraw, regenerate or restyle the corner brick building (red brick, black window frames, balconies, ground-floor commercial space, street, dusk sky), its materials or perspective; only apply a subtle warm editorial color grade and enhance the warm interior lights glowing against the blue dusk. Result must look like an authentic photograph, indistinguishable from a real DSLR photo, real brick and glass texture, natural imperfections, no CGI, no 3D-render, no plastic look, subtle film grain, 8k, high-end real-estate photography realism.
+LAYOUT (vertical side panel): add a narrow solid cream (#F4ECE0) vertical panel down the LEFT third; the building photo fills the right two-thirds. Stack the text vertically inside the cream panel, with a thin brass vertical hairline separating panel and photo. Magazine-cover feel. Cream, taupe (#B8A489) and deep-olive (#55603F) palette. 4:5 vertical.
+TYPOGRAPHY: headline in a high-contrast Didone display serif (Didot / Bodoni / Canela style), pronounced thick-thin strokes, luxury-magazine authority; subhead, CTA and handle in a refined neo-grotesque sans (Neue Haas Grotesk / Söhne style) in UPPERCASE with wide letter-spacing; editorial hierarchy, nothing generic.
+Render this exact Spanish text (inside left cream panel):
+Headline (Didone serif, charcoal): "Vivir en la ciudad, sin renunciar a la calma."
+Subhead (uppercase grotesque, wide tracking, taupe): "APARTAMENTOS DE DISEÑO EN UNA DE LAS MEJORES ESQUINAS DE CALI"
+Button (deep-olive pill, uppercase cream text, tracked): "AGENDA TU VISITA"
+Small line (uppercase grotesque, charcoal): "@MARFIL.INMOBILIARIA · EL PEÑÓN, CALI"
+3 — Apartaestudio · degradado inferior + etiqueta esquina
+Use the attached photo as the base. This is a REAL interior photograph — do not move furniture, redraw, regenerate or restyle the studio apartment (kitchen, bed, dining nook, wood floor, mirror, balcony, city view) or its perspective; only apply a subtle warm cozy editorial color grade. Result must look like an authentic photograph, indistinguishable from a real DSLR interior photo, real material texture (wood, fabric, matte surfaces), natural imperfections, no CGI, no 3D-render, no plastic look, subtle film grain, 8k, interior-design magazine realism.
+LAYOUT (no solid band): add a soft dark-to-transparent gradient scrim rising from the bottom edge only, and place the text bottom-left directly over the image. Add a small rectangular olive-outline kicker tag in the TOP-LEFT. Photographic, editorial, unobtrusive. Cream (#F4ECE0), taupe and deep-olive (#55603F) palette. 4:5 vertical.
+TYPOGRAPHY: headline in a high-contrast Didone display serif (Didot / Bodoni / Canela style), luxury-magazine authority; kicker, subhead, CTA and handle in a refined neo-grotesque sans (Neue Haas Grotesk / Söhne style) in UPPERCASE with wide letter-spacing; editorial hierarchy, nothing generic.
+Render this exact Spanish text:
+Kicker tag (top-left, olive outline, uppercase tracked): "EN VENTA · EN RENTA"
+Headline (Didone serif, cream, bottom-left): "Tu primer apartamento, o tu próxima inversión."
+Subhead (uppercase grotesque, wide tracking, cream): "APARTAESTUDIOS INTELIGENTES, LISTOS PARA VIVIR O RENTAR"
+Button (deep-olive pill, uppercase cream text, tracked): "QUIERO MÁS INFORMACIÓN"
+Handle (uppercase grotesque, cream): "@MARFIL.INMOBILIARIA"
+4 — Casa de lujo moderna · foto enmarcada con margen crema (tipo galería)
+Use the attached photo as the base. This is a REAL photograph — do not redraw, regenerate or restyle the modern luxury house (wood, stone and glass facade, entrance, lawn, stepping-stone path, car), its materials or perspective; only apply a subtle warm golden-hour editorial color grade with glass warmly lit from inside. Result must look like an authentic photograph, indistinguishable from a real DSLR photo, real material texture (stone, wood cladding, glass reflections, real grass), natural imperfections, no CGI, no 3D-render, no plastic look, subtle film grain, 8k, premium architecture photography realism.
+LAYOUT (matted frame): inset the photo inside a generous solid cream (#F4ECE0) margin/border on all sides, like a gallery mat or magazine plate. Put a small wordmark "MARFIL" centered in the TOP margin, and the headline block in the wider BOTTOM margin. Thin brass hairline framing the photo. Refined, gallery-like. Cream, taupe (#B8A489) and deep-olive (#55603F) palette. 4:5 vertical.
+TYPOGRAPHY: wordmark and headline in a high-contrast Didone display serif (Didot / Bodoni / Canela style), pronounced thick-thin strokes, luxury-magazine authority; subhead, CTA and small line in a refined neo-grotesque sans (Neue Haas Grotesk / Söhne style) in UPPERCASE with wide letter-spacing; editorial hierarchy, nothing generic.
+Render this exact Spanish text (in the cream margins):
+Wordmark (top margin, Didone serif caps, tracked, charcoal): "MARFIL"
+Headline (Didone serif, charcoal, bottom margin): "La casa que imaginabas ya tiene dirección."
+Subhead (uppercase grotesque, wide tracking, taupe): "RESIDENCIAS DE ALTO NIVEL EN CIUDAD JARDÍN Y PANCE"
+Button (deep-olive pill, uppercase cream text, tracked): "VER ESTA PROPIEDAD"
+Small line (uppercase grotesque, charcoal): "@MARFIL.INMOBILIARIA · CALI"
+5 — Oficina ejecutiva · franja superior de marca + texto sobre la imagen
+Use the attached photo as the base. This is a REAL interior photograph — do not move furniture, redraw, regenerate or restyle the executive office (travertine desk, leather chairs, shelving, cove lighting, city-view window) or its perspective; only apply a subtle warm sophisticated editorial color grade. Result must look like an authentic photograph, indistinguishable from a real DSLR interior photo, real material texture (stone, leather, wood, glass), natural imperfections, no CGI, no 3D-render, no plastic look, subtle film grain, 8k, high-end interior magazine realism.
+LAYOUT (top brand strip): add a slim solid cream (#F4ECE0) horizontal strip across the TOP with the wordmark "MARFIL" on the left and a thin brass hairline rule; the office photo fills the frame below. Place the headline over a calm empty area of the image (upper-right wall/ceiling space), and a discreet olive pill CTA in the BOTTOM-RIGHT corner. Corporate-editorial, clean. Cream, taupe and deep-olive (#55603F) palette. 4:5 vertical.
+TYPOGRAPHY: wordmark and headline in a high-contrast Didone display serif (Didot / Bodoni / Canela style), luxury-magazine authority; subhead, CTA and handle in a refined neo-grotesque sans (Neue Haas Grotesk / Söhne style) in UPPERCASE with wide letter-spacing; editorial hierarchy, nothing generic.
+Render this exact Spanish text:
+Wordmark (top strip, Didone serif caps, tracked, charcoal): "MARFIL"
+Headline (Didone serif, over image, charcoal or cream by contrast): "Una oficina a la altura de lo que estás construyendo."
+Subhead (uppercase grotesque, wide tracking): "ESPACIOS CORPORATIVOS PREMIUM EN EL CORAZÓN DE CALI"
+Button (deep-olive pill, uppercase cream text, tracked, bottom-right): "AGENDA UNA VISITA COMERCIAL"
+Handle (uppercase grotesque): "@MARFIL.INMOBILIARIA"
+PIEZA MAESTRA — Showcase Marfil (todas las propiedades en una imagen)
+Use the attached photos as the base images. These are REAL photographs — do not redraw, regenerate, restyle or distort any of them; keep each property's architecture, materials, furniture and perspective exactly as shot. Only apply a consistent subtle warm editorial color grade across all of them so they feel like one cohesive campaign. Each image must stay an authentic photograph, indistinguishable from a real DSLR photo, real material texture, natural imperfections, no CGI, no 3D-render, no plastic look, subtle film grain, 8k.
+COMPOSITION: design one elegant editorial "brand showcase" poster on a solid cream (#F4ECE0) background with generous margins, like a luxury real-estate magazine cover. Arrange the attached property photos in a clean, refined asymmetric grid: one larger HERO image on top (use the luxury modern house) and the remaining photos in smaller neatly aligned tiles below, each inset with a thin brass hairline frame and separated by comfortable cream gutters. Under each tile place a tiny uppercase label. Keep it airy, balanced, gallery-like — never cluttered. Deep-olive (#55603F) and taupe (#B8A489) accents. 4:5 vertical.
+TYPOGRAPHY: wordmark and headline in a high-contrast Didone display serif (Didot / Bodoni / Canela style), pronounced thick-thin strokes, luxury-magazine authority; tagline, labels, CTA and handle in a refined neo-grotesque sans (Neue Haas Grotesk / Söhne style) in UPPERCASE with wide letter-spacing; editorial hierarchy, nothing generic or plain.
+Render this exact Spanish text:
+Wordmark (top center, Didone serif caps, tracked, charcoal): "MARFIL"
+Tagline under wordmark (uppercase grotesque, wide tracking, taupe): "INMOBILIARIA · CALI"
+Headline (Didone serif, charcoal, below the grid): "Encuentra tu próximo lugar en las mejores zonas de Cali."
+Tile labels (uppercase grotesque, small, charcoal): "CASA DE CAMPO", "EDIFICIO · EL PEÑÓN", "APARTAESTUDIO", "CASA DE LUJO · PANCE", "OFICINA PREMIUM"
+Button (deep-olive pill, uppercase cream text, tracked): "VER PROPIEDADES"
+Handle (uppercase grotesque, charcoal, bottom): "@MARFIL.INMOBILIARIA · +57 320 000 0000"
+
+## 13. Marca personal / creador: editorial blanco y negro
+9.  Contenido para marca personal
+Cerramos con uno de los usos más poderosos de esta guía: crear contenido para tu propia marca personal.
+Si usas tus redes sociales para vender tus servicios, posicionarte como referente en tu nicho o simplemente construir una identidad visual que te represente, esta sección es para ti.
+La dinámica es la misma que hemos venido trabajando — la diferencia es que aquí tú eres la marca. Tu cara, tu estilo y tu personalidad son los que tienen que comunicar.
+¿Qué necesitas preparar?
+-   Tu Mood Board personal — fotos tuyas en diferentes poses, expresiones y contextos que reflejen quién eres y cómo quieres que te vea tu audiencia
+-   El logo o elementos visuales de tu marca — si ya los tienes, adjúntalos para que la IA los tome como referencia
+💡 Para este ejemplo usé mi propio Mood Board y el logo de mi agencia. Le pedí a la IA que respetara mi paleta de colores — blanco y negro — pero tú puedes hacer algo diferente: si aún no tienes una paleta definida, adjunta solo tu logo y pídele a la IA que a partir de él te proponga una paleta de colores alineada a tu marca y tu nicho. El resultado te va a sorprender.
+RESULTADO:
+Antes de todo pegale esto:
+PROMPT MAESTRO — Marca personal / creador (editorial)
+Vas a actuar como DIRECTOR CREATIVO, COPYWRITER Y DISEÑADOR EDITORIAL DE MARCA PERSONAL CON IA. Tu estilo es editorial bold (portada de revista: titular condensado gigante, sujeto en recorte, collage con stickers, alto contraste). Trabaja por fases y NO adaptes prompts hasta que yo lo indique.
+CÓMO FUNCIONA: yo te daré la info de mi marca y mis ideas base. Tú me propones el CÓMO, me ayudas con la paleta (mostrándome opciones), y al final adaptas unos PROMPTS BASE editoriales que te pegaré, UNO POR UNO (adaptas el primero, espera mi OK, sigues con el siguiente).
+FASE 1 — ENTREVISTA (hazme estas preguntas en lista y espera mis respuestas)
+Sobre mi marca:
+1. ¿Cuál es mi marca/nombre y mi handle?
+2. ¿De qué trata mi contenido y a quién le hablo?
+3. ¿Tengo logo? (si sí, lo adjunto para incluirlo)
+4. ¿Tengo una PALETA de colores ya definida? Si sí, dame los códigos hex. Si NO, dime que te encargues y tú me propondrás opciones en la Fase 2.
+5. ¿Soy yo la protagonista (adjunto foto → será @imagen 1) o las piezas son sin persona (solo tipografía/objetos)?
+6. ¿Cómo me visto / qué estilo me representa? (para vestirme fiel, no con ropa que no uso)
+Sobre lo que quiero crear:
+7. ¿Quiero UNA sola pieza o un CARRUSEL? (si es carrusel, ¿cuántas láminas?)
+8. ¿Cuál es el TEMA o la idea base que quiero comunicar? (dame mis ideas en bruto, tú las ordenas)
+9. ¿Objetivo? (educar, gancho/mito, autoridad, vender, CTA, posicionar)
+10. ¿Hay oferta o fecha especial? (opcional)
+11. ¿CTA y datos de contacto/handle a mostrar?
+12. ¿Tono? (directo, divertido, retador, cálido, premium) y ¿formato? (4:5 / 9:16 / 1:1)
+Si no respondo algo, propón una opción coherente y sigue.
+FASE 2 — PROPUESTA CREATIVA (aquí me muestras combinaciones y ejemplos)
+A) PALETA:
+- Si ya tengo paleta: confírmala y dime cómo la usarías (fondo, texto, acento) en 2-3 líneas.
+- Si NO tengo paleta: propón 2 o 3 OPCIONES de paleta acordes a mi marca y energía. Para cada opción dame: los códigos hex, un nombre corto, y una explicación de qué color va de fondo, cuál de texto y cuál de acento. MUÉSTRAME cómo se ven combinadas: si puedes generar imágenes, crea un pequeño mockup/swatch de ejemplo de cada opción (una tarjeta con los colores + un titular de muestra) para que yo vea cómo quedaría; si no puedes generar imágenes, descríbelo con detalle y entrégame un mini-prompt de cada mockup para generarlo yo. Espera a que yo elija una.
+B) ESTRUCTURA:
+- Si es UNA pieza: propón el concepto visual + el gancho en una línea.
+- Si es CARRUSEL: propón el guion lámina por lámina con un arco que enganche y cierre (ej. L1 gancho → L2 contexto → L3 desarrollo → L4 solución → L5 CTA). Ajusta al número de láminas que pedí.
+C) VISTA PREVIA: si puedes generar imágenes, muéstrame 1 o 2 MOCKUPS de ejemplo del layout elegido con mi paleta antes de finalizar, para aprobar la dirección. Si no, descríbelos.
+Espera mi OK (o ajusta lo que te pida) antes de la Fase 3.
+FASE 3 — ADAPTACIÓN DE LOS PROMPTS BASE (UNO POR UNO)
+Cuando yo pegue los prompts base:
+- Toma SOLO el primero. Adáptalo a MI marca: mi paleta elegida, mi tema, mi tono, mi CTA/handle, mi vestuario real, y mi logo. Cambia la escena y el copy para que hablen de MI contenido.
+- Entrégamelo y DETENTE. Pregúntame si lo apruebo o quiero ajustes. Solo cuando confirme, pasa al siguiente.
+Reglas que TODO prompt adaptado debe cumplir:
+- Si soy la protagonista, usa @imagen 1 y mantén mi rostro IDÉNTICO; mantén mi cara grande, nítida y SIN texto ni elementos encima (el texto va alrededor, nunca sobre la cara).
+- Realismo fotográfico descrito en positivo: "foto auténtica de cámara full-frame, piel real con poros y textura natural, grano sutil", evitando acabado plástico o de render 3D.
+- Estética editorial: titular condensado gigante (tipo Anton/Druk), jerarquía con kicker en mayúsculas espaciado, collage (barcode, burbujas, flechas dibujadas, chip de handle), palabra clave resaltada en caja knockout.
+- Respeta mi paleta y formato. El cuerpo del prompt (escena, cámara, diseño) en INGLÉS; el texto a renderizar en ESPAÑOL en un bloque "Render this exact Spanish text:".
+- Incluye mi logo si lo adjunté.
+- No inventes datos, precios ni estadísticas que yo no haya dado.
+- Título corto en español por pieza.
+CONSEJO QUE DEBES DARME al entregar: para piezas donde yo soy la cara o el titular es largo, recomiéndame el flujo de 2 pasos (1: generar solo mi retrato con cara perfecta; 2: agregar el diseño alrededor sin tocar la cara) o rematar los textos en Canva, para que la cara y la tipografía queden perfectas.
+Empieza por la FASE 1 y hazme las preguntas. Me pedirás los prompts base al llegar a la Fase 3.
+1 — Portada / hero (titular gigante superpuesto)
+High-contrast black-and-white editorial magazine-cover creative, 4:5 vertical. Use @imagen 1 as the identity reference — keep her exact facial identity, warm skin, long wavy brown hair worn loose and down; do not alter her face. Effortless neutral outfit: a cream oversized button-up shirt, relaxed light denim wide-leg jeans, brown gum-sole sneakers, small delicate gold stud earrings (tiny), thin round gold-framed glasses with clear lenses. She is cut out cleanly and layered so the headline sits BOTH behind and in front of her, standing confident holding a laptop, on a textured off-white paper (#F3EDE1) background. Clean studio light, crisp natural shadow. Shot on a Canon EOS R5, RF 85mm f/1.4. 8k ultra-detailed, true-to-life photorealism, real skin with visible pores and natural texture, no plastic or CGI look, subtle film grain.
+DESIGN SYSTEM: strictly black (#0E0E0E), white (#FFFFFF) and off-white paper only — NO other colors. Collage elements: a thin barcode top-right, a small globe/asterisk icon, a small avatar chip with the handle top-left, a speech-bubble tag with a hand-drawn arrow. One word highlighted inside a solid black box with white knockout text. Include the "Jaguara.co" logo small in a corner.
+TYPOGRAPHY: massive heavy condensed sans (Anton/Druk style) with one word set giant and overlapping the subject; a smaller bold uppercase kicker with wide letter-spacing; dramatic size contrast, tight overlapping layered layout — a designed editorial cover, never a flat single font. All type black or white only. Render this exact Spanish text:
+Kicker (uppercase, spaced, black): "CREADORA · IA · CONTENIDO"
+Headline (huge condensed, black, "TRABAJO" giant overlapping her): "LA IA NO TE QUITA EL TRABAJO"
+Accent (in a black box, white knockout): "te lo quita quien sí sabe usarla"
+Handle (bottom, black): "@jaguara.co"
+2 — Gancho provocador (mito de la IA)
+High-contrast black-and-white editorial creative, 4:5 vertical. Use @imagen 1 as the identity reference — keep her exact face, warm skin, long wavy brown hair worn loose and down. Effortless neutral outfit: a white oversized linen shirt, relaxed jeans, small delicate gold stud earrings (tiny), thin round gold-framed glasses (clear lenses). Confident half-body pose, subtle knowing half-smile, hand near her chin, cut out on a textured off-white paper (#F3EDE1) background, layered so the headline overlaps her. Clean studio light, crisp shadow. Shot on a Canon EOS R5, RF 50mm f/1.2. 8k ultra-detailed, true-to-life photorealism, real skin with visible pores and natural texture, no plastic or CGI look, subtle film grain.
+DESIGN SYSTEM: strictly black, white and off-white paper only — NO other colors. Collage: black post-it style note stickers with white text, a hand-drawn circle and arrow pointing at her, a small barcode. One word highlighted in a solid black box with white knockout text.
+TYPOGRAPHY: massive heavy condensed sans with one word giant overlapping the subject; smaller bold uppercase kicker with wide tracking; dramatic size contrast, tight layered layout — never a flat single font. Black or white type only. Render this exact Spanish text:
+Kicker (uppercase, spaced, black): "MITOS DE LA IA"
+Headline (huge condensed, black): "Crees que la IA es solo para 'expertos'"
+Accent (black box, white knockout): "Ese es justo tu error"
+Subhead (bold sans, black): "Te enseño a crear contenido con IA desde cero."
+Sticker (black pill, white text): "GUARDA ESTE POST"
+Handle (black): "@jaguara.co"
+3 — Tutorial "CÓMO" (invertido: fondo negro)
+High-contrast black-and-white editorial "how-to" cover, 4:5 vertical, inverted dark version. Use @imagen 1 as the identity reference — keep her exact face, warm skin, long wavy brown hair worn loose and down. Effortless neutral outfit: a soft grey or cream oversized shirt, relaxed jeans, brown gum-sole sneakers, small delicate gold stud earrings (tiny), thin round gold-framed glasses (clear lenses). She sits relaxed with a laptop, pointing at the screen with friendly teaching energy, cut out on a solid black (#0E0E0E) background, headline layered around her. Clean studio light on her, crisp shadow. Shot on a Canon EOS R5, RF 35mm f/1.4. 8k ultra-detailed, true-to-life photorealism, real skin with visible pores and natural texture, no plastic or CGI look, subtle film grain.
+DESIGN SYSTEM: strictly black, white and off-white only — NO other colors. Collage: a white sticky-note checklist, a white speech-bubble "how to?", thin white arrows, a small barcode. Key time word highlighted in a white box with black knockout text.
+TYPOGRAPHY: massive heavy condensed sans in white with the time "1 HORA" set giant; smaller bold uppercase kicker with wide tracking; dramatic size contrast, tight layered layout — never a flat single font. Black or white type only. Render this exact Spanish text:
+Kicker (uppercase, spaced, black on white pill): "PASO A PASO"
+Headline (huge condensed, white, "1 HORA" giant, in white box knockout): "CÓMO crear una semana de contenido en 1 HORA con IA"
+Subhead (bold sans, white): "Sin saber diseño. Sin equipo. Solo tú y la IA."
+Sticker (white pill, black text): "SÍGUEME PARA MÁS"
+Handle (white): "@jaguara.co"
+4 — Personalidad (street-style, esencia)
+High-contrast black-and-white street-style editorial, 4:5 vertical. Use @imagen 1 as the identity reference — keep her exact face, warm skin, long wavy brown hair worn loose and down. Effortless neutral outfit: a cream or white oversized shirt, light denim wide-leg jeans, brown gum-sole sneakers, small delicate gold stud earrings (tiny), thin round gold-framed glasses (clear lenses). Walking mid-stride holding an iced coffee, genuine relaxed laugh, natural candid energy, cut out on a textured off-white paper (#F3EDE1) background, headline layered around her. Clean daylight, crisp shadow. Shot on a Canon EOS R5, RF 85mm f/1.4. 8k ultra-detailed, true-to-life photorealism, real skin with visible pores and natural texture, no plastic or CGI look, subtle film grain.
+DESIGN SYSTEM: strictly black, white and off-white only — NO other colors. Collage: a black-and-white checkerboard strip along the bottom, small hand-drawn sparkles, a small tag, a barcode. One word emphasized with a hand-drawn underline.
+TYPOGRAPHY: massive heavy condensed sans with the word "esencia" set giant overlapping her, plus one word in a handwritten script (black); smaller bold uppercase kicker with wide tracking; dramatic size contrast, layered layout — never a flat single font. Black or white type only. Render this exact Spanish text:
+Kicker (uppercase, spaced, black): "TU MARCA, TU VOZ"
+Headline (huge condensed, black + script accent on "esencia"): "Contenido con IA, sin perder tu esencia"
+Subhead (bold sans, black): "La IA es la herramienta. Tu voz sigue siendo tuya."
+Sticker (black pill, white text): "ESTO ES JAGUARA"
+Handle (black): "@jaguara.co"
+5 — Autoridad / CTA (fondo negro pleno)
+High-contrast black-and-white editorial authority creative, 4:5 vertical. Use @imagen 1 as the identity reference — keep her exact face, warm skin, long wavy brown hair worn loose and down. Effortless neutral outfit: a crisp black oversized shirt with dark jeans, small delicate gold stud earrings (tiny), thin round gold-framed glasses (clear lenses). Calm powerful confident pose, arms loosely crossed, cut out on a solid black (#0E0E0E) background with thin white graphic lines, headline layered around her. Dramatic clean light, crisp rim light, deep blacks. Shot on a Canon EOS R5, RF 50mm f/1.2. 8k ultra-detailed, true-to-life photorealism, real skin with visible pores and natural texture, no plastic or CGI look, subtle film grain.
+DESIGN SYSTEM: strictly black, white and off-white only — NO other colors. Minimal collage: a white arrow, a small "AI" tag, thin white brackets framing the headline. CTA as a solid white pill with black text.
+TYPOGRAPHY: massive heavy condensed sans in white with a key phrase set giant; smaller bold uppercase kicker with wide tracking; dramatic size contrast, layered layout — never a flat single font. Black or white type only. Render this exact Spanish text:
+Kicker (uppercase, spaced, white): "EL FUTURO ES HOY"
+Headline (huge condensed, white, "ya llegó" giant): "El futuro del contenido ya llegó"
+Subhead (bold sans, white): "¿Vas a aprender a usarlo, o a mirar cómo otros lo hacen?"
+Button (white pill, black text): "APRENDE CONMIGO"
+Handle (white): "@jaguara.co"

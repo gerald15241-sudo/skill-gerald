@@ -72,6 +72,8 @@ están, aplica tú el checklist igual** con tu propio criterio; nunca dependas d
   lay minimalista”, “producto sobre mármol”)? Si sí, reemplázala.
 - En los prompts, ¿la escena sigue la composición clave del formato de sesión elegido y la luz/lente de
   la receta DP, o se diluyó en una escena genérica?
+- ¿Cada prompt parte de la sección más cercana del playbook (buscada en su índice) y conserva intacto su
+  bloque de realismo, cámara y AVOID? Si se reescribió o se resumió ese bloque, es error: restáuralo.
 
 **6. Copy (siempre lo propone la skill — ver `copywriting.md`).**
 - ¿Hay titular, bajada y CTA propuestos por TI, aunque la persona solo diera el precio (o nada)?

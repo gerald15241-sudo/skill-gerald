@@ -76,7 +76,8 @@ campaña profesional.
 El **cerebro** de esta skill es el documento de la usuaria en
 `references/playbook-original.md` (su metodología ya probada, con ejemplos reales de Nautica,
 Bimba y Lola, audífonos, EAT AND JOY y GUAUKIES). Cuando dudes de un formato o de un bloque de
-prompt, consúltalo. Los archivos de `references/` destilan y organizan esa metodología para
+prompt, consúltalo **empezando por su índice** (al inicio del archivo): ubica la sección del caso y lee
+solo esa sección completa. Los archivos de `references/` destilan y organizan esa metodología para
 aplicarla rápido.
 
 ## Al activar la skill — PRIMER MENSAJE (hazlo siempre)
@@ -137,6 +138,8 @@ de un prompt ya aprobado.
      composición clave, las variantes vistas y la adaptación por nicho.
    - `references/biblioteca-dp.md`: la receta del tipo de producto (§5) y el orden de escritura (§6).
    - `references/nichos.md`: la sección del nicho, si existe.
+   - `references/playbook-original.md`: desde su índice, la sección más cercana al caso. Es el molde
+     del prompt (REGLA #2).
    Si ya los leíste en esta conversación y no cambió el producto ni el nicho, no repitas la lectura.
 2. **Preselecciona con filtro.** Saca candidatos de cada banco (2–3 conceptos o familias de referentes,
    3–5 formatos de sesión y la receta DP) y quédate con los que pasan cinco filtros: lo que la foto real
@@ -633,5 +636,8 @@ bloqueados modelo, producto y paleta, ofrece también su **kit de consistencia /
 - `references/formatos-anuncio.md` — menú de formatos de anuncio (ángulos, hooks, titulares, UGC,
   product shots, video/motion, redimensionar, localizar), specs por plataforma, y ejecución directa
   con Higgsfield MCP cuando está conectado.
-- `references/playbook-original.md` — el documento canónico completo de la persona. Consúltalo por
-  secciones cuando necesites el detalle o un ejemplo textual.
+- `references/playbook-original.md` — el documento canónico completo de la persona, con índice al
+  inicio y 13 secciones: avatares y personality board, pósters Nautica, sesión con modelo, product
+  board (audífonos), piezas solo producto (sneakers), comida (EAT AND JOY), brand board y moldes 01–09
+  (GUAUKIES), piezas desde el brand board, product board solo producto, servicios (fisioterapia),
+  conceptuales sin modelo, inmobiliaria y marca personal. Se lee por secciones, nunca entero.
