@@ -53,35 +53,6 @@ imágenes para mostrarle opciones.
 referencia/identity lock (`@imagen`) para repetir la MISMA cara. Pero eso es la excepción (modelo recurrente),
 no el flujo normal de casting variado.
 
-## Atajo: crear el modelo antes de una pieza (ruta express o pieza suelta)
-
-Cuando la persona pide una pieza **con persona** y **no tiene modelo**, nunca lo inventes dentro del
-prompt de la pieza: se pierde tu bloque de realismo y la identidad cambia entre piezas. Créalo primero,
-con los moldes de la autora, en tres pasos:
-
-1. **Un solo mensaje de casting** (botones + campo abierto):
-   - Tipo de casting: agencia · UGC con buen casting · persona real (explica cada uno en una línea).
-   - Por cada persona: género, rango de edad, fenotipo y tono de piel, cabello (color, largo, tipo),
-     rasgos distintivos y vibra.
-   - Referencia de cara: obligatoria en UGC con buen casting (bloque 💡 de SKILL.md); opcional en los
-     otros dos. Si no trae, ofrécele 2–3 direcciones de casting en texto.
-2. **El prompt del modelo, adaptado del molde correcto (REGLA #2):**
-   - Agencia o UGC con buen casting → `playbook-original.md` §1.1 (avatar base). Si después hace falta
-     más de una toma, §1.2 (personality board) o el set mínimo de §1.3 (frente, 3/4 y cuerpo entero). Se
-     cambia solo la identidad: rasgos y, si es hombre, el género y las menciones de maquillaje ("woman",
-     "minimal makeup", "glossy lips"). Los poros, el vello, la cámara y el RAW quedan intactos.
-   - Persona real → prompt maestro de `personas-reales.md`, con su look natural de open-shade.
-   - **Varias personas** (pareja, grupo): una ficha y un prompt por persona, generados por separado. En la
-     pieza, cada una va con su propio `@imagen` y se prohíbe intercambiar rasgos entre ellas (como los
-     perros de GUAUKIES, `playbook-original.md` §7.3).
-3. **Aprobación y anclaje:** la persona genera el modelo, lo aprueba y lo adjunta; desde ahí va como
-   `@imagen` en la pieza, con IDENTITY LOCK, en esa pieza y en todas las siguientes de la serie.
-
-Si la persona no quiere ese paso extra, ofrece quedarse en solo producto, solo manos o persona sin
-rostro. Si aun así quiere una persona sin crearla antes (una sola pieza, sin serie), el prompt de la pieza
-lleva **el bloque completo de piel y cámara del carril** copiado del molde, nunca una descripción corta
-propia, y se le avisa que esa persona no se podrá repetir igual en otra pieza.
-
 ## A. ¿Modelo propia o la creamos?
 
 Pregunta siempre:

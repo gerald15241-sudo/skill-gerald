@@ -1,5 +1,8 @@
 # Registro de pruebas: prompts-de-contenido v1.7.0
 
+Todas las pruebas corren sobre la v1.7.0. No se cambia la skill hasta terminar las 5, salvo pedido
+expreso de la usuaria.
+
 Se corren las 5 pruebas y al final se aplican las correcciones en un solo paquete. Cada hallazgo indica
 si la causa es la **skill**, el **generador** o está **por confirmar**.
 
@@ -58,8 +61,9 @@ vista). Pie editorial con línea fina en DM Serif Display.
 - Preguntó si agregar el @ de la usuaria como firma en vez de insertarlo (regla HEADER).
 - Ofreció dejar fijos los modelos para una serie, aunque tarde: debió fijarlos antes de la primera pieza (ver 2.2).
 
-> **Aplicado en v1.7.1:** 2.2, 2.3 y 2.4 (atajo para crear el modelo primero con los moldes del playbook).
-> 2.1 (tipografía) queda para el paquete final.
+> **Corrección de 2.2 a 2.4 ya redactada y revertida** a pedido de la usuaria, para que las 5 pruebas
+> corran sobre la misma versión (v1.7.0). Está guardada en el commit 39d0db6 ("Crear el modelo primero…")
+> y entra en el paquete final junto con 2.1.
 
 ### Hallazgos para corregir
 | # | Hallazgo | Causa | Corrección propuesta |
