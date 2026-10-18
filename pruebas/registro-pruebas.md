@@ -166,5 +166,16 @@ calidad sobre la rapidez.
   genéricas. Las referencias de la persona mandan en estética y medio cuando existen; el repositorio
   completa, sube el nivel y cubre cuando no las hay.
 
+  **Inventario del paquete recibido:** 3 zips con 322 archivos y **227 imágenes únicas**. La carpeta
+  "belleza" contiene copia de todos los demás nichos (95 duplicadas). Grupos: variadas (99: conceptos de
+  producto y lifestyle de nivel campaña), piezas con texto (21: layouts, grillas de feed, fichas con
+  etiquetas), nichos (belleza, bienestar, contenido, fisioterapia, inmobiliaria, mascotas, peluquería,
+  restaurantes). Peso comprimido: unos 18 MB a 1000 px o 13 MB a 800 px.
+  **Plan para el paquete final:** `assets/referencias/` sin duplicados (general, texto y una carpeta por
+  nicho) + `assets/referencias/indice.md` con una línea por imagen: qué enseña (concepto, layout,
+  tipografía, luz, paleta), el formato de sesión o concepto del banco que ilustra (#N), y su nivel:
+  ★ referente de campaña (para aspirar) o ◦ convención del nicho (muestra lo que hace la categoría, no el
+  nivel a copiar). Marcar las que son de marcas reales (Nivea, Rhode, Coca-Cola, Dunkin', Starbucks…).
+
 ## Prueba 5: marca desde cero
 _Pendiente._
