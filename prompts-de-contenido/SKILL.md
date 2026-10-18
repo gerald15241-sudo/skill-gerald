@@ -99,6 +99,14 @@ No te saltes el instructivo aunque la persona ya haya subido una foto: aun así 
 referencias de estilo, que son las que elevan el resultado. Solo omítelo si la persona pide
 explícitamente ir directo a generar.
 
+**Excepción — ruta express (pieza suelta).** Si la persona ya pidió una sola pieza, algo rápido, o subió
+una foto con "hazme una pieza para esto", el primer mensaje es el de la ruta express: saludo, **3
+preguntas** (para qué y formato · texto y precio · look y persona), la foto si falta y una línea
+invitando a sumar referencias. El segundo mensaje ya trae una dirección con su `Base:` y el primer
+prompt completo. Mismas reglas no negociables; sin research web ni 2–3 direcciones. Carruseles,
+campañas, ruta de marca, crear modelo y UGC con buen casting van por el intake completo. Detalle en
+`references/flujo-intake.md`, "Ruta express".
+
 ## Principio rector
 
 No entregues piezas sueltas cuando el cliente necesita una campaña. **Combina y varía** los
@@ -207,7 +215,7 @@ negociables (fidelidad de producto, identidad, realismo).
 
 Antes de escribir prompts, conduce el intake con **preguntas cortas tipo botón** (una a tres por
 vez). No asumas por defecto el registro mínimo: si el nicho es moda/calzado, **ofrece la sesión
-completa** y deja que la persona recorte. El detalle del árbol de decisiones está en
+completa** y deja que la persona recorte (en la ruta express, ofrécela solo en el cierre). El detalle del árbol de decisiones está en
 `references/flujo-intake.md`; el resumen del orden:
 
 0. **PUNTO DE PARTIDA — SIEMPRE lo primero.** Antes de pedir fotos o hablar de formatos, pregunta
@@ -216,7 +224,8 @@ completa** y deja que la persona recorte. El detalle del árbol de decisiones es
    tiene ya (foto de producto, fotos de modelo, logo y paleta, referencias, nada). Con eso **enruta**:
    marca sin identidad → estudio de marca (entrada A); renovar marca → entrada B; aplicar una marca
    lista en mockups/papelería/empaque/POP → entrada C (`references/estudio-de-marca.md`); crear modelo
-   → flujo de modelo; piezas con marca lista → research + brief + intake normal. Confirma la ruta en una línea antes de seguir.
+   → flujo de modelo; **pieza suelta → ruta express** (ver "Al activar la skill"); carrusel o campaña con
+   marca lista → research + brief + intake normal. Confirma la ruta en una línea antes de seguir.
    **OFRECE referencias visuales como un PLUS** (no como requisito): comparte el instructivo
    (`references/instructivo-referencias.md`) e **invita** a la persona a adjuntarte referencias de
    **estilo/mood, iluminación, atuendo, escena**, y de **cara** cuando haya modelo (su nivel/vibra) —
@@ -274,8 +283,8 @@ mix de formatos mapeado a las piezas que la skill produce, secuencia + cadencia 
 por etapa— y marca por dónde empezar. Luego entras a producir la primera pieza. Para una pieza suelta no hace
 falta la ruta completa.
 
-Antes del paso 1, cuando sea pieza de marca/nicho (y la persona no lo salte), haz la **investigación
-de mercado** con búsqueda real (aplica a TODOS los nichos; `references/investigacion-mercado.md`). Esto es
+Antes del paso 1, cuando sea pieza de marca/nicho (y la persona no lo salte ni esté en la ruta
+express), haz la **investigación de mercado** con búsqueda real (aplica a TODOS los nichos; `references/investigacion-mercado.md`). Esto es
 para **piezas y campañas**: en la **ruta de marca** no se presentan direcciones ni moodboards antes del
 logo; el orden lo manda la sección "Estudio de marca".
 **Investiga las tendencias como Perplexity:** varias búsquedas dirigidas y actuales (nicho+año, marca

@@ -96,6 +96,10 @@ están, aplica tú el checklist igual** con tu propio criterio; nunca dependas d
 - ¿Cada prompt dice **qué fotos adjuntar en el generador** (@imagen = producto/modelo-lock), o aclara que
   es solo texto? ¿NO se pidió adjuntar al generador las referencias de estilo (esas las describe el texto)?
 - ¿Los prompts se entregaron **inline en el chat** (texto para copiar), NO en artefacto?
+- **Ruta express:** las 3 preguntas cubren objetivo, formato, precio, modo de texto y look; no se exige
+  el resto del intake ni 2–3 direcciones. Pero ¿la dirección única tiene su `Base:`, pasa la prueba
+  anti-genérico y el prompt lleva todos los bloques obligatorios? ¿Se llegó al prompt en máximo dos
+  mensajes y el cierre ofrece variante, otra dirección o pasar a campaña?
 
 **9. Marca real — responsabilidad.**
 - ¿Logo y producto fieles, sin deformar?

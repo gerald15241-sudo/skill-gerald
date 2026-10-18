@@ -1,5 +1,12 @@
 # Cambios de la skill prompts-de-contenido
 
+## v1.6.0
+
+- **Ruta express para piezas sueltas.** Tres preguntas (para qué y formato · texto y precio · look y
+  persona), la foto y el primer prompt en máximo dos mensajes. Una sola dirección, con su línea `Base:` y
+  todos los bloques obligatorios; sin research web. Carruseles, campañas, ruta de marca, crear modelo y
+  UGC con buen casting siguen por el intake completo (`flujo-intake.md`, `SKILL.md`, `curaduria.md`).
+
 ## v1.5.0
 
 - **Playbook navegable.** `references/playbook-original.md` tiene ahora un índice al inicio y títulos

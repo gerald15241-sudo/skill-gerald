@@ -48,13 +48,74 @@ Según las respuestas, **enruta**:
 - En las rutas de marca, las **referencias son obligatorias**: primero las de logo (mensaje tipo 1 de
   `referencias-de-marca.md`) y, con el logo aprobado, las de marcas que le gustan (mensaje tipo 2).
 - "Crear/definir modelo UGC" → ve al **flujo de modelo** (`modelo-ugc.md`).
-- "Pieza / carrusel / campaña" con marca ya definida → sigue al research + brief y al intake normal.
+- "Una pieza suelta" → **ruta express** (sección siguiente).
+- "Carrusel / campaña" con marca ya definida → sigue al research + brief y al intake normal.
 - "No sé / explorar" → explica en 2 líneas las rutas y recomienda una según lo que tenga.
 - Si **no tiene foto de producto** pero quiere piezas de producto → dilo: es requisito (Paso 1); mientras,
   puedes avanzar brief, marca o modelo.
 
 Cierra el Paso 0 confirmando en una línea la ruta elegida ("Entonces: marca propia ya definida, tienes
 foto de producto, vamos por un carrusel de venta"). Luego continúa.
+
+## Ruta express — pieza suelta (3 preguntas, foto y primer prompt)
+
+Para quien quiere **una pieza** (un post, una historia, un anuncio, una foto de producto) sin pasar por
+todo el intake. Meta: **máximo dos mensajes antes del primer prompt**. Lo rápido es el camino, no el
+resultado: todas las reglas no negociables siguen igual.
+
+**Entra cuando:** la persona elige "una pieza suelta" en el Paso 0, pide algo rápido o directo, o sube
+una foto y dice "hazme una pieza para esto".
+
+**No entra (va al intake completo):** carrusel, campaña, lanzamiento o parrilla; cualquier ruta de marca;
+crear modelo; UGC con buen casting (sus referencias de cara son obligatorias). Si no hay foto del
+producto, pídela: es lo único indispensable.
+
+### Mensaje 1 — las 3 preguntas (un solo mensaje)
+
+Saludo de una línea, las 3 preguntas tipo botón, la foto del producto si falta (con los ángulos que
+convienen, ver Paso 1) y una línea: "Si tienes referencias de estilo, súmalas; no es obligatorio".
+
+1. **¿Para qué es y dónde va?** Vender (anuncio o post con precio/promo) · Mostrar el producto (post
+   orgánico) · Lanzamiento o novedad. Formato: feed 4:5 · historia 9:16 · cuadrado 1:1.
+2. **¿Lleva texto?** Sin texto + te doy los textos listos para Canva (recomendado si hay precio) · Con el
+   texto dentro de la imagen · Sin texto. Si es para vender: precio exacto y promo, o "no aplica". Los
+   copys los propongo yo, salvo que traigas los tuyos.
+3. **¿Qué look?** Decide tú (recomendado) · Estudio limpio · Escena real / lifestyle · Algo que frene el
+   scroll (alto concepto). ¿Con persona? Solo producto · Con mi modelo (adjunta sus fotos) · Solo manos
+   o persona sin rostro.
+
+No repitas lo que la persona ya dijo. Si las tres respuestas ya están claras en su primer mensaje, pasa
+directo al mensaje 2. Si responde "decide tú": 4:5, modo A si hay precio o textos pequeños, solo
+producto y tu dirección recomendada.
+
+### Lo que decides tú, sin preguntar
+
+- **Nicho:** lo detectas de la foto y lo confirmas de pasada en la propuesta.
+- **Consulta de bibliotecas (REGLA #4):** igual que siempre. Abres los bancos y la sección más cercana
+  del playbook, que es el molde del prompt. No hay research web en la express: en la línea `Base:` pon
+  `Research: no (ruta express)`.
+- **Una sola dirección:** la mejor para el objetivo, no 2–3. Debe pasar la prueba anti-genérico.
+- **Paleta por roles** derivada del producto o de la marca visible, con el color héroe reservado al
+  producto. **Fuentes** reales si hay texto.
+- **Copy** (si lleva texto): titular, bajada y un CTA recomendados, más 2 titulares alternativos en una
+  línea (`copywriting.md`). El precio va enmarcado y deletreado.
+- **Moda/calzado:** si pidió una sola pieza, se respeta. La sesión completa se ofrece al final, en el
+  cierre, no al inicio.
+- **Marca real:** usa la identidad visible en la foto y las reglas de "Marcas reales" de SKILL.md; ofrece
+  investigar su línea de campaña en el cierre.
+
+### Mensaje 2 — la entrega
+
+1. **La propuesta en 3 líneas como máximo:** nombre del concepto + por qué funciona, la línea `Base:` y la
+   paleta con HEX por roles (+ fuentes si hay texto).
+2. **El prompt completo** en bloque de código, con todos los bloques obligatorios (PRODUCT ACCURACY,
+   IDENTITY LOCK si hay modelo, color por roles, SPANISH TEXT si el texto va en la imagen, AVOID) y la
+   línea 📎 de qué adjuntar. Si hay una sola foto, blíndalo (Paso 1).
+3. **Los textos:** en modo A, la hoja para Canva (texto exacto + fuente + HEX + posición); en modo B, ya
+   van dentro del prompt, con el aviso de revisar letra por letra.
+4. **La línea de curaduría** ("Revisé: …").
+5. **Cierre con tres caminos:** otra variante de esta misma idea · una dirección distinta · convertirla en
+   carrusel o campaña. Si elige lo último, pasa al intake completo sin volver a preguntar lo ya respondido.
 
 ## Paso 1 — Foto(s) del producto (SIEMPRE antes de generar piezas de producto)
 
