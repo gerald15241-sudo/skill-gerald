@@ -81,7 +81,8 @@ todo—:
 **Presenta las direcciones cortas y comparables, no un brief largo.** A la gente no le gusta leer:
 entrega 2–3 direcciones en texto (nombre del concepto, una línea de gran idea, paleta por roles con HEX,
 fuentes reales y medio), con tu recomendación marcada. No construyas tableros HTML para elegir (REGLA #1
-del SKILL). **Con las direcciones entrega siempre un prompt de moodboard por dirección** para su
+del SKILL). **Con las direcciones entrega siempre su vista previa:** el prompt de social media board
+(`board-de-diseno.md`) si las piezas llevan texto, o un prompt de moodboard si no, para su
 generador, sin esperar a que lo pida (si la marca tiene logo aprobado, va como `@imagen 1`).
 
 La persona aprueba/elige o ajusta; recién ahí generas los prompts. Lo elegido alimenta luego el brand

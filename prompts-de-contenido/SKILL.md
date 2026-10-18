@@ -13,7 +13,8 @@ description: "Genera prompts de imagen hiperrealistas, en inglés y listos para 
 > El artefacto es SOLO para: brand board y el sistema visual de contenido. Jamás para los prompts en sí.
 > **NO construyas artefactos HTML de tablero de direcciones, maquetas de pieza ni variantes de paleta** —
 > esas propuestas se presentan en texto (concepto + paleta con HEX + nombres de fuentes + medio) y van
-> acompañadas de sus prompts de moodboard para que la persona las genere en su herramienta. Única excepción de archivo: la **skill de
+> acompañadas de sus prompts de **social media board** (`references/board-de-diseno.md`) para que la persona
+> las genere en su herramienta y elija mirando. Única excepción de archivo: la **skill de
 > marca** (si la persona usa Claude; `references/skill-de-marca.md`), que guarda sus prompts base para el
 > futuro; aun así, los prompts de la sesión van inline.
 > Además, **junto a cada prompt o bloque de prompts, indica siempre qué imagen adjuntar en el generador**:
@@ -114,9 +115,9 @@ explícitamente ir directo a generar.
 una foto con "hazme una pieza para esto", el primer mensaje es el de la ruta express: saludo, **3
 preguntas** (para qué y formato · texto y precio · look y persona), la foto si falta y el pedido de
 **2–4 referencias** de posts o anuncios que le gusten (si no tiene, usas el repositorio). El segundo
-mensaje trae una dirección con su `Base:` y, si la pieza lleva texto, las opciones de tipografía con su
-prompt de muestra; el prompt completo llega cuando la persona elige la letra (o directo, si no hay
-texto). Prima la calidad sobre la rapidez. Mismas reglas no negociables; sin research web ni 2–3 direcciones. Si pide persona y
+mensaje trae una dirección con su `Base:` y, si la pieza lleva texto, **3 opciones de diseño con su prompt
+de social media board** (`references/board-de-diseno.md`); el prompt completo llega cuando la persona elige
+(o directo, si no hay texto). Prima la calidad sobre la rapidez. Mismas reglas no negociables; sin research web ni 2–3 direcciones. Si pide persona y
 no tiene modelo, **nunca lo inventes dentro del prompt de la pieza**: primero el casting y el modelo con
 el molde de su tipo de casting (atajo de `references/modelo-ugc.md`; la UGC con buen casting **no** usa el
 avatar de estudio del playbook), después la pieza. Carruseles,
@@ -261,8 +262,9 @@ confirma de pasada. Árbol completo en `references/flujo-intake.md`; texto compl
 7. **Fuente de estilo:** referentes de la persona, propuesta desde el producto o tendencias
    (`references/nichos.md`), siempre cruzada con el repositorio.
 8. **Paleta por roles:** la estructura se modela de las referencias; la paleta es variable (anti-clon).
-9. **Tipografía, al inicio y aparte:** 2–3 combinaciones con su prompt de muestra; orden marca real →
-   referencias → nicho (`references/tipografia.md`). La persona elige mirando.
+9. **Diseño al inicio y aparte:** 3 opciones de sistema (paleta, tipografía y recurso gráfico), cada una
+   con su **prompt de social media board** (`references/board-de-diseno.md`); la letra se elige en orden
+   marca real → referencias → nicho (`references/tipografia.md`). La persona elige mirando.
 10. **Datos de venta y textos, antes de generar:** precio exacto (si llega ambiguo, confírmalo), promo,
     ¿copys propios o los propongo?, materiales y promesa. Si es storytelling sin precio, confírmalo.
 
@@ -286,7 +288,9 @@ los copys.
 - Línea `Base:` (repositorio, concepto, sesión #N, receta DP, research).
 
 Al menos una de alto concepto (`references/conceptos-creativos.md`). Cierra con "Elige 1, 2 o 3 — o
-combina (ej. paleta de la 1 + letras de la 3)". **Con las direcciones va siempre un prompt de moodboard
+combina (ej. paleta de la 1 + letras de la 3)". **Si las piezas llevan texto, cada dirección va con su
+prompt de social media board** (`references/board-de-diseno.md`), que reemplaza al moodboard como vista
+previa. **Si no llevan texto, va un prompt de moodboard
 por ruta** (molde 01 del playbook: grilla 3×3 con la paleta, la luz y las texturas de la ruta), sin que la
 persona lo pida; con logo aprobado va como `@imagen 1` y no se inventa otro. Recién después generas las
 piezas.
@@ -460,7 +464,8 @@ Una línea por archivo; la descripción completa de cada uno está en `reference
 - `references/realismo-fotografico.md` — realismo para piezas fotográficas (no toca el carril de modelos).
 - `references/modo-texto.md` — modos A, B y C de texto.
 - `references/copywriting.md` — copywriter senior: ángulo, fórmulas, hooks, anti-cliché.
-- `references/tipografia.md` — orden para elegir, combos y prompt de muestra tipográfica.
+- `references/tipografia.md` — orden para elegir la letra y combos por nicho.
+- `references/board-de-diseno.md` — prompt de social media board: 3 opciones de diseño para elegir mirando.
 - `references/libreria-fuentes.md` — catálogo de Google Fonts por estilo.
 - `references/diseno-tipografico.md` — maquetación profesional del texto sobre la imagen.
 

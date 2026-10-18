@@ -58,8 +58,9 @@ encaja con el producto/marca/nicho. La persona elige mirando. Cada spot se arma 
 ## En el flujo
 
 En el preview, además de paleta y tipografía, ofrece el **spot** como parte de cada dirección (nómbralo y
-descríbelo en los 6 ejes, breve). Si la persona quiere ver la dirección antes de elegir, refléjalo en su
-**prompt de moodboard** (locación, luz, atmósfera y grade del spot). Al generar, el spot se traduce en el prompt
+descríbelo en los 6 ejes, breve). Refléjalo en la vista previa de la dirección: el **social media board**
+(`board-de-diseno.md`, en su "Photography style") si las piezas llevan texto, o el **prompt de moodboard**
+si no (locación, luz, atmósfera y grade del spot). Al generar, el spot se traduce en el prompt
 como descripción de escena + luz + lente + atmósfera + grade, en inglés y preciso.
 
 ## De foto a video (si quieren movimiento)

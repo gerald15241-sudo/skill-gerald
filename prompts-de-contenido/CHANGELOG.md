@@ -1,5 +1,16 @@
 # Cambios de la skill prompts-de-contenido
 
+## v1.10.0 — social media board de opciones
+
+- Nuevo `references/board-de-diseno.md`: en piezas, carruseles y campañas con texto (también en la
+  express), la skill entrega **3 opciones de diseño**, cada una con su prompt de **social media board**:
+  una grilla de 12 posts que muestra la paleta (con HEX), la tipografía, el recurso gráfico, el estilo de
+  foto y distintos layouts aplicados. La persona elige mirando, y el sistema elegido se bloquea en la serie.
+- En campañas, el board es la vista previa de cada dirección cuando hay texto; sin texto sigue el
+  moodboard. La ruta de marca no cambia (moodboard del paso 5 con el logo).
+- El prompt de muestra tipográfica queda como opción para comparar solo letras.
+- Repositorio: se suma **txt-022**, el board de ejemplo de la autora (228 imágenes).
+
 ## v1.9.3 — realismo de modelos idéntico a la v1.4.0
 
 - En `SKILL.md` se restauran **palabra por palabra** desde la v1.4.0 el bloque "REALISMO DE ROSTRO/PIEL —

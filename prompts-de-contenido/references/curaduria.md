@@ -56,7 +56,7 @@ están, aplica tú el checklist igual** con tu propio criterio; nunca dependas d
   dirección como texto visible?
 - ¿Contraste suficiente texto/fondo? ¿Jerarquía clara (titular > bajada > CTA)?
 - **Tipografía:** ¿se eligió en orden (marca real → referencias → nicho), se dieron 2–3 opciones **al
-  inicio** con el prompt de muestra tipográfica, y pasa la prueba de marca tapada (sin el logo, la letra
+  inicio** con sus prompts de social media board (3 sistemas distintos en paleta, letra y recurso), y pasa la prueba de marca tapada (sin el logo, la letra
   se siente de la marca)? Si la serie tiene un recurso tipográfico (palabra en cursiva), ¿está escrito
   en **todos** los prompts?
 - En modo con texto en imagen: ¿textos cortos, dentro del límite de líneas, en español correcto con
@@ -97,7 +97,8 @@ están, aplica tú el checklist igual** con tu propio criterio; nunca dependas d
   bloque de realismo, cámara y AVOID? Si se reescribió o se resumió ese bloque, es error: restáuralo.
 - ¿Los textos del molde se reescribieron para esta marca (nada de "ARCHIVO 01" o titulares de Nautica
   copiados)? En campañas, ¿al menos una dirección explora una composición que no sale de un molde?
-- ¿Con las direcciones se entregó el **prompt de moodboard** de cada una, sin que la persona lo pidiera?
+- ¿Con las direcciones se entregó su vista previa sin que la persona la pidiera: **social media board** si
+  las piezas llevan texto, moodboard si no? ¿El board usa titulares reales y ningún handle inventado?
 
 **6. Copy (siempre lo propone la skill — ver `copywriting.md`).**
 - ¿Hay titular, bajada y CTA propuestos por TI, aunque la persona solo diera el precio (o nada)?

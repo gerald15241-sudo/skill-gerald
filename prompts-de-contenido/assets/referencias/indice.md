@@ -1,8 +1,8 @@
 # Repositorio de referencias visuales: índice
 
-227 imágenes curadas por la autora, de uso educativo: se estudian para entender **por qué funcionan**,
+228 imágenes curadas por la autora, de uso educativo: se estudian para entender **por qué funcionan**,
 nunca para reproducir sus logos, nombres ni diseños. Cada línea guarda la lectura ya hecha (ingeniería
-inversa resumida), así la skill conoce todo el repositorio sin abrir las 227 imágenes.
+inversa resumida), así la skill conoce todo el repositorio sin abrir las 228 imágenes.
 
 **Cómo están guardadas:** para respetar el límite de archivos de la skill, las imágenes van en **hojas de
 4** (grilla 2×2), cada una con su código impreso en la esquina superior izquierda. El nombre de la hoja
@@ -54,7 +54,7 @@ categoría, sirve para entenderla y diferenciarse, **no** es el nivel a copiar. 
 | Collage editorial bold (contenido, marca personal) | cre-001, cre-005, cre-006, cre-007, cre-008, bel-013, bel-014, txt-010, txt-017 |
 | Intervención a mano (garabatos, flechas, tachones) | gen-066, cre-004, cre-007, cre-012, txt-002, res-001 |
 | Ilustración + foto (mixed media) | res-014, res-013, txt-008, txt-016, gen-073 |
-| Feed o sistema visual completo | bie-003, bie-010, bie-011, bie-012, mas-009, mas-011, gen-076, txt-006, txt-011 |
+| Feed o sistema visual completo | txt-022, bie-003, bie-010, bie-011, bie-012, mas-009, mas-011, gen-076, txt-006, txt-011 |
 | Brand board / identidad | gen-076, txt-006, res-006, mas-009, mas-011 |
 | Promo con precio o descuento | gen-094, gen-064, txt-003, bel-010, mas-003 |
 | Salud: beneficio en vez de dolor | fis-004, fis-007, fis-009, fis-014 |
@@ -185,6 +185,7 @@ categoría, sirve para entenderla y diferenciarse, **no** es el nivel a copiar. 
 - **txt-019** ★ · "Our WEBSITE is Live!" con perchero y personas en movimiento borroso. *Toma:* anuncio con motion blur.
 - **txt-020** ★ · Detalles de una prenda roja en tarjetas con texto. *Toma:* ficha de detalles en close-up.
 - **txt-021** ★ · Modelo saliendo de la pantalla de un celular gigante, todo amarillo, "OVERSIZE". *Toma:* producto saliendo del celular + monocromo.
+- **txt-022** ★ · **Social media board de referencia** (formato preferido por la autora): grilla de 12 posts rojo y crema con titulares en máquina de escribir y serif condensada, una palabra clave encerrada en un círculo a mano, objetos de color héroe (teléfono, dados, bolso), tarjetas tipo nota y píldoras con listas. *Toma:* el formato de `references/board-de-diseno.md` para presentar opciones de diseño.
 
 ### belleza/
 - **bel-001** ★ · Close-up de mano sobre piel húmeda, cifras gigantes en sans fina ("70% / 30%") sobre la foto. *Funciona:* el dato es el titular y la piel real da credibilidad. *Toma:* cifra protagonista sobre retrato macro.
@@ -374,3 +375,4 @@ categoría, sirve para entenderla y diferenciarse, **no** es el nivel a copiar. 
 | `texto/txt-013-016.jpg` | txt-013, txt-014, txt-015, txt-016 |
 | `texto/txt-017-020.jpg` | txt-017, txt-018, txt-019, txt-020 |
 | `texto/txt-021.jpg` | txt-021 |
+| `texto/txt-022.jpg` | txt-022 |

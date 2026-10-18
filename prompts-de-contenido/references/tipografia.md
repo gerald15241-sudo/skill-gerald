@@ -73,15 +73,18 @@ piezas, como una elección propia (no escondida dentro de cada dirección):
 1. Da **2–3 combinaciones** (hasta 5 si pide variedad), cada una con el nombre real de cada fuente, su
    rol (titular, texto, etiquetas), el estilo en una línea, de dónde sale (marca, referencia o nicho) y
    **tu recomendación marcada** con el porqué.
-2. **Entrega por iniciativa propia el prompt de muestra tipográfica** (abajo) para que la persona la
-   genere en su herramienta y **elija mirando**. Dile: "Genera esta muestra, elige 1, 2 o 3 y seguimos".
+2. **Entrega por iniciativa propia los 3 prompts de social media board** (`board-de-diseno.md`): la
+   tipografía se ve aplicada junto con la paleta y el recurso gráfico, en posts reales, y la persona
+   **elige mirando**. El molde de muestra tipográfica de abajo queda solo para cuando la persona quiera
+   comparar letras sueltas.
 3. Con la elegida, sigue el flujo. No construyas tableros HTML para elegir fuentes (REGLA #1 del SKILL).
    En la ruta de marca, la muestra va después del logo aprobado.
 
 Honestidad: el generador aproxima el estilo de la letra; la fuente exacta se aplica en Canva con el
 nombre real que le diste.
 
-**Molde del prompt de muestra tipográfica** (se adapta con los textos reales de la pieza):
+**Molde del prompt de muestra tipográfica** (opcional, para comparar solo letras; se adapta con los textos
+reales de la pieza):
 
 ```
 Create a clean professional typography specimen sheet, 4:5 vertical (1080x1350), on a flat [background #HEX] background. Show THREE font pairing options stacked in three equal horizontal bands separated by thin [#HEX] rules. A small number "1", "2" and "3" in a tiny monospaced font sits in the top-left corner of each band.

@@ -107,8 +107,9 @@ producto y tu dirección recomendada.
   `Research: no (ruta express)`.
 - **Una sola dirección:** la mejor para el objetivo, no 2–3. Debe pasar la prueba anti-genérico.
 - **Paleta por roles** derivada del producto o de la marca visible, con el color héroe reservado al
-  producto. Si hay texto, **2–3 combinaciones de tipografía** con su prompt de muestra
-  (`tipografia.md`), elegidas en orden marca real → referencias → nicho.
+  producto. Si hay texto, **3 opciones de diseño** (paleta, tipografía y recurso) con su prompt de social
+  media board (`board-de-diseno.md`); la tipografía se elige en orden marca real → referencias → nicho
+  (`tipografia.md`).
 - **Copy** (si lleva texto): titular, bajada y un CTA recomendados, más 2 titulares alternativos en una
   línea (`copywriting.md`). El precio va enmarcado y deletreado.
 - **Moda/calzado:** si pidió una sola pieza, se respeta. La sesión completa se ofrece al final, en el
@@ -121,9 +122,10 @@ producto y tu dirección recomendada.
 1. **La propuesta en 3 líneas como máximo:** nombre del concepto + por qué funciona, la línea `Base:`
    (con las imágenes del repositorio usadas) y la paleta con HEX por roles. Si la persona trajo
    referencias, una línea por referencia con lo que tomaste.
-2. **Si la pieza lleva texto:** las 2–3 opciones de tipografía con tu recomendación y el prompt de
-   muestra tipográfica. "Genera la muestra, elige 1, 2 o 3 y te entrego el prompt." El prompt de la pieza
-   va en el mensaje siguiente, ya con la letra elegida. Si no lleva texto, sigue directo con el punto 3.
+2. **Si la pieza lleva texto:** las 3 opciones de diseño con tu recomendación y sus 3 prompts de social
+   media board (`board-de-diseno.md`). "Genera los boards, elige 1, 2 o 3 y te entrego el prompt." El prompt
+   de la pieza va en el mensaje siguiente, ya con el sistema elegido. Si no lleva texto, sigue directo con
+   el punto 3.
 
 ### La entrega del prompt
 
