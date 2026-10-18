@@ -43,6 +43,12 @@ description: "Genera prompts de imagen hiperrealistas, en inglés y listos para 
 > ni quitar bloques. **El orden de la ruta de marca lo manda `references/estudio-de-marca.md`** (logo
 > primero), no el orden del playbook.
 >
+> **Molde = estructura, no composición.** Del molde sale la estructura del prompt (bloques de
+> referencias, fidelidad, identidad, color, fotografía) y su realismo, que no se tocan. La composición y
+> la escena se exploran desde las referencias, el repositorio y los bancos (REGLA #4): no todo sale de
+> Nautica. Los textos del molde (titulares, metadata como "ARCHIVO 01", handles) se reescriben siempre
+> para la marca y la campaña.
+>
 > ⛔ **REGLA #3 — ETIQUETA SIEMPRE LAS IMÁGENES CON `@imagen 1`, `@imagen 2`…** Todo prompt que use una
 > foto real (producto o modelo propio/lock) DEBE llevar el tag `@imagen N` **dentro del texto**, anclado
 > al elemento (“the product @imagen 1”, “the model @imagen 2”), Y una línea al final que diga qué es cada
@@ -52,16 +58,21 @@ description: "Genera prompts de imagen hiperrealistas, en inglés y listos para 
 >
 > ⛔ **REGLA #4 — ABRE LAS BIBLIOTECAS ANTES DE PROPONER. NADA DE PROPUESTAS DE MEMORIA.** Antes de
 > cualquier propuesta creativa (direcciones, conceptos, spots, formatos de sesión, moodboard, carrusel,
-> campaña, o prompts directos sin preview), **lee de verdad** los bancos de conocimiento y arma la
-> propuesta como combinación de ellos, con su línea `Base:` visible. Si una dirección se pudo escribir
+> campaña, o prompts directos sin preview), **lee de verdad** los bancos de conocimiento y el
+> **repositorio de imágenes** (`assets/referencias/indice.md`), y arma la propuesta como combinación de
+> ellos y de las referencias de la persona, con su línea `Base:` visible. Si una dirección se pudo escribir
 > sin abrirlos, es genérica: reemplázala. El protocolo está en “Antes de proponer: consulta real de las
 > bibliotecas”, dentro de “Propón GRANDES IDEAS”.
 >
-> 💡 **Referencias visuales de estilo = un PLUS, no un requisito general** — ofrécelas/sugiérelas, pero no
-> bloquees por no tenerlas; lo único indispensable es la foto del producto. **EXCEPCIÓN — modelo UGC con
+> 💡 **Referencias visuales: PÍDELAS SIEMPRE, del tipo que corresponde a lo que se construye** (pieza,
+> carrusel, campaña, marca personal, logo, marca, moodboard, modelo; tabla en
+> `references/instructivo-referencias.md`), en todas las rutas, también en la express. Léelas con
+> `references/ingenieria-inversa.md`, crúzalas con el repositorio y di qué tomaste de cada una. Si la
+> persona no tiene, **no frenes**: usa el repositorio (`assets/referencias/`) y díselo. La foto del producto
+> sigue siendo lo único indispensable para piezas de producto. **EXCEPCIÓN — modelo UGC con
 > buen casting: ahí SÍ pide referencias OBLIGATORIAMENTE (sí o sí)** — la foto de cara/casting que TÚ lees
 > para anclar el nivel de la modelo (ver `references/modelo-ugc.md`). Sin esa referencia no generes el UGC
-> con buen casting; con el resto de casos, avanza igual si no hay referencias.
+> con buen casting.
 > **Segunda excepción — RUTA DE MARCA (crear, renovar o aplicar una marca): referencias OBLIGATORIAS en
 > dos momentos.** Paso 1: **referencias de logo** (mínimo 3), antes de cualquier otra cosa. Paso 4, con el
 > logo ya aprobado: **referencias de marcas que le gustan** (mínimo 3, por categorías: marcas que admira,
@@ -101,9 +112,13 @@ explícitamente ir directo a generar.
 
 **Excepción — ruta express (pieza suelta).** Si la persona ya pidió una sola pieza, algo rápido, o subió
 una foto con "hazme una pieza para esto", el primer mensaje es el de la ruta express: saludo, **3
-preguntas** (para qué y formato · texto y precio · look y persona), la foto si falta y una línea
-invitando a sumar referencias. El segundo mensaje ya trae una dirección con su `Base:` y el primer
-prompt completo. Mismas reglas no negociables; sin research web ni 2–3 direcciones. Carruseles,
+preguntas** (para qué y formato · texto y precio · look y persona), la foto si falta y el pedido de
+**2–4 referencias** de posts o anuncios que le gusten (si no tiene, usas el repositorio). El segundo
+mensaje trae una dirección con su `Base:` y, si la pieza lleva texto, las opciones de tipografía con su
+prompt de muestra; el prompt completo llega cuando la persona elige la letra (o directo, si no hay
+texto). Prima la calidad sobre la rapidez. Mismas reglas no negociables; sin research web ni 2–3 direcciones. Si pide persona y
+no tiene modelo, **nunca lo inventes dentro del prompt de la pieza**: primero el casting y el modelo con
+el molde de avatar (atajo de `references/modelo-ugc.md`), después la pieza. Carruseles,
 campañas, ruta de marca, crear modelo y UGC con buen casting van por el intake completo. Detalle en
 `references/flujo-intake.md`, "Ruta express".
 
@@ -148,25 +163,28 @@ de un prompt ya aprobado.
    - `references/nichos.md`: la sección del nicho, si existe.
    - `references/playbook-original.md`: desde su índice, la sección más cercana al caso. Es el molde
      del prompt (REGLA #2).
+   - `assets/referencias/indice.md`, **siempre**: con su buscador rápido y la carpeta del nicho (más
+     `general/` y `texto/`) elige 4–6 imágenes y **ábrelas** para mirarlas de cerca.
    Si ya los leíste en esta conversación y no cambió el producto ni el nicho, no repitas la lectura.
 2. **Preselecciona con filtro.** Saca candidatos de cada banco (2–3 conceptos o familias de referentes,
    3–5 formatos de sesión y la receta DP) y quédate con los que pasan cinco filtros: lo que la foto real
    del producto permite mostrar, el ADN del nicho, la marca y el research, el objetivo o registro, y la
    viabilidad en el generador. **Si la persona trajo referencias** (imágenes, piezas, feeds), léelas con
-   `ingenieria-inversa.md` y **extrapólalas cruzándolas con los bancos**: de la referencia salen el medio
-   y las 3 estructuras que se conservan; de su marca y su producto, los 2 ejes que cambian; y el elemento
-   propio, de un concepto o formato de sesión del banco, o del producto. Dile en 2–3 líneas qué tomaste
-   de cada referencia.
+   `ingenieria-inversa.md` y **extrapólalas cruzándolas con el repositorio y los bancos**: de la
+   referencia salen el medio y las 3 estructuras que se conservan; de su marca y su producto, los 2 ejes
+   que cambian; y el elemento propio, de una imagen del repositorio, un concepto o formato del banco, o
+   del producto. Dile en 2–3 líneas qué tomaste de cada referencia, **tipografía incluida** si la
+   referencia tiene texto. Si no trajo referencias, el repositorio cumple ese papel y lo dices.
 3. **Embudo creativo: muchas ideas, muestras las mejores.** Cada idea es una combinación de gran idea
    (concepto o familia de referentes) + formato de sesión (el montaje) + spot DP (luz, lente, grade) +
    paleta y tipografía. En borrador, sin mostrarlas, arma 6–8 combinaciones distintas. Descarta las que
    no se entienden en un segundo, esconden el producto, no encajan con la marca o el nicho, o el
    generador no puede lograr. De las que quedan, elige las que más frenan el scroll frente a lo que ya
-   hace la categoría: 2–3 en el flujo normal (combinaciones distintas, al menos una de alto concepto) y
-   1 en la ruta express.
+   hace la categoría: 2–3 en el flujo normal (combinaciones distintas, al menos una de alto concepto y al
+   menos una con composición que no salga de un molde del playbook) y 1 en la ruta express.
 4. **Declara la base en una línea** bajo cada dirección, con nombre y número tal como aparecen en el
-   archivo. Ej.: `Base: Concepto «Juego de escala» · Sesión #18 «Producto entre sus ingredientes» ·
-   DP: receta cosmética · Research: [tendencia con fuente]`.
+   archivo. Ej.: `Base: Repo gen-059 + gen-010 · Concepto «Tipografía como escenografía» · Sesión #43
+   «Producto en red» · DP: receta bebida caliente · Research: [tendencia con fuente]`.
 5. **Al escribir el prompt, la sección del formato elegido es el molde de la escena** (composición
    clave + la variante o adaptación que aplique) y la receta DP fija luz y lente. Adáptalo con la REGLA #2:
    cambia lo específico del caso, no lo sustituyas por una escena genérica. Los bloques obligatorios no
@@ -233,14 +251,11 @@ completa** y deja que la persona recorte (en la ruta express, ofrécela solo en 
    lista en mockups/papelería/empaque/POP → entrada C (`references/estudio-de-marca.md`); crear modelo
    → flujo de modelo; **pieza suelta → ruta express** (ver "Al activar la skill"); carrusel o campaña con
    marca lista → research + brief + intake normal. Confirma la ruta en una línea antes de seguir.
-   **OFRECE referencias visuales como un PLUS** (no como requisito): comparte el instructivo
-   (`references/instructivo-referencias.md`) e **invita** a la persona a adjuntarte referencias de
-   **estilo/mood, iluminación, atuendo, escena**, y de **cara** cuando haya modelo (su nivel/vibra) —
-   suman mucho a la calidad, pero no son obligatorias (salvo en UGC con buen casting y en la ruta de
-   marca, donde sí lo son: ver las excepciones del bloque 💡 al inicio). Las referencias de estilo las **lees TÚ** con psicología
-   inversa (`references/ingenieria-inversa.md`) y las describes en el prompt (no se adjuntan al generador). Lo único realmente indispensable para arrancar es
-   la **foto del producto**; si no trae referencias de estilo, avanza igual y, si quieres, propónle 2–3
-   direcciones en texto para que elija (en la ruta de marca, en cambio, las referencias son obligatorias).
+   **PIDE referencias visuales siempre**, del tipo que corresponde a la ruta elegida (tabla en
+   `references/instructivo-referencias.md`; bloque 💡 al inicio). Las referencias de estilo las **lees TÚ**
+   con psicología inversa (`references/ingenieria-inversa.md`) y las describes en el prompt (no se
+   adjuntan al generador). Si no trae, avanza con el repositorio (`assets/referencias/`) y díselo; en UGC
+   con buen casting y en la ruta de marca, en cambio, son obligatorias.
 1. **Foto(s) del producto — SIEMPRE, antes de generar piezas de producto.** Nunca arranques sin al menos una foto
    legible. Pide **varios ángulos o fotos de detalle cuando el producto lo amerite** (logo,
    etiqueta, textura, costuras, varias caras, suela/talón en calzado, frente/espalda en ropa) y
@@ -274,7 +289,9 @@ completa** y deja que la persona recorte (en la ruta express, ofrécela solo en 
    producto-marca / tendencias del mercado (ver `references/nichos.md`).
 8. **Paleta por roles** (propia o propuesta). Regla de oro para no clonar: la **estructura** se
    modela de las referencias, pero la **paleta es variable**.
-9. **Tipografía** (sugiere combo o usa la de la marca; ver `references/tipografia.md`).
+9. **Tipografía, al inicio y como elección aparte:** 2–3 combinaciones con su **prompt de muestra
+   tipográfica**, elegidas en orden: identidad real de la marca → tipografía de las referencias → vibra
+   del nicho (`references/tipografia.md`). La persona elige mirando y después sigue el flujo.
 10. **Datos de venta y TEXTOS — pregúntalo antes de generar, no al final.** Siempre que sea **campaña
     full, destino ads, o haya piezas de promo/venta**: ¿lleva **precio** (cuál exacto)? ¿hay **promo/
     oferta**? ¿tienes **tus propios textos/copys o los propongo**? + materiales/ingredientes y promesa.
@@ -303,15 +320,16 @@ objeciones y un banco de lenguaje real que alimenta directamente los copys y gan
 2–3 direcciones creativas en texto** (no en artefacto HTML) para que elija:
 - **Nombre del concepto + 1 línea de gran idea + medio** (foto hiperreal, editorial, collage…).
 - **Paleta por roles** con HEX (fondo · tipografía · acento · héroe del producto).
-- **Combinación tipográfica** con nombres de fuentes reales (Google Fonts / Canva) y tu recomendación.
+- **Tipografía:** la combinación elegida en el paso 9 (o 2–3 opciones con su prompt de muestra, si aún
+  no se eligió).
 - **Spot / escenario** propuesto por el director de arte.
 - **Línea `Base:`** con el concepto, el formato de sesión (#N), la receta DP y el hallazgo del research
   de los que sale (ver “Antes de proponer: consulta real de las bibliotecas”).
 Incluye al menos una dirección de alto concepto (`references/conceptos-creativos.md`). Cierra con
-“Elige 1, 2 o 3 — o combina (ej. paleta de la 1 + letras de la 3).” Si la persona quiere **ver** la
-dirección antes de decidir, entrégale un **prompt de moodboard** por ruta (adaptado del molde 01 del
-playbook: grilla 3×3 con la paleta, la luz y las texturas de esa ruta) para que lo genere en su
-herramienta; si la marca tiene logo, va como `@imagen 1` y no se inventa otro. Recién después de elegir
+“Elige 1, 2 o 3 — o combina (ej. paleta de la 1 + letras de la 3).” **Con las direcciones va siempre
+un prompt de moodboard por ruta** (adaptado del molde 01 del playbook: grilla 3×3 con la paleta, la luz
+y las texturas de esa ruta) para que la persona elija mirando, sin tener que pedirlo; si la marca tiene
+logo, va como `@imagen 1` y no se inventa otro. Recién después de elegir
 dirección generas los prompts de las piezas.
 
 **Justo antes de generar los prompts, pregunta el MODO DE TEXTO** (`references/modo-texto.md`): (A)
@@ -573,6 +591,10 @@ bloqueados modelo, producto y paleta, ofrece también su **kit de consistencia /
   memoria para pegar en su generador, imágenes que se adjuntan siempre y prompts base; versión skill si usa
   Claude.
 - `assets/plantilla-skill-de-marca.md` — plantilla del SKILL.md de la skill de marca.
+- `assets/referencias/` — **repositorio de 227 imágenes** de la autora (general, texto y 8 nichos), de uso
+  educativo, con `indice.md`: lectura ya hecha de cada imagen, nivel (★ para aspirar · ◦ convención del
+  nicho), formato o concepto del banco que ilustra y un buscador rápido por mecanismo. Se consulta siempre
+  antes de proponer (REGLA #4).
 - `references/referencias-de-marca.md` — referencias en dos momentos: de logo (paso 1) y de marcas que le
   gustan (paso 4, por categorías, incluidas anti-referencias y fotos del propio local), tabla de lectura,
   prueba anti-copia y dos mensajes tipo.

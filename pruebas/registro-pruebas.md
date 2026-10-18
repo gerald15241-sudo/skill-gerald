@@ -1,5 +1,7 @@
 # Registro de pruebas: prompts-de-contenido v1.7.0
 
+> **Estado: correcciones aplicadas en la v1.8.0**, salvo lo marcado como no aplicado al final.
+
 Todas las pruebas corren sobre la v1.7.0. No se cambia la skill hasta terminar las 5, salvo pedido
 expreso de la usuaria.
 
@@ -214,3 +216,29 @@ cada opción dice qué tomó de las referencias.
 |---|---|---|---|
 | 5.1 | **Pedido expreso:** que la lectura de las referencias de logo sea profunda y que las opciones salgan de **mezclar y combinar** esas referencias. | Skill. Hoy cada opción "dice qué tomó", pero no se exige combinar ni mostrar la lectura antes. | (a) Mostrar la tabla de lectura de cada referencia **antes** de las opciones. (b) Sacar el **patrón común** ("lo que se repite en tus referencias es lo que te gusta") y las diferencias. (c) Cada una de las 6 opciones se declara como mezcla: "tipografía de la ref. A + dispositivo de la ref. C + proporción de la ref. B + 1 elemento propio"; al menos 4 opciones son combinaciones de 2 o más referencias y 1 es un contraste deliberado para que la persona compare. (d) Prueba anti-copia por opción. |
 | 5.2 | El repositorio recibido no tiene referencias de logo (son piezas y anuncios). | Contenido pendiente. | Opcional: si la usuaria sube una carpeta de logos, se suma a `assets/referencias/logos/` con su índice. Mientras tanto, la ruta de logo depende de las referencias de la persona y de la búsqueda web. |
+
+## Aplicación en la v1.8.0
+
+| Hallazgo | Estado |
+|---|---|
+| 1.1 datos de etiqueta | Aplicado (`bloques-obligatorios.md` §1, curaduría) |
+| 1.2 producto "pegado" | Aplicado (bloque 1b de integración, curaduría) |
+| 1.3 titular cliché | Aplicado (`copywriting.md` paso 5, curaduría) |
+| 1.4 precio ambiguo | Aplicado (`flujo-intake.md` Paso 9, curaduría) |
+| 1.5 3 intercambios desde "hola" | No aplicado: la usuaria prioriza calidad sobre rapidez |
+| 1.6 exceso de elementos | Aplicado como verificación en curaduría |
+| 2.1 tipografía de marca | Aplicado (`tipografia.md`, `SKILL.md`, curaduría) |
+| 2.2–2.4 modelos | Aplicado (corrección guardada en 39d0db6, restaurada) |
+| 3.1 / 4.1 muestra tipográfica al inicio | Aplicado (`tipografia.md`, `SKILL.md`, express) |
+| 3.2 mensajes largos | No aplicado: la usuaria no lo pidió |
+| 3.4 recurso tipográfico de la serie | Aplicado (`diseno-tipografico.md`, curaduría) |
+| 4.2 / R2 referencias siempre | Aplicado (bloque 💡, `instructivo-referencias.md`, express, Paso 0) |
+| 4.3 moodboard proactivo | Aplicado (`SKILL.md`, `investigacion-mercado.md`, curaduría) |
+| 4.4 letras tapadas | Aplicado (`diseno-tipografico.md`, curaduría) |
+| 4.5 texto huérfano / nombre interno | Aplicado (`diseno-tipografico.md`, curaduría) |
+| 4.6 textos del molde | Aplicado (REGLA #2, curaduría) |
+| 4.7 no todo de Nautica | Aplicado (REGLA #2, protocolo paso 3, curaduría) |
+| 4.8 / R1 repositorio | Aplicado (`assets/referencias/` + `indice.md`, REGLA #4, protocolo) |
+| 5.1 mezcla en logos | Aplicado (`logos-profesionales.md`, curaduría) |
+| 5.2 carpeta de logos | Pendiente de material de la usuaria |
+| Adelgazar `SKILL.md` | En pausa por decisión de la usuaria |

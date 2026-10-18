@@ -5,6 +5,9 @@ product boards y editoriales). Aquí se guardan como **conceptos descritos**, no
 viaja es el *mecanismo* (qué hace que la pieza funcione) y cómo **adaptarlo a cualquier nicho**. Úsalo
 junto con `conceptos-creativos.md` para proponer grandes ideas en el preview.
 
+Muchas familias tienen ejemplos reales en el repositorio de imágenes: búscalas en el buscador rápido de
+`assets/referencias/indice.md`.
+
 Cómo usarla: en la investigación/preview, elige 1–3 referentes que encajen con la marca y el objetivo,
 adáptalos al producto real (con su foto) y nómbralos por el concepto. Mantén las reglas no negociables
 (fidelidad de producto, identity lock, realismo, color héroe). No copies la pieza original: destila la

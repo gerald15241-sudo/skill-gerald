@@ -1,5 +1,9 @@
 # Nichos y carpetas de referentes
 
+> Las imágenes de cada nicho están en `assets/referencias/<nicho>/` (belleza, bienestar,
+> creacion-de-contenido, fisioterapia, inmobiliaria, mascotas, peluqueria, restaurantes), con su lectura en
+> `assets/referencias/indice.md`. Ábrelas: el ADN de abajo es el resumen, las imágenes son la fuente.
+
 La persona irá subiendo **carpetas de referentes por nicho** (restaurantes, moda, salud, bienestar,
 mascotas, belleza, etc.). Así se usan:
 

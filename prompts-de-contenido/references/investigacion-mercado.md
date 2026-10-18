@@ -55,7 +55,8 @@ flat lay sobrio). Es seguro pero genérico y muchas veces **no es la marca ni la
   seguro. Nómbralas por su idea ("Entrega épica: la zapatilla sobre la ciudad"), no por su paleta.
 - **Research + bibliotecas, siempre juntos.** El research dice qué está funcionando hoy; las bibliotecas
   (`conceptos-creativos.md`, `biblioteca-referentes.md`, `sesiones-foto-producto.md`, `biblioteca-dp.md`)
-  dicen cómo ejecutarlo. Cruza cada tendencia con un formato de sesión y una receta DP concretos, y deja
+  y el repositorio de imágenes (`assets/referencias/indice.md`) dicen cómo ejecutarlo. Cruza cada
+  tendencia con imágenes del repositorio, un formato de sesión y una receta DP concretos, y deja
   la línea `Base:` en cada dirección (protocolo en SKILL.md, “Antes de proponer: consulta real de las
   bibliotecas”).
 - Si la marca o la tendencia piden **color, humor, surrealismo o tipografía gráfica**, ve por ahí —
@@ -80,8 +81,8 @@ todo—:
 **Presenta las direcciones cortas y comparables, no un brief largo.** A la gente no le gusta leer:
 entrega 2–3 direcciones en texto (nombre del concepto, una línea de gran idea, paleta por roles con HEX,
 fuentes reales y medio), con tu recomendación marcada. No construyas tableros HTML para elegir (REGLA #1
-del SKILL); si la persona quiere ver una dirección antes de decidir, dale un **prompt de moodboard** por
-dirección para su generador (si la marca tiene logo aprobado, va como `@imagen 1`).
+del SKILL). **Con las direcciones entrega siempre un prompt de moodboard por dirección** para su
+generador, sin esperar a que lo pida (si la marca tiene logo aprobado, va como `@imagen 1`).
 
 La persona aprueba/elige o ajusta; recién ahí generas los prompts. Lo elegido alimenta luego el brand
 board de cierre.

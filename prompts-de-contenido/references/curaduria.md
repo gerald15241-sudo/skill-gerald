@@ -35,6 +35,11 @@ están, aplica tú el checklist igual** con tu propio criterio; nunca dependas d
 - ¿Cada prompt describe el producto EXACTO de la foto (forma, color real, logo, etiqueta, textura,
   proporciones)? ¿Nada inventado ni "parecido"?
 - ¿Se usan las fotos/ángulos que la persona dio, y se pidieron los que faltan?
+- Si el producto tiene texto impreso (etiqueta, ficha, datos): ¿se transcribió línea por línea, tal como
+  está en la foto, e **idéntico en todas las piezas** de la serie (caso de la altitud 1800 / 1950)?
+- Si el producto va dentro de una escena real: ¿lleva el bloque de integración (misma luz y temperatura,
+  sombra de contacto, oclusión, atmósfera) para que no se vea "pegado"? ¿El producto respira, o lo
+  saturan los elementos alrededor?
 
 **2. Disciplina de color.**
 - ¿La paleta respeta los roles fijados (fondo · tipografía · acento · héroe)?
@@ -45,7 +50,15 @@ están, aplica tú el checklist igual** con tu propio criterio; nunca dependas d
 **3. Legibilidad del texto.**
 - ¿El texto se lee completo, sin quedar tapado por el producto, el modelo o un borde? (caso "DIFERENTE"
   medio oculto = error).
+- Si el texto va detrás de la persona o del producto: ¿se lee **cada palabra completa**? ¿El prompt dice
+  dónde queda el sujeto respecto a las letras y cierra con "NO letters hidden or cut"?
+- ¿Algún texto flota solo, sin relación con el titular o la retícula? ¿Se usó el nombre interno de una
+  dirección como texto visible?
 - ¿Contraste suficiente texto/fondo? ¿Jerarquía clara (titular > bajada > CTA)?
+- **Tipografía:** ¿se eligió en orden (marca real → referencias → nicho), se dieron 2–3 opciones **al
+  inicio** con el prompt de muestra tipográfica, y pasa la prueba de marca tapada (sin el logo, la letra
+  se siente de la marca)? Si la serie tiene un recurso tipográfico (palabra en cursiva), ¿está escrito
+  en **todos** los prompts?
 - En modo con texto en imagen: ¿textos cortos, dentro del límite de líneas, en español correcto con
   tildes y Ñ, con el bloque SPANISH TEXT — EXACT RENDERING? ¿Se avisó que hay que revisar letra por letra?
 
@@ -63,6 +76,9 @@ están, aplica tú el checklist igual** con tu propio criterio; nunca dependas d
 - ¿Hay una **gran idea** con gancho, no solo estética? ¿Al menos una dirección fue de alto concepto?
 - ¿Las 2–3 direcciones eran **distintas entre sí** (no el mismo mood con otro color)?
 - ¿Se siente como publicidad oficial de esa marca/nicho, apoyada en campañas reales investigadas?
+- **Repositorio:** ¿se abrió `assets/referencias/indice.md`, se eligieron y **abrieron** 4–6 imágenes, y
+  la línea `Base:` dice cuáles (`Repo: gen-059 + …`)? Si la persona trajo referencias, ¿se cruzaron con el
+  repositorio? Si no trajo, ¿se le dijo qué imágenes del repositorio se usaron?
 - ¿Se **abrieron de verdad** en esta sesión las bibliotecas (`conceptos-creativos.md`,
   `biblioteca-referentes.md`, las secciones completas de los formatos elegidos en
   `sesiones-foto-producto.md`, la receta de `biblioteca-dp.md`) antes de proponer? Si no, ábrelas y rehaz.
@@ -79,6 +95,9 @@ están, aplica tú el checklist igual** con tu propio criterio; nunca dependas d
   la receta DP, o se diluyó en una escena genérica?
 - ¿Cada prompt parte de la sección más cercana del playbook (buscada en su índice) y conserva intacto su
   bloque de realismo, cámara y AVOID? Si se reescribió o se resumió ese bloque, es error: restáuralo.
+- ¿Los textos del molde se reescribieron para esta marca (nada de "ARCHIVO 01" o titulares de Nautica
+  copiados)? En campañas, ¿al menos una dirección explora una composición que no sale de un molde?
+- ¿Con las direcciones se entregó el **prompt de moodboard** de cada una, sin que la persona lo pidiera?
 
 **6. Copy (siempre lo propone la skill — ver `copywriting.md`).**
 - ¿Hay titular, bajada y CTA propuestos por TI, aunque la persona solo diera el precio (o nada)?
@@ -86,6 +105,17 @@ están, aplica tú el checklist igual** con tu propio criterio; nunca dependas d
 - ¿Se presentaron 2–3 opciones con tu recomendación marcada? ¿Una sola idea por pieza? ¿Un solo CTA?
 - ¿El copy es de nivel copywriter (claro, con gancho, en la voz del nicho y en español natural), no
   relleno? ¿El precio va enmarcado, no pelado, y sin inventar descuentos/promesas?
+- **Anti-cliché:** ¿el titular podría firmarlo cualquier competidor ("de la finca a tu taza")? Si sí,
+  reemplázalo por uno que aproveche la idea visual de la pieza.
+
+**6b. Personas en la pieza.**
+- ¿Hay una persona sin `@imagen` de modelo aprobado? Solo vale si es solo manos o persona sin rostro, o
+  si la persona aceptó una pieza única sin serie; si no, primero va el casting y el modelo (atajo de
+  `modelo-ugc.md`).
+- ¿Se preguntó el tipo de casting, la edad, los rasgos y la vibra antes de crear a la persona?
+- ¿El prompt lleva el bloque completo de piel y cámara del carril correcto (§1 del playbook o
+  `personas-reales.md`), y no una descripción corta propia?
+- Si hay varias personas: ¿cada una tiene su `@imagen` y se prohíbe intercambiar rasgos?
 
 **7. Consistencia de familia.**
 - ¿Toda la campaña/carrusel comparte paleta, tipografía, modelo (IDENTITY LOCK) y producto (PRODUCT
@@ -94,17 +124,20 @@ están, aplica tú el checklist igual** con tu propio criterio; nunca dependas d
 
 **8. Intake completo (no asumir).**
 - ¿Se preguntó lo que decide la pieza y no estaba claro? Sobre todo: **¿tiene precio?** y **¿la persona
-  pone los textos o los pongo yo / modo de texto?** (errores que ya pasaron por no preguntar).
-- ¿Se **ofrecieron referencias visuales** (estilo, luz, atuendo, escena)? Son un plus en piezas, pero
-  **obligatorias** en dos casos: modelo UGC con buen casting (foto de cara) y ruta de marca (referencias
-  de logo en el paso 1 y de marcas que le gustan en el paso 4). Ver el bloque 💡 al inicio de SKILL.md.
+  pone los textos o los pongo yo / modo de texto?** (errores que ya pasaron por no preguntar). Si el
+  precio llegó ambiguo ("75.000 mil", "75k"), ¿se confirmó antes de generar?
+- ¿Se **pidieron referencias visuales del tipo que corresponde** al entregable (tabla de
+  `instructivo-referencias.md`), también en la express? Si no las tenía, ¿se usó el repositorio y se le
+  dijo? Son **obligatorias** en dos casos: modelo UGC con buen casting (foto de cara) y ruta de marca
+  (referencias de logo en el paso 1 y de marcas que le gustan en el paso 4).
 - ¿Cada prompt dice **qué fotos adjuntar en el generador** (@imagen = producto/modelo-lock), o aclara que
   es solo texto? ¿NO se pidió adjuntar al generador las referencias de estilo (esas las describe el texto)?
 - ¿Los prompts se entregaron **inline en el chat** (texto para copiar), NO en artefacto?
 - **Ruta express:** las 3 preguntas cubren objetivo, formato, precio, modo de texto y look; no se exige
   el resto del intake ni 2–3 direcciones. Pero ¿la dirección única tiene su `Base:`, pasa la prueba
-  anti-genérico y el prompt lleva todos los bloques obligatorios? ¿Se llegó al prompt en máximo dos
-  mensajes y el cierre ofrece variante, otra dirección o pasar a campaña?
+  anti-genérico y el prompt lleva todos los bloques obligatorios? ¿Se pidieron referencias, se cruzó con
+  el repositorio y, si hay texto, se eligió la tipografía con la muestra antes del prompt? ¿El cierre
+  ofrece variante, otra dirección o pasar a campaña?
 
 **9. Marca real — responsabilidad.**
 - ¿Logo y producto fieles, sin deformar?
@@ -120,7 +153,9 @@ están, aplica tú el checklist igual** con tu propio criterio; nunca dependas d
   aprobado, o aparece un logo provisional o distinto? Si sí, es error: se retira.
 - **Referencias:** ¿hay mínimo 3 referencias de logo antes de la exploración y mínimo 3 de marcas antes
   del moodboard? ¿Se leyeron con psicología inversa (`ingenieria-inversa.md`) y regla 3–2–1?
-- **Logo:** ¿las 6 opciones difieren en arquitectura y dicen qué tomaron de las referencias? ¿Nombre
+- **Logo:** ¿se mostró la lectura de cada referencia y el patrón común antes de las opciones? ¿Las 6
+  difieren en arquitectura, cada una es una mezcla declarada ("tipografía de la Ref A + dispositivo de la
+  Ref C…"), al menos 4 combinan 2 o más referencias y 1 es un contraste deliberado? ¿Nombre
   deletreado con sus tildes? ¿® solo si está registrada? ¿La hoja tiene primario, secundario, versiones
   de color, monograma y una tinta? ¿Se avisó vectorizar y verificar el registro?
 - **Ficha:** desde el paso 3, ¿cada prompt lleva `@imagen 1` = logo aprobado, la línea 📎 y la ficha

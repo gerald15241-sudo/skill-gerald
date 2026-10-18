@@ -83,7 +83,9 @@ persona rechazan. Así el generador se aleja de la copia y del estilo que no qui
 ## Entregable para la persona
 
 Una tabla corta (capas → qué tiene la referencia → qué haremos nosotros), las 3–5 líneas de "por qué
-funciona" y la receta. Nada de informes largos: lo visual se decide mirando (tablero o prompt).
+funciona" y la receta. Si la referencia tiene texto, la **capa de tipografía** nunca se omite en "qué
+tomé". Las imágenes del repositorio (`assets/referencias/indice.md`) ya traen su lectura resumida; al
+abrirlas, verifica esa lectura y complétala con lo que necesites para el caso. Nada de informes largos: lo visual se decide mirando (tablero o prompt).
 
 ## Ejemplo resumido — tableros de identidad tipo bento (solo para ilustrar el método; nunca es un estilo por defecto)
 

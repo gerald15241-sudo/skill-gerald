@@ -21,18 +21,27 @@ afina microcopys.
 - **Alineación y grid.** Todo se alinea a una retícula; márgenes consistentes. Nada "flotando" al azar.
 - **Aire (espacio negativo).** El texto respira; no llenes la pieza. El vacío es diseño.
 - **Relación texto–producto.** El texto nunca tapa lo clave del producto ni la cara del modelo; si va
-  detrás del sujeto, la **palabra clave queda legible y completa** (no la parte el cuerpo).
+  detrás del sujeto, **cada palabra sigue leyéndose completa**. En el prompt, escribe dónde queda el
+  sujeto respecto a las letras ("the model stands in front of the lower edge of the letters, every
+  letter stays fully readable") y cierra con "NO letters hidden or cut by the model or the product".
+  Si el sujeto tiene que tapar algo, que sea el borde inferior, nunca una letra entera.
+- **Ningún texto huérfano.** Todo texto secundario se alinea al titular o a la retícula; nada flota solo
+  en un lado sin relación. El nombre interno de una dirección ("La espalda habla") no es texto visible,
+  salvo que sea el copy elegido.
 - **Color desde la paleta por roles.** El texto usa los colores del sistema (tipografía/acento), nunca
   un color fuera de la paleta bloqueada.
 - **Consistencia de serie.** Mismo tratamiento tipográfico (posición, escala, caja, color) en todas las
-  piezas de una campaña, para que se lean como familia.
+  piezas de una campaña, para que se lean como familia. Si la serie tiene un recurso propio (por ejemplo,
+  una palabra en cursiva dentro del titular), escríbelo como regla fija en **cada** prompt, también en la
+  primera pieza.
 - **Legibilidad primero.** Contraste suficiente, tamaño mínimo cómodo, interlineado correcto, sin
   deformar ni estirar las letras.
 - **Intencional, no template.** Evita el look "plantilla": busca una decisión de diseño con carácter.
 
 ## Extrapolar de referencias (sin copiar)
 
-Mira las referencias (las que trae la persona + `biblioteca-referentes.md`): estudia **dónde** se ubica
+Mira las referencias (las que trae la persona + las de `texto/` y del nicho en
+`assets/referencias/indice.md` + `biblioteca-referentes.md`): estudia **dónde** se ubica
 el texto, su **escala** respecto al encuadre, la **alineación**, si **se superpone** al producto, el
 tratamiento (caja, subrayado, sticker, outline). Toma ese *mecanismo de composición* y adáptalo a la
 marca y la paleta del cliente. Nunca copies el diseño original — destila la lógica.

@@ -37,7 +37,11 @@ qué le gusta (mensaje tipo 1 de `referencias-de-marca.md`). Para que las consig
    tabla corta: arquitectura · tipografía (familia, peso, ancho, caso, tracking) · dispositivo o símbolo
    · color (cuántos y cómo se aplican) · proporción y espacio negativo · personalidad. Separa el **ADN**
    (lo que funciona y se puede tomar) de la **firma** (lo propio de esa marca, que no se copia) y aplica
-   la regla 3–2–1.
+   la regla 3–2–1. **Muestra esta tabla a la persona antes de las opciones**, para que vea que entendiste
+   lo que le gusta.
+4. **Saca el patrón común y las diferencias.** "Lo que se repite en tus referencias es lo que te gusta"
+   (por ejemplo: las tres usan letra gruesa redondeada y un solo color) y en qué se separan (una tiene
+   símbolo, otra no). El patrón común guía la mayoría de las opciones; las diferencias dan variedad.
 
 > **Anti-copia:** si dos marcas distintas pudieran recibir el mismo logo, algo falló. Las referencias de
 > logo alimentan la **estructura y ejecución** del logo; las referencias de marcas del paso 4 alimentan
@@ -70,6 +74,12 @@ qué le gusta (mensaje tipo 1 de `referencias-de-marca.md`). Para que las consig
 En la exploración, **cada opción usa una arquitectura distinta**, tiene un nombre de concepto, una línea
 de por qué y dice **qué tomó de sus referencias** ("Marco de encuadre: toma el tracking abierto de la
 Ref 2, cambia la serif por una grotesca").
+
+**Las opciones son mezclas declaradas de las referencias, no ideas sueltas.** Cada una se escribe como
+receta: "tipografía de la Ref A + símbolo o dispositivo de la Ref C + proporción de la Ref B + 1 elemento
+propio de la marca". Al menos 4 de las 6 combinan 2 o más referencias; 1 es un **contraste deliberado**
+(sale del patrón común a propósito) para que la persona compare. Cada opción pasa la prueba anti-copia:
+tapando el nombre, no se confunde con ninguna referencia.
 
 ## 3. Lo que hace que se vea de diseñador (y no de plantilla)
 
@@ -186,6 +196,8 @@ Confirma en Canva antes de prometer una fuente ahí, y que la fuente elegida ten
 
 - ¿La persona adjuntó o eligió mínimo 3 referencias de logo antes de la ronda 1?
 - ¿Las 6 opciones difieren en arquitectura? ¿Cada una tiene concepto, razón y qué tomó de las referencias?
+- ¿Se mostró la lectura y el patrón común antes? ¿Cada opción es una mezcla declarada, al menos 4 combinan
+  2 o más referencias y 1 es un contraste deliberado?
 - ¿Nombre deletreado exacto en el prompt, con sus tildes y Ñ? ¿® solo si está registrada?
 - ¿Se lee a 110 px y en una sola tinta? ¿Tiene monograma?
 - ¿La hoja del sistema tiene los 5 bloques (primario, secundario, versiones de color, monograma, una tinta)?

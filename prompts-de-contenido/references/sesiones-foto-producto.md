@@ -1226,6 +1226,8 @@ Estos estilos son **moldes de sesión**, no prompts finales. Al usarlos:
 4. **Aplica** las reglas no negociables de siempre: fidelidad de producto (`@imagen`), identity lock
    (si hay modelo), realismo, sistema de color por roles, avoid al cierre.
 5. **Propón 2–3 formatos de sesión** en el preview, igual que propones direcciones de concepto.
+6. **Mira un ejemplo real:** busca el número del formato (#N) en `assets/referencias/indice.md` y
+   abre las imágenes que lo ilustran.
 
 Estos formatos funcionan tanto para **foto hiperrealista** como para **diseño editorial** — el medio
 se elige aparte (ver `estetica-y-medio.md`). El formato de sesión define el MONTAJE; el medio

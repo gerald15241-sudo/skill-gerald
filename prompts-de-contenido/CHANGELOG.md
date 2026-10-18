@@ -1,5 +1,32 @@
 # Cambios de la skill prompts-de-contenido
 
+## v1.8.0 — paquete de correcciones de las pruebas
+
+Sale de las 5 pruebas de octubre de 2026 (registro completo en `pruebas/registro-pruebas.md` del repo).
+No cambia el playbook, las plantillas ni el sistema de `@imagen`.
+
+- **Repositorio de referencias** (`assets/referencias/`): 227 imágenes de la autora, sin duplicados, en
+  `general/`, `texto/` y 8 nichos, con `indice.md` (lectura de cada imagen, nivel ★/◦, formato o concepto
+  del banco y buscador rápido por mecanismo). La skill lo consulta siempre antes de proponer (REGLA #4),
+  abre 4–6 imágenes, las cruza con las referencias de la persona y declara cuáles usó en `Base:`.
+- **Referencias pedidas siempre**, según lo que se construye (tabla en `instructivo-referencias.md`),
+  también en la ruta express. Si la persona no tiene, se usa el repositorio y se le dice.
+- **Tipografía al inicio**, como elección aparte, con 2–3 combinaciones y **prompt de muestra
+  tipográfica**; orden marca real → referencias → nicho; vibra streetwear/workwear; moda no es lujo por
+  defecto; prueba de marca tapada.
+- **Prompt de moodboard** entregado siempre junto con las direcciones.
+- **Molde = estructura, no composición:** el realismo y los bloques del playbook se mantienen; la
+  composición se explora desde referencias, repositorio y bancos. Los textos del molde se reescriben.
+- **Modelos creados primero**, con el casting y el molde de avatar, nunca inventados dentro de la pieza
+  (opción "con modelo, pero no tengo" en la express; ajuste de género y maquillaje para hombres).
+- **Logos:** lectura visible, patrón común y 6 opciones como mezclas declaradas de las referencias.
+- **Producto:** texto de la etiqueta transcrito línea por línea e idéntico en la serie; bloque de
+  integración producto–escena.
+- **Diseño:** ninguna letra tapada por el sujeto, ningún texto huérfano, recurso tipográfico de la serie
+  fijo en cada prompt.
+- **Copy:** filtro anti-cliché. **Precios ambiguos** se confirman antes de generar.
+- Curaduría actualizada con una verificación por cada corrección.
+
 ## v1.7.0
 
 - **Embudo creativo:** antes de proponer, la skill arma en borrador 6–8 combinaciones (concepto +

@@ -60,8 +60,9 @@ foto de producto, vamos por un carrusel de venta"). Luego continúa.
 ## Ruta express — pieza suelta (3 preguntas, foto y primer prompt)
 
 Para quien quiere **una pieza** (un post, una historia, un anuncio, una foto de producto) sin pasar por
-todo el intake. Meta: **máximo dos mensajes antes del primer prompt**. Lo rápido es el camino, no el
-resultado: todas las reglas no negociables siguen igual.
+todo el intake. Meta: pocas preguntas y el prompt pronto, pero **prima la calidad sobre la rapidez**: se
+piden referencias y, si la pieza lleva texto, la persona elige la tipografía mirando antes del prompt.
+Todas las reglas no negociables siguen igual.
 
 **Entra cuando:** la persona elige "una pieza suelta" en el Paso 0, pide algo rápido o directo, o sube
 una foto y dice "hazme una pieza para esto".
@@ -73,7 +74,8 @@ producto, pídela: es lo único indispensable.
 ### Mensaje 1 — las 3 preguntas (un solo mensaje)
 
 Saludo de una línea, las 3 preguntas tipo botón, la foto del producto si falta (con los ángulos que
-convienen, ver Paso 1) y una línea: "Si tienes referencias de estilo, súmalas; no es obligatorio".
+convienen, ver Paso 1) y el pedido de **2–4 referencias** de posts o anuncios que le gusten (composición,
+texto, luz). Si no tiene, avanza con el repositorio (`assets/referencias/`) y díselo.
 
 1. **¿Para qué es y dónde va?** Vender (anuncio o post con precio/promo) · Mostrar el producto (post
    orgánico) · Lanzamiento o novedad. Formato: feed 4:5 · historia 9:16 · cuadrado 1:1.
@@ -81,8 +83,14 @@ convienen, ver Paso 1) y una línea: "Si tienes referencias de estilo, súmalas;
    texto dentro de la imagen · Sin texto. Si es para vender: precio exacto y promo, o "no aplica". Los
    copys los propongo yo, salvo que traigas los tuyos.
 3. **¿Qué look?** Decide tú (recomendado) · Estudio limpio · Escena real / lifestyle · Algo que frene el
-   scroll (alto concepto). ¿Con persona? Solo producto · Con mi modelo (adjunta sus fotos) · Solo manos
-   o persona sin rostro.
+   scroll (alto concepto). ¿Con persona? Solo producto · Con mi modelo (adjunta sus fotos) · Con modelo,
+   pero no tengo (lo creamos primero) · Solo manos o persona sin rostro.
+
+**Si elige "con modelo, pero no tengo"** (o pide persona sin adjuntar fotos): antes del mensaje 2 va el
+atajo de `modelo-ugc.md` ("Atajo: crear el modelo antes de una pieza"): un mensaje de casting, el prompt
+del modelo con el molde de avatar (playbook §1) o de personas reales, y la pieza cuando el modelo esté
+aprobado y adjunto como `@imagen`. Avísale en una línea que son dos pasos más y por qué: así el modelo
+sale con realismo de verdad y es la misma persona en todas las piezas.
 
 No repitas lo que la persona ya dijo. Si las tres respuestas ya están claras en su primer mensaje, pasa
 directo al mensaje 2. Si responde "decide tú": 4:5, modo A si hay precio o textos pequeños, solo
@@ -91,12 +99,14 @@ producto y tu dirección recomendada.
 ### Lo que decides tú, sin preguntar
 
 - **Nicho:** lo detectas de la foto y lo confirmas de pasada en la propuesta.
-- **Consulta de bibliotecas (REGLA #4):** igual que siempre. Abres los bancos y la sección más cercana
-  del playbook, que es el molde del prompt. No hay research web en la express: en la línea `Base:` pon
+- **Consulta de bibliotecas (REGLA #4):** igual que siempre. Abres los bancos, el repositorio
+  (`assets/referencias/indice.md`, 4–6 imágenes abiertas) y la sección más cercana del playbook, que es
+  el molde del prompt. Cruzas todo con las referencias de la persona. No hay research web en la express: en la línea `Base:` pon
   `Research: no (ruta express)`.
 - **Una sola dirección:** la mejor para el objetivo, no 2–3. Debe pasar la prueba anti-genérico.
 - **Paleta por roles** derivada del producto o de la marca visible, con el color héroe reservado al
-  producto. **Fuentes** reales si hay texto.
+  producto. Si hay texto, **2–3 combinaciones de tipografía** con su prompt de muestra
+  (`tipografia.md`), elegidas en orden marca real → referencias → nicho.
 - **Copy** (si lleva texto): titular, bajada y un CTA recomendados, más 2 titulares alternativos en una
   línea (`copywriting.md`). El precio va enmarcado y deletreado.
 - **Moda/calzado:** si pidió una sola pieza, se respeta. La sesión completa se ofrece al final, en el
@@ -104,17 +114,24 @@ producto y tu dirección recomendada.
 - **Marca real:** usa la identidad visible en la foto y las reglas de "Marcas reales" de SKILL.md; ofrece
   investigar su línea de campaña en el cierre.
 
-### Mensaje 2 — la entrega
+### Mensaje 2 — la propuesta (y la tipografía, si hay texto)
 
-1. **La propuesta en 3 líneas como máximo:** nombre del concepto + por qué funciona, la línea `Base:` y la
-   paleta con HEX por roles (+ fuentes si hay texto).
-2. **El prompt completo** en bloque de código, con todos los bloques obligatorios (PRODUCT ACCURACY,
+1. **La propuesta en 3 líneas como máximo:** nombre del concepto + por qué funciona, la línea `Base:`
+   (con las imágenes del repositorio usadas) y la paleta con HEX por roles. Si la persona trajo
+   referencias, una línea por referencia con lo que tomaste.
+2. **Si la pieza lleva texto:** las 2–3 opciones de tipografía con tu recomendación y el prompt de
+   muestra tipográfica. "Genera la muestra, elige 1, 2 o 3 y te entrego el prompt." El prompt de la pieza
+   va en el mensaje siguiente, ya con la letra elegida. Si no lleva texto, sigue directo con el punto 3.
+
+### La entrega del prompt
+
+3. **El prompt completo** en bloque de código, con todos los bloques obligatorios (PRODUCT ACCURACY,
    IDENTITY LOCK si hay modelo, color por roles, SPANISH TEXT si el texto va en la imagen, AVOID) y la
    línea 📎 de qué adjuntar. Si hay una sola foto, blíndalo (Paso 1).
-3. **Los textos:** en modo A, la hoja para Canva (texto exacto + fuente + HEX + posición); en modo B, ya
+4. **Los textos:** en modo A, la hoja para Canva (texto exacto + fuente + HEX + posición); en modo B, ya
    van dentro del prompt, con el aviso de revisar letra por letra.
-4. **La línea de curaduría** ("Revisé: …").
-5. **Cierre con tres caminos:** otra variante de esta misma idea · una dirección distinta · convertirla en
+5. **La línea de curaduría** ("Revisé: …").
+6. **Cierre con tres caminos:** otra variante de esta misma idea · una dirección distinta · convertirla en
    carrusel o campaña. Si elige lo último, pasa al intake completo sin volver a preguntar lo ya respondido.
 
 ## Paso 1 — Foto(s) del producto (SIEMPRE antes de generar piezas de producto)
@@ -196,6 +213,8 @@ o hay cualquier pieza de **promo/venta/precio**. No esperes a tener todo lo dem�
 queda de último. Pregunta, con opción de "no aplica":
 
 1. **Precio:** ¿la(s) pieza(s) llevan precio? ¿cuál exacto? (se deletrea dígito por dígito en el prompt).
+   Si llega ambiguo ("75.000 mil", "75k", sin moneda o sin unidad), confírmalo en media línea antes de
+   generar: un precio mal escrito en un anuncio cuesta caro.
 2. **Promos/oferta:** ¿hay promo, descuento, 2x1, envío, lanzamiento? Si no tiene, ofrece **sugerir**
    ángulos de oferta.
 3. **Textos/copys:** ¿tienes tus **propios textos** (titulares, claim, CTA) o quieres que los

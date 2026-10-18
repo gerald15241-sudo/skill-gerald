@@ -16,6 +16,23 @@ background, lighting or cropping.
 Si solo hay una vista, añade: `Show only the front / three-quarter front. Do not show or invent the
 back or any detail not visible in the reference.`
 
+**Si el producto tiene texto impreso** (etiqueta, ficha técnica, datos de origen), transcríbelo **línea por
+línea, tal como aparece en la foto** (si trae un error de tilde, se respeta: la fidelidad manda) y fíjalo
+dentro del bloque: `The label text reads exactly, line by line: "[LÍNEA 1]" / "[LÍNEA 2]" / … Do not
+change, round or invent any number or word on the label.` En una serie, ese texto es idéntico en todos
+los prompts. Si la foto no deja leer un dato, pregúntalo antes de generar; no lo supongas.
+
+## 1b. INTEGRACIÓN PRODUCTO–ESCENA (cuando el producto va dentro de una escena real)
+
+```
+PRODUCT–SCENE INTEGRATION — MANDATORY:
+The product is lit by the same light as the scene: same direction, softness and color temperature
+([overcast cool daylight / golden hour / window light…]). It casts a real contact shadow on [surface]
+and picks up bounce light and color from its surroundings. [Foreground element: grass blades / crumbs /
+fabric folds] slightly overlap its base. The same atmospheric haze and depth of field as the background
+apply to it. It must not look pasted, cut out or studio-lit.
+```
+
 ## 2. IDENTITY LOCK (si hay persona)
 
 ```

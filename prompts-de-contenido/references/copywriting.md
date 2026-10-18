@@ -18,6 +18,10 @@ no una sola a ciegas.
 3. **Escribe el titular con una fórmula probada** (abajo), corto y concreto. Luego bajada y CTA.
 4. **Edita para que duela menos leer:** quita palabras, verbos fuertes, nada de relleno. Si una palabra
    no trabaja, fuera.
+5. **Filtro anti-cliché.** Descarta las frases gastadas de la categoría ("de la finca a tu taza", "calidad
+   que se nota", "hecho con amor", "tu mejor versión"). Prueba: si el titular podría firmarlo cualquier
+   competidor, no sirve. El mejor titular aprovecha la idea visual de la pieza ("Él lo sembró. Tú lo
+   pruebas." sobre la imagen del caficultor).
 
 ## Fórmulas de titular / hook (elige según ángulo)
 
