@@ -65,16 +65,30 @@ con los moldes de la autora, en tres pasos:
      rasgos distintivos y vibra.
    - Referencia de cara: obligatoria en UGC con buen casting (bloque 💡 de SKILL.md); opcional en los
      otros dos. Si no trae, ofrécele 2–3 direcciones de casting en texto.
-2. **El prompt del modelo, adaptado del molde correcto (REGLA #2):**
-   - Agencia o UGC con buen casting → `playbook-original.md` §1.1 (avatar base). Si después hace falta
-     más de una toma, §1.2 (personality board) o el set mínimo de §1.3 (frente, 3/4 y cuerpo entero). Se
-     cambia solo la identidad: rasgos y, si es hombre, el género y las menciones de maquillaje ("woman",
-     "minimal makeup", "glossy lips"). Los poros, el vello, la cámara y el RAW quedan intactos.
-   - Persona real → prompt maestro de `personas-reales.md`, con su look natural de open-shade.
+2. **El prompt del modelo, adaptado del molde que corresponde al tipo de casting (REGLA #2).** Cada
+   casting tiene su molde; no los mezcles:
+   - **Agencia** → `playbook-original.md` §1.1 (avatar base, retrato editorial de estudio). Si después hace
+     falta más de una toma, §1.2 (personality board) o el set mínimo de §1.3 (frente, 3/4 y cuerpo entero).
+     Se cambia solo la identidad: rasgos y, si es hombre, el género y las menciones de maquillaje
+     ("woman", "minimal makeup", "glossy lips"). Los poros, el vello, la cámara y el RAW quedan intactos.
+   - **UGC con buen casting** → **NO uses el avatar de estudio de §1.1** (es el look de agencia). Sigue el
+     flujo de casting de arriba, tal cual:
+     1. Pide la **referencia de cara** (obligatoria) y **léela tú** en el chat: estructura ósea, armonía,
+        ojos, labios, vibra. Si no la trae, no generes: ayúdala a conseguirla o propón 2–3 direcciones de
+        casting en texto para que elija.
+     2. Pregunta el **nivel de producción** (sección E): estudio, locación o casera; si es casera, el
+        lugar y el encuadre (selfie, espejo, brazo extendido…).
+     3. Escribe un prompt **de solo texto** para una persona **nueva y distinta** con el nivel de esa
+        referencia ("a clearly different unique person — not a copy"), con la estructura y la piel de
+        `realismo-anti-ia.md` (§3 y la mini-receta §7) y la escena, luz y cámara del nivel de producción
+        (§E; en casera, el texto de "Casera (pro)"), nunca el set de estudio editorial. Al generador no
+        se adjunta la referencia.
+     4. **Genera 3–4 y quédate con la mejor**, como en un casting real.
+   - **Persona real** → prompt maestro de `personas-reales.md`, con su look natural de open-shade.
    - **Varias personas** (pareja, grupo): una ficha y un prompt por persona, generados por separado. En la
      pieza, cada una va con su propio `@imagen` y se prohíbe intercambiar rasgos entre ellas (como los
      perros de GUAUKIES, `playbook-original.md` §7.3).
-3. **Aprobación y anclaje:** la persona genera el modelo, lo aprueba y lo adjunta; desde ahí va como
+3. **Aprobación y anclaje:** la persona genera el modelo, elige el mejor y lo adjunta; desde ahí va como
    `@imagen` en la pieza, con IDENTITY LOCK, en esa pieza y en todas las siguientes de la serie.
 
 Si la persona no quiere ese paso extra, ofrece quedarse en solo producto, solo manos o persona sin

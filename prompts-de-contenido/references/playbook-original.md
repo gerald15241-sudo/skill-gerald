@@ -11,7 +11,7 @@ pruebas. Los títulos `##` y este índice son de navegación; el texto de los pr
 
 | Sección | Qué contiene | Úsala para |
 |---|---|---|
-| 1. Avatares realistas y modelo UGC | 1.1 avatar base (retrato beauty) · 1.2 personality board en una imagen · 1.3 personality board imagen por imagen (22 tomas) | Crear o ampliar una modelo/avatar. Carril dewy de modelos (REGLA #2). Lo citan `modelo-ugc.md` y la REGLA #2. |
+| 1. Avatares realistas y modelo UGC | 1.1 avatar base (retrato beauty) · 1.2 personality board en una imagen · 1.3 personality board imagen por imagen (22 tomas) | Crear o ampliar una modelo de **agencia** (retrato editorial de estudio). Carril dewy de modelos (REGLA #2). **Para UGC con buen casting no se usa este avatar de estudio:** ver `modelo-ugc.md` (referencia de cara + `realismo-anti-ia.md` + nivel de producción). |
 | 2. Pósters con modelo UGC + producto: Nautica | Póster 01 a 10 (hero, colección 2×2, movimiento, desde el suelo, declaración, ángulos, actitud, flat lay, macro, cierre) | Campañas editoriales con texto, modelo + producto. Ejemplo del color héroe ("el único amarillo es el buzo"). |
 | 3. Sesión de fotos con modelo UGC + producto: Nautica | 3.1 lugares (L1 a L10) · 3.2 fondo neutro (N1 a N10) | Sesiones sin texto con modelo en locación o estudio; cómo indicar qué `@imagen` usar e ignorar. |
 | 4. Product board generado por la IA: audífonos | 4.1 prompt maestro con modelo · 4.2 los 10 prompts que generó · 4.3 sesión solo producto (5 prompts) | Product boards por ángulos y contextos, con o sin modelo. |

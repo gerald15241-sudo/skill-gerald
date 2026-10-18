@@ -1,5 +1,14 @@
 # Cambios de la skill prompts-de-contenido
 
+## v1.9.2 — corrige la modelo UGC con buen casting
+
+- **Error introducido en la v1.8.0:** el paso "crear el modelo primero" mandaba la UGC con buen casting al
+  avatar de estudio del playbook (§1.1, retrato editorial tipo Vogue), y salía con look de agencia.
+- Se restaura el flujo de UGC que ya tenía la skill: referencia de cara obligatoria leída en el chat,
+  persona nueva de ese nivel, prompt de solo texto con `realismo-anti-ia.md` y la escena del nivel de
+  producción (casera, locación o estudio), generar 3–4 y elegir. El avatar §1.1 queda solo para agencia
+  (`modelo-ugc.md`, `flujo-intake.md`, `SKILL.md`, `curaduria.md`, índice del playbook).
+
 ## v1.9.1 — dentro del límite de 200 archivos
 
 - La plataforma acepta máximo 200 archivos por skill y la v1.9.0 tenía 285. Las 227 imágenes del

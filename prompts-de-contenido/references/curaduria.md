@@ -113,8 +113,10 @@ están, aplica tú el checklist igual** con tu propio criterio; nunca dependas d
   si la persona aceptó una pieza única sin serie; si no, primero va el casting y el modelo (atajo de
   `modelo-ugc.md`).
 - ¿Se preguntó el tipo de casting, la edad, los rasgos y la vibra antes de crear a la persona?
-- ¿El prompt lleva el bloque completo de piel y cámara del carril correcto (§1 del playbook o
-  `personas-reales.md`), y no una descripción corta propia?
+- ¿El prompt lleva el bloque completo de piel y cámara del carril correcto, y no una descripción corta
+  propia? Agencia: §1 del playbook. **UGC con buen casting: referencia de cara leída + `realismo-anti-ia.md`
+  + escena del nivel de producción; si salió con el set de estudio editorial de §1.1, es error (se ve de
+  agencia, no UGC).** Persona real: `personas-reales.md`.
 - Si hay varias personas: ¿cada una tiene su `@imagen` y se prohíbe intercambiar rasgos?
 
 **7. Consistencia de familia.**

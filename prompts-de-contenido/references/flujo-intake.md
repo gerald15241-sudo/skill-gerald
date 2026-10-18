@@ -88,7 +88,9 @@ texto, luz). Si no tiene, avanza con el repositorio (`assets/referencias/`) y d�
 
 **Si elige "con modelo, pero no tengo"** (o pide persona sin adjuntar fotos): antes del mensaje 2 va el
 atajo de `modelo-ugc.md` ("Atajo: crear el modelo antes de una pieza"): un mensaje de casting, el prompt
-del modelo con el molde de avatar (playbook §1) o de personas reales, y la pieza cuando el modelo esté
+del modelo con el molde de su tipo de casting (agencia: avatar del playbook §1; UGC con buen casting:
+referencia de cara + `realismo-anti-ia.md` + nivel de producción, nunca el avatar de estudio; persona
+real: `personas-reales.md`), y la pieza cuando el modelo esté
 aprobado y adjunto como `@imagen`. Avísale en una línea que son dos pasos más y por qué: así el modelo
 sale con realismo de verdad y es la misma persona en todas las piezas.
 

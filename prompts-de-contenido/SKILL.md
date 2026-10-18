@@ -118,7 +118,8 @@ mensaje trae una dirección con su `Base:` y, si la pieza lleva texto, las opcio
 prompt de muestra; el prompt completo llega cuando la persona elige la letra (o directo, si no hay
 texto). Prima la calidad sobre la rapidez. Mismas reglas no negociables; sin research web ni 2–3 direcciones. Si pide persona y
 no tiene modelo, **nunca lo inventes dentro del prompt de la pieza**: primero el casting y el modelo con
-el molde de avatar (atajo de `references/modelo-ugc.md`), después la pieza. Carruseles,
+el molde de su tipo de casting (atajo de `references/modelo-ugc.md`; la UGC con buen casting **no** usa el
+avatar de estudio del playbook), después la pieza. Carruseles,
 campañas, ruta de marca, crear modelo y UGC con buen casting van por el intake completo. Detalle en
 `references/flujo-intake.md`, "Ruta express".
 
