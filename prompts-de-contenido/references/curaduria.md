@@ -41,6 +41,10 @@ están, aplica tú el checklist igual** con tu propio criterio; nunca dependas d
   sombra de contacto, oclusión, atmósfera) para que no se vea "pegado"? ¿El producto respira, o lo
   saturan los elementos alrededor?
 
+- ¿El pedido es de confianza baja (letra pequeña, etiqueta compleja, precios, datos que no pueden
+  fallar)? Si sí: ¿lo dije en una línea y ofrecí modo A o componer el producto real
+  (`generadores-y-composicion.md`)? ¿Evité prometer "idéntico garantizado"?
+
 **2. Disciplina de color.**
 - ¿La paleta respeta los roles fijados (fondo · tipografía · acento · héroe)?
 - ¿El **color héroe sigue reservado al producto** y no se coló otro color fuera de la paleta (como el
@@ -76,12 +80,13 @@ están, aplica tú el checklist igual** con tu propio criterio; nunca dependas d
 - ¿Hay una **gran idea** con gancho, no solo estética? ¿Al menos una dirección fue de alto concepto?
 - ¿Las 2–3 direcciones eran **distintas entre sí** (no el mismo mood con otro color)?
 - ¿Se siente como publicidad oficial de esa marca/nicho, apoyada en campañas reales investigadas?
-- **Repositorio:** ¿se abrió `assets/referencias/indice.md`, se eligieron y **abrieron** 4–6 imágenes, y
+- **Repositorio:** ¿se abrió `assets/referencias/indice.md`, se eligieron y **abrieron** 4–6 imágenes (2–3 en la ruta express), y
   la línea `Base:` dice cuáles (`Repo: gen-059 + …`)? Si la persona trajo referencias, ¿se cruzaron con el
   repositorio? Si no trajo, ¿se le dijo qué imágenes del repositorio se usaron?
 - ¿Se **abrieron de verdad** en esta sesión las bibliotecas (`conceptos-creativos.md`,
   `biblioteca-referentes.md`, las secciones completas de los formatos elegidos en
-  `sesiones-foto-producto.md`, la receta de `biblioteca-dp.md`) antes de proponer? Si no, ábrelas y rehaz.
+  `sesiones-foto-producto.md`, la receta de `biblioteca-dp.md`) antes de proponer? En la ruta express, las
+  del nivel express (SKILL.md, "Lectura por niveles"). Si no, ábrelas y rehaz.
 - ¿Cada dirección lleva su línea `Base:` (concepto · sesión #N · receta DP · research), con nombres y
   números que existen en los archivos? ¿Las 2–3 direcciones salen de combinaciones distintas?
 - **Embudo:** ¿lo mostrado salió de 6–8 combinaciones en borrador, o es la primera idea que apareció?
@@ -186,6 +191,13 @@ están, aplica tú el checklist igual** con tu propio criterio; nunca dependas d
 - ¿Se respetó el límite de líneas de la pieza?
 - ¿Algún texto distinto entre piezas de la misma marca (una palabra, un dato, una unidad)? Si sí, se
   unifica con la ficha.
+
+**13. Correcciones de resultados (solo si se corrigió una imagen; ver `correccion-resultados.md`).**
+- ¿Miré la imagen y la comparé con las fotos originales? ¿Dije qué se conserva, no solo qué falló?
+- ¿Corregí uno o dos problemas, con la vía de menor intervención?
+- ¿La edición pide mantener todo lo demás idéntico? ¿La regeneración usa el prompt original completo,
+  con solo un bloque cambiado y sin una receta de realismo propia?
+- ¿Línea 📎 y línea CHECK? Si funcionó, ¿ofrecí guardarlo en sus prompts base?
 
 ## Resultado
 

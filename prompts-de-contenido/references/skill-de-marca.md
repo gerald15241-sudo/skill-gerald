@@ -37,7 +37,9 @@ producto. Dile que las guarde
 juntas en una carpeta "KIT [MARCA]".
 
 **4. Prompts base aprobados (5–8):** los que ya funcionaron en la sesión, con huecos `[ESCENA]`,
-`[TEXTO]`, `[FORMATO]` y su línea 📎. Uno por tipo de pieza que más usa.
+`[TEXTO]`, `[FORMATO]` y su línea 📎. Uno por tipo de pieza que más usa. Se copian **tal cual**: solo se
+abren los huecos; los bloques de realismo, cámara, fidelidad y AVOID quedan completos, sin resumir. Si
+una corrección funcionó (`correccion-resultados.md`), entra aquí el prompt completo que funcionó.
 
 **5. Cómo usarlo, en tres líneas:** abrir una conversación nueva en su generador → pegar el prompt de
 memoria y adjuntar las imágenes del kit → pedir piezas con los prompts base. Si su herramienta permite
@@ -50,16 +52,45 @@ herramienta.
 
 ## Versión skill (si usa la herramienta en Claude)
 
-Si la persona trabaja en Claude, el mismo kit se le puede entregar como **su propia skill de marca**:
+Si la persona trabaja en Claude, el mismo kit se le puede entregar como **su propia skill de marca**. Esa
+skill **trabaja junto con esta**: guarda los candados de su marca y, para todo lo creativo (conceptos,
+sesiones, curaduría, corrección de resultados), indica usar **prompts-de-contenido** si está instalada en
+la misma cuenta. Si las dos están instaladas, Claude las lee juntas; si solo tiene la de marca, igual le
+sirve para producir con consistencia, sin la metodología.
 - Usa la plantilla `assets/plantilla-skill-de-marca.md` como `SKILL.md`, con nombre `marca-[nombre]`
   (minúsculas y guiones, sin "claude" ni "anthropic") y una descripción que diga cuándo usarla.
+- Completa la sección "Cómo trabaja con prompts-de-contenido" de la plantilla tal como viene.
 - Agrega en `assets/` el logo limpio y 2–4 imágenes del kit.
 - Si hay ejecución de código, empaquétala como `.skill` (zip de la carpeta); si no, entrega el SKILL.md
   como texto para que la cree.
 - Para instalarla, que la suba en la sección de skills de su cuenta; ante dudas, la ayuda oficial de
   Claude. En ChatGPT, el equivalente es pegar la ficha en las instrucciones de un GPT propio.
 
+## Cuando la marca ya está guardada (detección)
+
+Si al activarse esta skill hay una skill `marca-*` activa en la conversación, o la persona sube su
+**KIT [MARCA]** (la ficha / BRAND LOCK, el prompt de memoria o las imágenes del kit):
+
+1. **Carga** lo que trae: ficha de marca, paleta por roles, tipografía, reglas de foto, ficha de cada
+   modelo, descripción de cada producto, voz y prompts base. Todo eso **ya está aprobado**: no se vuelve
+   a preguntar ni se reescribe.
+2. **Confirma en una línea** lo que cargaste. Ej.: "Cargué tu marca CAFÉ ALTURA: logo, paleta, tipografía,
+   la modelo Sofía y tus 6 prompts base."
+3. **Pregunta solo lo que falte para el pedido de hoy** (qué pieza, para qué, texto o precio, formato).
+   Nada del Paso 0, ni referencias de marca, ni sistema de diseño: ya están.
+4. **Pide las imágenes del kit** que el pedido necesita (logo como `@imagen 1`, modelo, producto), con su
+   línea 📎.
+5. **Produce con esta skill**: si hay un prompt base para ese tipo de pieza, se parte de él; si no, el
+   molde del playbook (REGLA #2) con la ficha pegada completa. Para lo creativo (concepto, sesión, spot)
+   sigue la REGLA #4, sin cambiar la ficha.
+6. Si el pedido **rompe un candado** (otro color, otra modelo, otro logo), avísalo y pregunta si es una
+   excepción o una nueva versión de la ficha.
+
+Si la ficha que trae parece incompleta (faltan HEX, la modelo no tiene ficha, no hay fotos del producto),
+dilo y pide solo eso; no la rehagas entera.
+
 ## Mantenimiento
 
 Cuando cambie algo (nueva modelo, nuevo producto, ajuste de paleta), el kit se regenera completo y se
-vuelve a entregar. Para clientes de agencia es un entregable vendible: "tu marca, lista para producir sola".
+vuelve a entregar. Si solo se suma un prompt base nuevo (por ejemplo, una corrección que funcionó), se
+agrega a la sección 9 de su skill o a la lista del kit, sin regenerar lo demás. Para clientes de agencia es un entregable vendible: "tu marca, lista para producir sola".

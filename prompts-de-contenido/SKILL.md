@@ -1,6 +1,6 @@
 ---
 name: "prompts-de-contenido"
-description: "Genera prompts de imagen hiperrealistas, en inglés y listos para copiar, a partir de la FOTO REAL de un producto: posts, carruseles, campañas editoriales, product boards, UGC con modelo consistente y avatares. También es un estudio de marca: crea o renueva identidades (estrategia, logo, paleta, tipografía, brand board, manual de marca) y las aplica en mockups, papelería, empaques y material POP. Úsala SIEMPRE que pidan piezas, posts, carruseles, anuncios, campañas, sesiones de fotos con IA, fotos de producto, UGC, un avatar, un brand board, crear una marca o un logo, mockups o material POP, aunque no digan \"skill\" ni \"prompt\" y aunque solo suban una foto y digan \"hazme piezas para esto\". Cubre cualquier nicho."
+description: "Genera prompts de imagen hiperrealistas, en inglés y listos para copiar, a partir de la FOTO REAL de un producto: posts, carruseles, campañas editoriales, product boards, UGC con modelo consistente y avatares. También es un estudio de marca: crea o renueva identidades (estrategia, logo, paleta, tipografía, brand board, manual de marca) y las aplica en mockups, papelería, empaques y material POP. Úsala SIEMPRE que pidan piezas, posts, carruseles, anuncios, campañas, sesiones de fotos con IA, fotos de producto, UGC, un avatar, un brand board, crear una marca o un logo, mockups o material POP, aunque no digan \"skill\" ni \"prompt\" y aunque solo suban una foto y digan \"hazme piezas para esto\". También corrige resultados: úsala cuando suban una imagen generada que no quedó bien y pidan arreglarla. Cubre cualquier nicho."
 ---
 
 # Piezas Publicitarias IA
@@ -111,6 +111,16 @@ No te saltes el instructivo aunque la persona ya haya subido una foto: aun así 
 referencias de estilo, que son las que elevan el resultado. Solo omítelo si la persona pide
 explícitamente ir directo a generar.
 
+**Excepción — la marca ya está guardada.** Si en la conversación hay una skill `marca-*` activa, o la
+persona sube su **KIT [MARCA]** (ficha / BRAND LOCK, prompt de memoria, imágenes del kit), no hagas el
+primer mensaje completo: confirma en una línea lo que cargaste (marca, logo, paleta, modelo, producto,
+prompts base) y pregunta solo lo que falte para el pedido de hoy. Detalle en
+`references/skill-de-marca.md`, "Cuando la marca ya está guardada".
+
+**Excepción — corregir un resultado.** Si la persona sube una imagen generada que no quedó bien ("no
+quedó bien", "corrígelo", "salió rara"), no hay primer mensaje ni intake: ve directo a
+`references/correccion-resultados.md`.
+
 **Excepción — ruta express (pieza suelta).** Si la persona ya pidió una sola pieza, algo rápido, o subió
 una foto con "hazme una pieza para esto", el primer mensaje es el de la ruta express: saludo, **3
 preguntas** (para qué y formato · texto y precio · look y persona), la foto si falta y el pedido de
@@ -156,6 +166,15 @@ ir directo a los prompts sin preview (ahí eliges tú desde los bancos y lo dice
 aplica** a los pasos 1–4 de la ruta de marca (los rige `estudio-de-marca.md`) ni a la corrección puntual
 de un prompt ya aprobado.
 
+0. **Lectura por niveles.** Lo que da el realismo **no se recorta en ningún nivel**: la sección del
+   playbook que es el molde, los bloques obligatorios y el carril de realismo que aplique. Lo que se
+   escala es la consulta creativa:
+   - **Ruta express:** `conceptos-creativos.md` completo; de `sesiones-foto-producto.md`, el índice y
+     las 1–2 secciones candidatas; la receta de `biblioteca-dp.md`; la sección del nicho en `nichos.md`;
+     y del repositorio, el buscador rápido y la carpeta del nicho, con **2–3 hojas** abiertas.
+     `biblioteca-referentes.md` solo si el concepto elegido sale de una de sus familias.
+   - **Piezas con intake completo, carruseles, campañas, sesiones, UGC y moodboards:** la lista completa
+     del punto 1.
 1. **Abre los archivos; no los recuerdes.** En esta sesión, con la herramienta de lectura:
    - `references/conceptos-creativos.md` y `references/biblioteca-referentes.md`, completos (son cortos).
    - `references/sesiones-foto-producto.md`: primero su índice (los títulos `## N.`) y después las
@@ -218,6 +237,10 @@ negociables (fidelidad de producto, identidad, realismo).
   (`references/corrector-espanol.md`). JSON solo si la persona lo pide.
 - Al generador **solo se adjuntan las fotos de producto y de modelo propio/lock**. Las referencias de
   estilo, cara-inspiración, luz, atuendo o escena las lees tú y van descritas en el texto del prompt.
+- **El prompt es el mismo para cualquier generador**; los consejos de herramienta van fuera del bloque
+  de código. Si el pedido es de confianza baja (letra pequeña, etiqueta compleja, precios, datos que no
+  pueden fallar), dilo en una línea antes del prompt y ofrece la vía segura: modo A o **componer el
+  producto real** (`references/generadores-y-composicion.md`). Nunca prometas "idéntico garantizado".
 - Pedidos grandes (20–30 prompts entre avatar, pósters y product board): **por bloques y fases**, en el
   orden del playbook (avatar, pósters, product board), nunca todo aplastado.
 - Brief, estrategia y direcciones: **texto inline y breve** (concepto + paleta HEX por roles + fuentes +
@@ -359,6 +382,17 @@ Corrige en silencio y revisa otra vez; lo que no puedas corregir sin la persona,
 disimulados. Al entregar, **una línea corta** de lo que verificaste. En piezas de alto impacto, mira como
 un cliente que la ve por primera vez.
 
+## Corregir un resultado ("no quedó bien")
+
+Cuando la persona sube lo que generó y algo falló, actúas como directora creativa que acompaña la
+producción (`references/correccion-resultados.md`): miras la imagen, la comparas con las fotos
+originales y entregas una tabla corta de **qué se conserva, qué falló, por qué y cómo se corrige**.
+Eliges la vía de menor intervención: (A) edición localizada sobre la imagen, (B) el **mismo prompt
+original completo** con solo el bloque que falló cambiado, (C) componer el producto real, o (D) volver
+a la dirección si lo que no funciona es el concepto. Nunca se empieza de cero y nunca se agrega una
+receta de realismo propia. Si el mismo fallo se repite dos veces, pasas a la vía siguiente. Cuando la
+corrección funciona, ofreces guardar ese prompt en sus prompts base.
+
 ## Formatos de anuncio e integraciones
 
 - **Formatos** (`references/formatos-anuncio.md`): ángulos de campaña, multiplicador de titulares y hooks,
@@ -426,7 +460,8 @@ la ficha, la estrategia y las medidas, como texto breve; el sistema visual, como
 Si la sesión fue de piezas o campaña, al terminar ofrece consolidar paleta, tipografías, reglas de foto,
 ficha del modelo y prompts base en su **kit de consistencia** o en un brand board bento 16:9 ("Brand board
 de cierre" en `references/estudio-de-marca.md`); si quedaron bloqueados modelo, producto y paleta, ofrece
-también su skill de marca (`references/skill-de-marca.md`).
+también su skill de marca (`references/skill-de-marca.md`). La skill de marca guarda los candados de
+su marca y trabaja junto con esta skill: la próxima vez no se empieza de cero.
 
 ## Mapa de archivos de referencia
 
@@ -438,6 +473,8 @@ Una línea por archivo; la descripción completa de cada uno está en `reference
 - `references/bloques-obligatorios.md` — plantillas de los bloques fijos de todo prompt.
 - `references/corrector-espanol.md` — español exacto: SPANISH TEXT, tildes, Ñ, unidades, precios.
 - `references/curaduria.md` — checklist obligatorio antes de entregar.
+- `references/correccion-resultados.md` — corregir una imagen que no quedó bien, sin empezar de cero.
+- `references/generadores-y-composicion.md` — qué herramienta para qué, niveles de confianza y componer el producto real.
 - `references/detalle-skill.md` — texto completo de las secciones resumidas aquí.
 
 **Conocimiento creativo (se consulta antes de proponer, REGLA #4)**

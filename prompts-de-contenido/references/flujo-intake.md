@@ -33,6 +33,13 @@ resto. Hazlo con 2–3 preguntas tipo botón (siempre con opción de escribir):
    - Referencias visuales (carpeta del nicho u otras)
    - Nada todavía
 
+**Antes de preguntar, mira si ya hay algo guardado o algo que corregir:**
+- Si hay una skill `marca-*` activa o la persona sube su **KIT [MARCA]** → carga la ficha, el modelo, el
+  producto y los prompts base (`skill-de-marca.md`, "Cuando la marca ya está guardada"), confirma en una
+  línea lo que cargaste y pregunta solo lo que falte para el pedido de hoy. No repitas el Paso 0.
+- Si la persona sube una imagen generada que no quedó bien → **corrección** (`correccion-resultados.md`),
+  sin intake.
+
 Según las respuestas, **enruta**:
 - "Crear marca desde cero" o "sin identidad aún" → **estudio de marca, entrada A**
   (`estudio-de-marca.md`): los 7 pasos en orden, empezando por las **referencias de logo**. Nada visual
@@ -101,9 +108,11 @@ producto y tu dirección recomendada.
 ### Lo que decides tú, sin preguntar
 
 - **Nicho:** lo detectas de la foto y lo confirmas de pasada en la propuesta.
-- **Consulta de bibliotecas (REGLA #4):** igual que siempre. Abres los bancos, el repositorio
-  (`assets/referencias/indice.md`, 4–6 imágenes abiertas) y la sección más cercana del playbook, que es
-  el molde del prompt. Cruzas todo con las referencias de la persona. No hay research web en la express: en la línea `Base:` pon
+- **Consulta de bibliotecas (REGLA #4), nivel express** (SKILL.md, "Lectura por niveles"): abres
+  `conceptos-creativos.md`, el índice y 1–2 secciones de `sesiones-foto-producto.md`, la receta de
+  `biblioteca-dp.md`, la sección del nicho y el repositorio (`assets/referencias/indice.md`, 2–3 hojas
+  abiertas). La sección más cercana del playbook, que es el molde del prompt, y los bloques obligatorios
+  se leen **siempre completos**: de ahí sale el realismo. Cruzas todo con las referencias de la persona. No hay research web en la express: en la línea `Base:` pon
   `Research: no (ruta express)`.
 - **Una sola dirección:** la mejor para el objetivo, no 2–3. Debe pasar la prueba anti-genérico.
 - **Paleta por roles** derivada del producto o de la marca visible, con el color héroe reservado al

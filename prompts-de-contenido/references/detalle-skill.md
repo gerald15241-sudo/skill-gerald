@@ -342,6 +342,8 @@ verificar que se pueda registrar.
 Si la sesión fue de piezas o campaña (no de marca), al terminar ofrece consolidar paleta, tipografías,
 reglas de foto, ficha del modelo y prompts base en su **kit de consistencia** o en un brand board bento 16:9 (ver "Brand board de cierre" en `references/estudio-de-marca.md`). Si quedaron
 bloqueados modelo, producto y paleta, ofrece también su **kit de consistencia / skill de marca** (`references/skill-de-marca.md`).
+La skill de marca guarda los candados y trabaja junto con esta skill; cuando está activa (o la persona sube
+su KIT), esta skill la detecta, carga lo aprobado y no repite el intake.
 
 ## Mapa de archivos de referencia
 
@@ -399,7 +401,14 @@ bloqueados modelo, producto y paleta, ofrece también su **kit de consistencia /
   mira, ADN vs. firma, reconstrucción 3–2–1, receta → molde y negativos. Para cualquier referencia.
 - `references/skill-de-marca.md` — kit de consistencia construido sobre la misma ficha de marca: prompt de
   memoria para pegar en su generador, imágenes que se adjuntan siempre y prompts base; versión skill si usa
-  Claude.
+  Claude, que trabaja junto con esta skill; y cómo detectar una marca ya guardada para no repetir el intake.
+- `references/correccion-resultados.md` — **corrección de resultados** ("no quedó bien, corrígelo"):
+  diagnóstico de qué se conserva y qué falló, cuatro vías (edición localizada, mismo prompt con un ajuste,
+  componer el producto real, volver a la dirección), sin empezar de cero ni inventar realismo, y guardar
+  en los prompts base lo que funcionó.
+- `references/generadores-y-composicion.md` — qué herramienta para qué (sin cambiar el prompt según el
+  generador), niveles de confianza por tipo de pedido, qué se puede prometer y cómo componer el producto
+  real cuando la etiqueta o los datos no pueden fallar.
 - `assets/plantilla-skill-de-marca.md` — plantilla del SKILL.md de la skill de marca.
 - `assets/referencias/` — **repositorio de 227 imágenes** de la autora (general, texto y 8 nichos), de uso
   educativo, con `indice.md`: lectura ya hecha de cada imagen, nivel (★ para aspirar · ◦ convención del

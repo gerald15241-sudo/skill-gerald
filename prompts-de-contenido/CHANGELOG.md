@@ -1,5 +1,28 @@
 # Cambios de la skill prompts-de-contenido
 
+## v1.11.0 — corrección de resultados, marca guardada y lectura por niveles
+
+- Nuevo `references/correccion-resultados.md`: la persona sube lo que generó y dice "no quedó bien". La
+  skill diagnostica qué se conserva, qué falló y por qué, y corrige por la vía de menor intervención:
+  (A) edición localizada, (B) el **mismo prompt original completo** con solo el bloque que falló cambiado,
+  (C) componer el producto real o (D) volver a la dirección. Nunca empieza de cero ni agrega una receta
+  de realismo propia; lo que funciona se ofrece para los prompts base.
+- Nuevo `references/generadores-y-composicion.md`: qué herramienta para qué, **sin cambiar el prompt
+  según el generador**; niveles de confianza (aviso en una línea cuando el pedido es de confianza baja);
+  y cómo componer la foto real del producto cuando la etiqueta o los datos no pueden fallar.
+- **Marca guardada:** si hay una skill `marca-*` activa o la persona sube su KIT, la skill lo detecta,
+  carga lo aprobado y no repite el intake (`skill-de-marca.md`, `flujo-intake.md`, `SKILL.md`).
+- **Plantilla de skill de marca:** nueva sección "Cómo trabaja con prompts-de-contenido" (los candados
+  son de la marca; lo creativo y el realismo, de esta skill) y regla de usar los prompts base tal cual.
+- **Lectura por niveles (REGLA #4):** la ruta express abre menos bancos creativos (2–3 hojas del
+  repositorio). El molde del playbook, los bloques obligatorios y el carril de realismo se leen siempre.
+- Curaduría: chequeo de confianza baja en fidelidad del producto y punto 13 de correcciones.
+- **Sin cambios** (verificado byte por byte contra la v1.10.0): playbook, `realismo-anti-ia.md`,
+  `personas-reales.md`, `realismo-fotografico.md`, `bloques-obligatorios.md`, `modelo-ugc.md`,
+  `estetica-y-medio.md`, `corrector-espanol.md`, `ficha-de-marca.md`, `estudio-de-marca.md`,
+  `logos-profesionales.md`, el repositorio de imágenes, las REGLAS #1–#4, el bloque "REALISMO DE
+  ROSTRO/PIEL", el paso 6 del intake y la ruta de marca.
+
 ## v1.10.0 — social media board de opciones
 
 - Nuevo `references/board-de-diseno.md`: en piezas, carruseles y campañas con texto (también en la
