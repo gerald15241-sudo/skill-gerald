@@ -57,17 +57,9 @@ dos veces en la corrección.
 **Qué necesita:** una foto del producto nítida, de frente o en el ángulo de la pieza, con luz pareja y
 buena resolución. Si la foto no es buena, pídela antes: la composición solo es tan buena como esa foto.
 
-**Dos formas, de la más fácil a la más limpia:**
-
-1. **Escena completa + producto real encima.** Se genera la pieza normal, con el molde completo y su
-   PRODUCT ACCURACY (así la luz, las sombras y la integración ya están bien). Después, en Canva, se pone
-   encima la foto real del producto, sin fondo, en el mismo lugar y tamaño. Es la vía recomendada:
-   **el prompt no cambia nada**.
-2. **Escena con espacio para el producto.** Cuando el producto generado estorba (por ejemplo, tapa la
-   etiqueta con un reflejo). Se usa el mismo molde con su realismo, luz, cámara y AVOID; como el
-   producto no se genera, en lugar del bloque PRODUCT ACCURACY se describe el **espacio vacío** donde irá:
-   superficie, tamaño aproximado y una sombra de contacto suave. La luz de la escena se describe igual a
-   la de la foto del producto (de qué lado viene y qué tan suave es) para que encaje.
+**Cómo:** se genera la pieza normal, con el molde completo y su PRODUCT ACCURACY (así la luz, las
+sombras y la integración ya están bien; **el prompt no cambia nada**). Después, en Canva, se pone encima
+la foto real del producto, sin fondo, en el mismo lugar y tamaño, para que la etiqueta quede exacta.
 
 **Al montarlo (texto para la persona, sin inventar pasos de la interfaz):** quita el fondo de la foto
 del producto, colócala en su lugar a la escala real, agrega una sombra de contacto suave debajo y revisa
